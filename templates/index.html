@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../favicon.ico">
+
+        <title>GRAAL Research</title>
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+		<!-- Bootstrap social buttons -->
+		<script src="https://use.fontawesome.com/10e735f142.js"></script>
+		<link href="{{ url_for('static', filename='css/bootstrap-social.css') }}" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="{{ url_for('static', filename='css/graal.css') }}" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+			GRAAL Research Lab
+		</a>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="#publications">Publications</a>
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="#software">Software</a>
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="container">
+
+			<!-- Top logo -->
+			<div class="section">
+				<div class="row">
+					<div class="col-sm-6">
+						<img src="{{ url_for('static', filename='images/graal-clipped.png') }}" class="img-fluid" />
+					</div>
+
+					<div class="col-sm-6">
+						<div class="container">
+							<a id="about" />
+							<h2>About</h2>
+							<div class="row">
+								<div class="col-sm-12">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt at leo sit amet blandit. In laoreet ipsum a elit gravida mattis. In semper erat massa, ut vulputate turpis auctor ut. Nulla molestie velit sapien, ut ultrices neque varius nec. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec eleifend, felis vitae efficitur efficitur, ante felis vulputate risus, ut iaculis velit leo nec quam. Fusce porttitor nulla quis pharetra aliquam. Curabitur id pretium elit.
+								</div>
+							</div>
+							<div class="row" style="padding-top: 20px">
+								<div class="col-sm-6">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt at leo sit amet blandit. In laoreet ipsum a elit gravida mattis.
+								</div>
+								<div class="col-sm-6">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt at leo sit amet blandit. In laoreet ipsum a elit gravida mattis.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Team -->
+			<div class="section">
+				<a id="team" />
+				<h2>Team</h2>
+				<div class="row">
+					{% for person in graaliens %}
+						<div class="col-sm-3" style="padding-bottom: 30px">
+							<a id="{{ '#{0!s}{1!s}'.format(person.first_name, person.last_name) }}">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<a href="{{ person.website if person.website else '#{0!s}{1!s}'.format(person.first_name, person.last_name) }}">
+											<img src="{{ url_for('static', filename='{0!s}'.format(person.face_picture)) }}" class="rounded-circle img-fluid" />
+										</a>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 text-center">{{ "{0!s} {1!s}".format(person.first_name.title(), person.last_name.title()) }}</div>
+								</div>
+								<div class="row" style="font-size: 80%; text-align: center;">
+									<div class="col-sm-12 text-center">{{ person.status["en"] }}</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										{% if person.linkedin %}
+										<a class="btn btn-xs btn-social-icon btn-linkedin" href="{{ person.linkedin }}" target="_blank">
+											<span class="fa fa-linkedin"></span>
+										</a>
+										{% endif %}
+										{% if person.scholar %}
+										<a class="btn btn-xs btn-social-icon btn-github" href="{{ person.scholar }}" target="_blank">
+											<img src="{{ url_for('static', filename='images/scholar.png') }}" />
+										</a>
+										{% endif %}
+										{% if person.github %}
+										<a class="btn btn-xs btn-social-icon btn-github" href="{{ person.github }}" target="_blank">
+											<span class="fa fa-github"></span>
+										</a>
+										{% endif %}
+										{% if person.website %}
+										<a class="btn btn-xs btn-social-icon btn-reddit" href="{{ person.website }}" target="_blank">
+											<img src="{{ url_for('static', filename='images/homepage.png') }}" />
+										</a>
+										{% endif %}
+									</div>
+								</div>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+
+			<!-- Publications -->
+			<div class="section">
+				<a id="publications" />
+				<h2>Publications</h2>
+				<div class="row">
+					<div class="col-sm-12">
+						List of publications goes here.
+					</div>
+				</div>
+			</div>
+
+			<!-- Software -->
+			<div class="section">
+				<a id="software" />
+				<h2>Software</h2>
+				<div class="row">
+					<div class="col-sm-12">
+						List of software goes here.
+					</div>
+				</div>
+			</div>
+
+			<!-- Contact -->
+			<div class="section">
+				<a id="contact" />
+				<h2>Contact</h2>
+				<div class="row">
+					<div class="col-sm-5">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5464.305231958727!2d-71.28027903230068!3d46.781597036900614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb896c5dd0eddf1%3A0x2d122faff43b533d!2sPavillon+Adrien-Pouliot%2C+1065+Avenue+de+la+M%C3%A9decine%2C+Ville+de+Qu%C3%A9bec%2C+QC+G1V+0A6!5e0!3m2!1sfr!2sca!4v1492437108175" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+					<div class="col-sm-7">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-12" style="padding-bottom: 10px">
+									<i class="fa fa-home fa-1x" aria-hidden="true"></i>
+									Pavillon Adrien-Pouliot, Local PLT-3908, Universit&eacute; Laval
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12">
+									<i class="fa fa-envelope-o fa-1x" aria-hidden="true"></i>
+									Mailing Address:
+									<p class="text-left">
+										Groupe de recherche en apprentissage automatique<br />
+										Pavillon Adrien-Pouliot, Local PLT-3908<br />
+										1065, av. de la Médecine<br />
+										Université Laval<br />
+										Québec (Québec) G1V 0A6<br />
+										Canada<br />
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12" style="padding-bottom: 10px">
+									<i class="fa fa-envelope fa-1x" aria-hidden="true"></i>&nbsp;<a href="mailto:francois.laviolette@ift.ulaval.ca">francois.laviolette@ift.ulaval.ca</a><br />
+									<i class="fa fa-envelope fa-1x" aria-hidden="true"></i>&nbsp;<a href="mailto:mario.marchand@ift.ulaval.ca">mario.marchand@ift.ulaval.ca</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer row">
+				<div class="col-sm-12 text-center">
+					This is the footer
+				</div>
+			</div>
+
+        </div><!-- /.container -->
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    	<script>
+			$('a[href^="#"]').on('click', function(event) {
+
+			var target = $( $(this).attr('href') );
+
+			if( target.length ) {
+			event.preventDefault();
+			$('html, body').animate({
+			scrollTop: target.offset().top
+			}, 1000);
+			}
+
+			});
+		</script>
+	</body>
+</html>
