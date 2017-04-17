@@ -62,6 +62,14 @@ def hello():
                  linkedin="https://www.linkedin.com/in/mario-marchand-50460913/",
                  scholar="https://scholar.google.ca/citations?user=M792u2sAAAAJ",
                  website="https://www.ift.ulaval.ca/departement-et-professeurs/professeurs-et-personnel/professeurs-reguliers/fiche/show/marchand-mario/"),
+        Graalien(first_name="Richard",
+                 last_name="Khoury",
+                 status="prof",
+                 joined_year=2016,
+                 face_picture="images/faces/rkhoury.png",
+                 linkedin="https://www.linkedin.com/in/richard-khoury-59b92130",
+                 scholar="http://scholar.google.ca/citations?user=PgyHf0oAAAAJ",
+                 website="http://www2.ift.ulaval.ca/~rikho/")
     ]
     graaliens = [
         Graalien(first_name="Alexandre",

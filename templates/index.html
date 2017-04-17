@@ -51,7 +51,7 @@
           </div>
         </nav>
 
-        <div class="container-fluid">
+        <div class="container">
 
 			<!-- Top logo -->
 			<div class="section" id="about">
@@ -61,7 +61,7 @@
 					</div>
 
 					<div class="col-sm-6">
-						<div class="container-fluid">
+						<div class="container">
 							<h2>About</h2>
 							<div class="row">
 								<div class="col-sm-12">
@@ -88,7 +88,7 @@
 					{% for person in graaliens %}
 						<div class="col-sm-3" style="padding-bottom: 30px">
 							<a id="{{ '#{0!s}{1!s}'.format(person.first_name, person.last_name) }}">
-							<div class="container-fluid">
+							<div class="container">
 								<div class="row">
 									<div class="col-sm-12 text-center">
 										<a href="{{ person.website if person.website else '#{0!s}{1!s}'.format(person.first_name, person.last_name) }}">
@@ -157,10 +157,10 @@
 				<h2>Contact</h2>
 				<div class="row">
 					<div class="col-sm-5">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5464.305231958727!2d-71.28027903230068!3d46.781597036900614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb896c5dd0eddf1%3A0x2d122faff43b533d!2sPavillon+Adrien-Pouliot%2C+1065+Avenue+de+la+M%C3%A9decine%2C+Ville+de+Qu%C3%A9bec%2C+QC+G1V+0A6!5e0!3m2!1sfr!2sca!4v1492437108175" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div id="map" style="width: 100%; height: 100%; min-height: 200px; min-width: 200px"></div>
 					</div>
 					<div class="col-sm-7">
-						<div class="container-fluid">
+						<div class="container">
 							<div class="row">
 								<div class="col-sm-12" style="padding-bottom: 10px">
 									<i class="fa fa-home fa-1x" aria-hidden="true"></i>
@@ -198,13 +198,15 @@
 				</div>
 			</div>
 
-        </div><!-- /.container-fluid -->
+        </div><!-- /.container -->
 
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script src="http://maps.google.com/maps/api/js?key=AIzaSyC-yWhGkS4QTAHkWGHN47m2J9K1EACDBFk"></script>
+		<script src="{{ url_for('static', filename='js/gmaps.min.js') }}"></script>
 		<script>
 			$(document).ready(function(){
 			  // Add scrollspy to <body>
@@ -232,6 +234,20 @@
 				}  // End if
 			  });
 			});
+
+			map = new GMaps({
+			  div: '#map',
+			  lat: 46.778565,
+			  lng: -71.274194
+			});
+			map.addMarker({
+				lat: 46.778565,
+			  	lng: -71.274194,
+				title: 'GRAAL Lab',
+				infoWindow: {
+				  content: '<p>GRAAL</p><p><a href="https://www.google.com/maps/dir//46.7785353,-71.2742904/@46.779057,-71.274226,16z"> Directions </a></p></p>'
+				}
+			  });
 		</script>
 	</body>
 </html>
