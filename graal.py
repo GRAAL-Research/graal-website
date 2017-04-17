@@ -2,7 +2,10 @@
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import, division, print_function, unicode_literals
 
-import numpy as np
+import sys
+if sys.version_info.major < 3:
+    reload(sys)
+sys.setdefaultencoding('utf8')
 
 from flask import Flask, render_template
 app = Flask(__name__)
@@ -43,7 +46,7 @@ class Graalien(object):
 @app.route('/')
 def hello():
     professors = [
-        Graalien(first_name="Francois",
+        Graalien(first_name="François",
                  last_name="Laviolette",
                  status="prof",
                  joined_year=-10000,
@@ -63,18 +66,25 @@ def hello():
     graaliens = [
         Graalien(first_name="Alexandre",
                  last_name="Drouin",
-                 status=member_status_pretty_names.keys()[np.random.randint(0, len(member_status_pretty_names))],
+                 status="phd",
                  joined_year=2012,
                  face_picture="images/faces/adrouin.png",
                  linkedin="https://www.linkedin.com/in/drouinalexandre/",
                  scholar="https://scholar.google.ca/citations?user=LR6aJcEAAAAJ",
                  github="https://github.com/aldro61",
-                 website="http://graal.ift.ulaval.ca/adrouin/")
-        for _ in xrange(14)
+                 website="http://graal.ift.ulaval.ca/adrouin/"),
+        Graalien(first_name="Ulysse",
+                 last_name="Côté Allard",
+                 status="phd",
+                 joined_year=2014,
+                 face_picture="images/faces/uacote.png",
+                 scholar="https://scholar.google.ca/citations?user=RF5bU6sAAAAJ&hl",
+                 github="https://github.com/giguelingueling",
+                 website="http://graal.ift.ulaval.ca/ulysse/")
     ]
 
-    # Sort by joined date
-    graaliens = sorted(graaliens, key=lambda x: "{0!s} {1!s}".format(x.first_name, x.last_name), reverse=False)
+    # Sort by name date
+    graaliens = sorted(graaliens, key=lambda x: "{0!s} {1!s}".format(x.first_name, x.last_name), reverse=True)
     return render_template('index.html', graaliens=professors + graaliens)
 
 
