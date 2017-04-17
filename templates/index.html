@@ -18,10 +18,11 @@
 
         <!-- Custom styles for this template -->
         <link href="{{ url_for('static', filename='css/graal.css') }}" rel="stylesheet">
+		<link href="{{ url_for('static', filename='css/navbar.css') }}" rel="stylesheet">
     </head>
 
     <body>
-        <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+        <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top" id="thenavbar">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,18 +51,17 @@
           </div>
         </nav>
 
-        <div class="container">
+        <div class="container-fluid">
 
 			<!-- Top logo -->
-			<div class="section">
+			<div class="section" id="about">
 				<div class="row">
 					<div class="col-sm-6">
 						<img src="{{ url_for('static', filename='images/graal-clipped.png') }}" class="img-fluid" />
 					</div>
 
 					<div class="col-sm-6">
-						<div class="container">
-							<a id="about" />
+						<div class="container-fluid">
 							<h2>About</h2>
 							<div class="row">
 								<div class="col-sm-12">
@@ -82,14 +82,13 @@
 			</div>
 
 			<!-- Team -->
-			<div class="section">
-				<a id="team" />
+			<div class="section" id="team">
 				<h2>Team</h2>
 				<div class="row">
 					{% for person in graaliens %}
 						<div class="col-sm-3" style="padding-bottom: 30px">
 							<a id="{{ '#{0!s}{1!s}'.format(person.first_name, person.last_name) }}">
-							<div class="container">
+							<div class="container-fluid">
 								<div class="row">
 									<div class="col-sm-12 text-center">
 										<a href="{{ person.website if person.website else '#{0!s}{1!s}'.format(person.first_name, person.last_name) }}">
@@ -134,8 +133,7 @@
 			</div>
 
 			<!-- Publications -->
-			<div class="section">
-				<a id="publications" />
+			<div class="section" id="publications">
 				<h2>Publications</h2>
 				<div class="row">
 					<div class="col-sm-12">
@@ -145,8 +143,7 @@
 			</div>
 
 			<!-- Software -->
-			<div class="section">
-				<a id="software" />
+			<div class="section" id="software">
 				<h2>Software</h2>
 				<div class="row">
 					<div class="col-sm-12">
@@ -156,15 +153,14 @@
 			</div>
 
 			<!-- Contact -->
-			<div class="section">
-				<a id="contact" />
+			<div class="section" id="contact">
 				<h2>Contact</h2>
 				<div class="row">
 					<div class="col-sm-5">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5464.305231958727!2d-71.28027903230068!3d46.781597036900614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb896c5dd0eddf1%3A0x2d122faff43b533d!2sPavillon+Adrien-Pouliot%2C+1065+Avenue+de+la+M%C3%A9decine%2C+Ville+de+Qu%C3%A9bec%2C+QC+G1V+0A6!5e0!3m2!1sfr!2sca!4v1492437108175" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 					<div class="col-sm-7">
-						<div class="container">
+						<div class="container-fluid">
 							<div class="row">
 								<div class="col-sm-12" style="padding-bottom: 10px">
 									<i class="fa fa-home fa-1x" aria-hidden="true"></i>
@@ -202,25 +198,39 @@
 				</div>
 			</div>
 
-        </div><!-- /.container -->
+        </div><!-- /.container-fluid -->
 
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    	<script>
-			$('a[href^="#"]').on('click', function(event) {
+		<script>
+			$(document).ready(function(){
+			  // Add scrollspy to <body>
+			  $('body').scrollspy({target: ".navbar", offset: 50});
 
-			var target = $( $(this).attr('href') );
+			  // Add smooth scrolling on all links inside the navbar
+			  $("#thenavbar a").on('click', function(event) {
+				// Make sure this.hash has a value before overriding default behavior
+				if (this.hash !== "") {
+				  // Prevent default anchor click behavior
+				  event.preventDefault();
 
-			if( target.length ) {
-			event.preventDefault();
-			$('html, body').animate({
-			scrollTop: target.offset().top
-			}, 1000);
-			}
+				  // Store hash
+				  var hash = this.hash;
 
+				  // Using jQuery's animate() method to add smooth page scroll
+				  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+				  $('html, body').animate({
+					scrollTop: $(hash).offset().top
+				  }, 800, function(){
+
+					// Add hash (#) to URL when done scrolling (default click behavior)
+					window.location.hash = hash;
+				  });
+				}  // End if
+			  });
 			});
 		</script>
 	</body>
