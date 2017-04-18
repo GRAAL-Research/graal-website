@@ -88,7 +88,13 @@ def hello():
                  face_picture="images/faces/uacote.png",
                  scholar="https://scholar.google.ca/citations?user=RF5bU6sAAAAJ&hl",
                  github="https://github.com/giguelingueling",
-                 website="http://graal.ift.ulaval.ca/ulysse/")
+                 website="http://graal.ift.ulaval.ca/ulysse/"),
+        Graalien(first_name="Gaël",
+                 last_name="Letarte St-Pierre",
+                 status="undergrad",
+                 joined_year=2016,
+                 face_picture="images/faces/gletarte.png",
+                 github="https://github.com/gletarte")
     ]
 
     # Sort by name date
