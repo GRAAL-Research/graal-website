@@ -94,6 +94,7 @@ def hello():
                  status="undergrad",
                  joined_year=2016,
                  face_picture="images/faces/gletarte.png",
+                 scholar="https://scholar.google.ca/citations?user=XMCOvKoAAAAJ",
                  github="https://github.com/gletarte")
     ]
 
