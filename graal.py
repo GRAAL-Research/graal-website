@@ -36,7 +36,7 @@ class Graalien(object):
 
     @property
     def scholar(self):
-        return self.scholar_ + "&view_op=list_works&sortby=pubdate"
+        return self.scholar_ + "&view_op=list_works&sortby=pubdate" if self.scholar_ is not None else None
 
     @property
     def status(self):
@@ -98,7 +98,7 @@ def hello():
     ]
 
     # Sort by name date
-    graaliens = sorted(graaliens, key=lambda x: "{0!s} {1!s}".format(x.first_name, x.last_name), reverse=True)
+    graaliens = sorted(graaliens, key=lambda x: x.joined_year, reverse=False)
     return render_template('index.html', graaliens=professors + graaliens)
 
 
