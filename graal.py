@@ -62,6 +62,14 @@ def hello():
                  linkedin="https://www.linkedin.com/in/mario-marchand-50460913/",
                  scholar="https://scholar.google.ca/citations?user=M792u2sAAAAJ",
                  website="https://www.ift.ulaval.ca/departement-et-professeurs/professeurs-et-personnel/professeurs-reguliers/fiche/show/marchand-mario/"),
+        Graalien(first_name="Jacques",
+                 last_name="Corbeil",
+                 status="prof",
+                 joined_year=2010,
+                 face_picture="images/faces/jcorbeil.png",
+                 linkedin="https://www.linkedin.com/in/jacques-corbeil-0486391/",
+                 scholar="https://scholar.google.ca/citations?user=ZOxQV80AAAAJ",
+                 website="http://corbeillab.genome.ulaval.ca/team_member/jacques-corbeil/"),
         Graalien(first_name="Richard",
                  last_name="Khoury",
                  status="prof",
@@ -95,7 +103,15 @@ def hello():
                  joined_year=2016,
                  face_picture="images/faces/gletarte.png",
                  scholar="https://scholar.google.ca/citations?user=XMCOvKoAAAAJ",
-                 github="https://github.com/gletarte")
+                 github="https://github.com/gletarte"),
+        Graalien(first_name="Pier-Luc",
+                 last_name="Plante",
+                 status="phd",
+                 joined_year=2014,
+                 face_picture="images/faces/plplante.png",
+                 linkedin="https://www.linkedin.com/in/pier-luc-plante-b777716b/",
+                 scholar="https://scholar.google.ca/citations?user=8Vp-4GgAAAAJ",
+                 github="https://github.com/plpla")
     ]
 
     # Sort by name date

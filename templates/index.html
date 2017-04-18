@@ -91,7 +91,7 @@
 							<div class="container">
 								<div class="row">
 									<div class="col-sm-12 text-center">
-										<a href="{{ person.website if person.website else '#{0!s}{1!s}'.format(person.first_name, person.last_name) }}">
+										<a href="{{ person.website if person.website else '#{0!s}{1!s}'.format(person.first_name, person.last_name) }}" target="_blank">
 											<img src="{{ url_for('static', filename='{0!s}'.format(person.face_picture)) }}" class="rounded-circle img-fluid" />
 										</a>
 									</div>
