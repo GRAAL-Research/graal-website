@@ -261,7 +261,8 @@
 				}
 			  });
 
-			bibtexify("{{ url_for('static', filename='bib/publications.bib') }}", "pubTable");
+			bibtexify("{{ url_for('static', filename='bib/publications.bib') }}", "pubTable", {"visualization": false,
+				"datatable": {"bPaginate": true, "pageLength": 10}});
 		</script>
 	</body>
 </html>
