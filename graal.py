@@ -20,7 +20,7 @@ member_status_pretty_names = {"undergrad": {"fr": "Étudiant sous-gradué", "en"
 
 class Graalien(object):
     def __init__(self, first_name, last_name, status, joined_year, face_picture=None, linkedin=None, scholar=None,
-                 github=None, website=None):
+                 github=None, website=None, twitter=None):
         self.first_name = first_name
         self.last_name = last_name
         self.status_ = status
@@ -30,6 +30,7 @@ class Graalien(object):
         self.scholar_ = scholar
         self.github = github
         self.website = website
+        self.twitter = twitter
 
         if status not in member_status_pretty_names.keys():
             raise ValueError("Incorrect graalien status. Supporter values are {0!s}".format(self.status_pretty_names))
@@ -96,7 +97,8 @@ def hello():
                  linkedin="https://www.linkedin.com/in/drouinalexandre/",
                  scholar="https://scholar.google.ca/citations?user=LR6aJcEAAAAJ",
                  github="https://github.com/aldro61",
-                 website="http://graal.ift.ulaval.ca/adrouin/"),
+                 website="http://graal.ift.ulaval.ca/adrouin/",
+                 twitter="https://twitter.com/alexandredrouin"),
         Graalien(first_name="Ulysse",
                  last_name="Côté Allard",
                  status="phd",
@@ -119,7 +121,17 @@ def hello():
                  face_picture="images/faces/plplante.png",
                  linkedin="https://www.linkedin.com/in/pier-luc-plante-b777716b/",
                  scholar="https://scholar.google.ca/citations?user=8Vp-4GgAAAAJ",
-                 github="https://github.com/plpla")
+                 github="https://github.com/plpla"),
+        Graalien(first_name="Frédéric",
+                 last_name="Raymond",
+                 status="postdoc",
+                 joined_year=2011,
+                 face_picture="images/faces/fraymond.png",
+                 linkedin="https://www.linkedin.com/in/fredericraymond/",
+                 scholar="https://scholar.google.ca/citations?user=Ulexpm0AAAAJ",
+                 github="https://github.com/fredericraymond",
+                 website="http://corbeillab.genome.ulaval.ca/team_member/frederic-raymond/",
+                 twitter="https://twitter.com/fredericraymond")
     ]
 
     # Sort by name date

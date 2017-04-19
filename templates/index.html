@@ -129,6 +129,11 @@
 											<img src="{{ url_for('static', filename='images/homepage.png') }}" />
 										</a>
 										{% endif %}
+										{% if person.twitter %}
+										<a class="btn btn-xs btn-social-icon btn-twitter" href="{{ person.twitter }}" target="_blank">
+											<span class="fa fa-twitter"></span>
+										</a>
+										{% endif %}
 									</div>
 								</div>
 							</div>
@@ -142,7 +147,7 @@
 				<h2>Publications</h2>
 				<div class="row">
 					<div class="col-sm-12">
-						<table id="pubTable" class="display table"></table>
+						<table id="pubTable" class="display"></table>
 					</div>
 				</div>
 			</div>
@@ -256,7 +261,7 @@
 				}
 			  });
 
-			bibtexify("{{ url_for('static', filename='bib/publications.bib') }}", "pubTable", {"pageLength": 5});
+			bibtexify("{{ url_for('static', filename='bib/publications.bib') }}", "pubTable");
 		</script>
 	</body>
 </html>
