@@ -131,7 +131,14 @@ def hello():
                  scholar="https://scholar.google.ca/citations?user=Ulexpm0AAAAJ",
                  github="https://github.com/fredericraymond",
                  website="http://corbeillab.genome.ulaval.ca/team_member/frederic-raymond/",
-                 twitter="https://twitter.com/fredericraymond")
+                 twitter="https://twitter.com/fredericraymond"),
+        Graalien(first_name="Francis",
+                 last_name="Brochu",
+                 status="phd",
+                 joined_year=2014,
+                 linkedin="https://www.linkedin.com/in/francis-brochu-a31948139/",
+                 scholar="https://scholar.google.ca/citations?user=eH0dEcwAAAAJ",
+                 github="https://github.com/PhrankBrochu")
     ]
 
     # Sort by name date
