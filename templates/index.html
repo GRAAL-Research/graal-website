@@ -89,6 +89,8 @@
 			<!-- Team -->
 			<div class="section" id="team">
 				<h2>Team</h2>
+
+				<!-- Current members -->
 				<div class="row">
 					{% for person in graaliens %}
 						<div class="col-sm-3" style="padding-bottom: 30px">
@@ -140,6 +142,61 @@
 						</div>
 					{% endfor %}
 				</div>
+
+				<!-- Past members -->
+				<h4>Alumni</h4>
+				<div class="row">
+					{% for person in alumni %}
+						<div class="col-sm-3" style="padding-bottom: 30px">
+							<a id="{{ '#{0!s}{1!s}'.format(person.first_name, person.last_name) }}">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<a href="{{ person.website if person.website else 'javascript:void(0)' }}" target="_blank">
+											<img src="{{ url_for('static', filename='{0!s}'.format(person.face_picture)) }}" class="rounded-circle img-fluid" />
+										</a>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 text-center">{{ "{0!s} {1!s}".format(person.first_name.title(), person.last_name.title()) }}</div>
+								</div>
+								<div class="row" style="font-size: 80%; text-align: center;">
+									<div class="col-sm-12 text-center">{{ person.status["en"] }}</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										{% if person.linkedin %}
+										<a class="btn btn-xs btn-social-icon btn-linkedin" href="{{ person.linkedin }}" target="_blank">
+											<span class="fa fa-linkedin"></span>
+										</a>
+										{% endif %}
+										{% if person.scholar %}
+										<a class="btn btn-xs btn-social-icon btn-github" href="{{ person.scholar }}" target="_blank">
+											<img src="{{ url_for('static', filename='images/scholar.png') }}" />
+										</a>
+										{% endif %}
+										{% if person.github %}
+										<a class="btn btn-xs btn-social-icon btn-github" href="{{ person.github }}" target="_blank">
+											<span class="fa fa-github"></span>
+										</a>
+										{% endif %}
+										{% if person.website %}
+										<a class="btn btn-xs btn-social-icon btn-reddit" href="{{ person.website }}" target="_blank">
+											<img src="{{ url_for('static', filename='images/homepage.png') }}" />
+										</a>
+										{% endif %}
+										{% if person.twitter %}
+										<a class="btn btn-xs btn-social-icon btn-twitter" href="{{ person.twitter }}" target="_blank">
+											<span class="fa fa-twitter"></span>
+										</a>
+										{% endif %}
+									</div>
+								</div>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+
 			</div>
 
 			<!-- Publications -->
