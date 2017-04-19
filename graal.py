@@ -136,6 +136,7 @@ def hello():
                  last_name="Brochu",
                  status="phd",
                  joined_year=2014,
+                 face_picture="images/faces/fbrochu.png",
                  linkedin="https://www.linkedin.com/in/francis-brochu-a31948139/",
                  scholar="https://scholar.google.ca/citations?user=eH0dEcwAAAAJ",
                  github="https://github.com/PhrankBrochu")
