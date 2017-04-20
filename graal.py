@@ -13,14 +13,16 @@ app = Flask(__name__)
 
 member_status_pretty_names = {"undergrad": {"fr": "Étudiant sous-gradué", "en": "Undergraduate student"},
                               "master": {"fr": "Étudiant de maîtrise", "en": "Masters student"},
+                              "alumni_master": {"fr": "Maîtrise", "en": "Masters"},
                               "phd": {"fr": "Étudiant doctorant", "en": "PhD Student"},
+                              "alumni_phd": {"fr": "Doctorat", "en": "PhD"},
                               "postdoc": {"fr": "Chercheur post-doctoral", "en": "Postdoctoral Researcher"},
                               "prof": {"fr": "Professeur", "en": "Professor"}}
 
 
 class Graalien(object):
     def __init__(self, first_name, last_name, status, joined_year, face_picture=None, linkedin=None, scholar=None,
-                 github=None, website=None, twitter=None, departed=False):
+                 github=None, website=None, twitter=None):
         self.first_name = first_name
         self.last_name = last_name
         self.status_ = status
@@ -31,10 +33,13 @@ class Graalien(object):
         self.github = github
         self.website = website
         self.twitter = twitter
-        self.departed = departed
 
         if status not in member_status_pretty_names.keys():
             raise ValueError("Incorrect graalien status. Supporter values are {0!s}".format(self.status_pretty_names))
+
+    @property
+    def is_alumni(self):
+        return "alumni_" in self.status_
 
     @property
     def scholar(self):
@@ -182,24 +187,22 @@ def hello():
                  github="https://github.com/dizam92"),
         Graalien(first_name="Jean-Francis",
                  last_name="Roy",
-                 status="phd",
+                 status="alumni_phd",
                  joined_year=2008,
                  face_picture="images/faces/jfroy.png",
                  linkedin="https://www.linkedin.com/in/jeanfrancisroy/",
                  scholar="https://scholar.google.ca/citations?user=AjjKEd0AAAAJ",
                  github="https://github.com/jeanfrancisroy",
-                 website="https://jeanfrancisroy.info",
-                 departed=True),
+                 website="https://jeanfrancisroy.info"),
         Graalien(first_name="Pascal",
                  last_name="Germain",
-                 status="phd",
+                 status="alumni_phd",
                  joined_year=2007,
                  face_picture="images/faces/pgermain.png",
                  linkedin="https://www.linkedin.com/in/germainml/",
                  scholar="https://scholar.google.com/citations?user=mgOIj_4AAAAJ",
                  github="https://github.com/pgermain",
-                 website="http://www.di.ens.fr/~germain/",
-                 departed=True),
+                 website="http://www.di.ens.fr/~germain/"),
         Graalien(first_name="Pierre-Louis",
                  last_name="Gagnon",
                  status="phd",
@@ -209,20 +212,19 @@ def hello():
                  twitter="https://twitter.com/PierreLGagnon​"),
         Graalien(first_name="Sébastien",
                  last_name="Giguère",
-                 status="phd",
+                 status="alumni_phd",
                  joined_year=2009,
                  face_picture="images/faces/sgiguere.png",
                  linkedin="https://www.linkedin.com/in/gigueresebastien/",
-                 scholar="https://scholar.google.ca/citations?user=0adkPS8AAAAJ",
-                 departed=True)
+                 scholar="https://scholar.google.ca/citations?user=0adkPS8AAAAJ")
     ]
 
     # Sort by name date
     graaliens = sorted(graaliens, key=lambda x: x.joined_year, reverse=False)
     graaliens = professors + graaliens
     return render_template('index.html',
-                           graaliens=[g for g in graaliens if not g.departed],
-                           alumni=[g for g in graaliens if g.departed])
+                           graaliens=[g for g in graaliens if not g.is_alumni],
+                           alumni=[g for g in graaliens if g.is_alumni])
 
 
 @app.errorhandler(404)
