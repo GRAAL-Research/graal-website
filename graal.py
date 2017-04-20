@@ -17,6 +17,7 @@ member_status_pretty_names = {"undergrad": {"fr": "Étudiant sous-gradué", "en"
                               "phd": {"fr": "Étudiant doctorant", "en": "PhD Student"},
                               "alumni_phd": {"fr": "Doctorat", "en": "PhD"},
                               "postdoc": {"fr": "Chercheur post-doctoral", "en": "Postdoctoral Researcher"},
+                              "alumni_postdoc": {"fr": "Chercheur post-doctoral", "en": "Postdoctoral Researcher"},
                               "prof": {"fr": "Professeur", "en": "Professor"}}
 
 
@@ -230,7 +231,15 @@ def hello():
                  status="master",
                  joined_year=2013,
                  face_picture="images/faces/jbergeron.png",
-                 linkedin="https://www.linkedin.com/in/jonathan-bergeron-05628599/​")
+                 linkedin="https://www.linkedin.com/in/jonathan-bergeron-05628599/​"),
+        Graalien(first_name="Michael",
+                 last_name="Morin",
+                 status="alumni_postdoc",
+                 joined_year=2015,
+                 face_picture="images/faces/mmorin.png",
+                 linkedin="http://ca.linkedin.com/pub/michael-morin/24/418/154",
+                 scholar="https://scholar.google.ca/citations?user=X4pPn0YAAAAJ&hl",
+                 website="http://www.michaelmorin.info")
     ]
 
     # Sort by name date
