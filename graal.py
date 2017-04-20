@@ -224,7 +224,13 @@ def hello():
                  face_picture="images/faces/ptossou.png",
                  linkedin="https://www.linkedin.com/in/prudencio-tossou-75252969/",
                  github="https://github.com/prtos",
-                 scholar="https://scholar.google.ca/citations?user=JcC0zYQAAAAJ​")
+                 scholar="https://scholar.google.ca/citations?user=JcC0zYQAAAAJ​"),
+        Graalien(first_name="Jonathan",
+                 last_name="Bergeron",
+                 status="master",
+                 joined_year=2013,
+                 face_picture="images/faces/jbergeron.png",
+                 linkedin="https://www.linkedin.com/in/jonathan-bergeron-05628599/​")
     ]
 
     # Sort by name date
