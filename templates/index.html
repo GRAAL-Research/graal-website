@@ -52,6 +52,9 @@
 				<li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="#affiliations">Affiliations</a>
+                </li>
             </ul>
           </div>
         </nav>
@@ -224,7 +227,7 @@
 				<h2>Contact</h2>
 				<div class="row">
 					<div class="col-sm-5">
-						<div id="map" style="width: 100%; height: 100%; min-height: 200px; min-width: 200px"></div>
+						<div id="map" style="width: 100%; height: 100%; min-height: 260px; min-width: 200px"></div>
 					</div>
 					<div class="col-sm-7">
 						<div class="container">
@@ -259,9 +262,31 @@
 				</div>
 			</div>
 
+			<!-- Affiliations -->
+			<div class="section" id="affiliations">
+				<h2>Affiliations</h2>
+				<div class="row">
+					<div class="col-sm-4">
+						<a href="http://crdm.ulaval.ca" target="_blank">
+							<img src="{{ url_for('static', filename='images/logos/crdmul_en.png') }}" class="img-fluid affiliation-logo" />
+						</a>
+					</div>
+					<div class="col-sm-4">
+						<a href="http://corbeillab.genome.ulaval.ca" target="_blank">
+							<img src="{{ url_for('static', filename='images/logos/corbeil_lab.png') }}" class="img-fluid affiliation-logo" />
+						</a>
+					</div>
+					<div class="col-sm-4">
+						<a href="http://www.ulaval.ca" target="_blank">
+							<img src="{{ url_for('static', filename='images/logos/ul.png') }}" class="img-fluid affiliation-logo" />
+						</a>
+					</div>
+				</div>
+			</div>
+
 			<div class="footer row">
 				<div class="col-sm-12 text-center">
-					This is the footer
+					&copy; 2017<script>new Date().getFullYear()>2017&&document.write("-"+new Date().getFullYear());</script>, Groupe de recherche en apprentissage automatique de l'Universit&eacute; Laval
 				</div>
 			</div>
 

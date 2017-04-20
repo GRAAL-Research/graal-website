@@ -199,6 +199,21 @@ def hello():
                  scholar="https://scholar.google.com/citations?user=mgOIj_4AAAAJ",
                  github="https://github.com/pgermain",
                  website="http://www.di.ens.fr/~germain/",
+                 departed=True),
+        Graalien(first_name="Pierre-Louis",
+                 last_name="Gagnon",
+                 status="phd",
+                 joined_year=2016,
+                 face_picture="images/faces/plgagnon.png",
+                 linkedin="https://www.linkedin.com/in/pierre-louis-gagnon-054507128/",
+                 twitter="https://twitter.com/PierreLGagnon​"),
+        Graalien(first_name="Sébastien",
+                 last_name="Giguère",
+                 status="phd",
+                 joined_year=2009,
+                 face_picture="images/faces/sgiguere.png",
+                 linkedin="https://www.linkedin.com/in/gigueresebastien/",
+                 scholar="https://scholar.google.ca/citations?user=0adkPS8AAAAJ",
                  departed=True)
     ]
 
