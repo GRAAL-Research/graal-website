@@ -10,11 +10,15 @@
         <title>GRAAL Research</title>
 
         <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 		<!-- Bootstrap social buttons -->
-		<script src="https://use.fontawesome.com/10e735f142.js"></script>
+		<script src="//use.fontawesome.com/10e735f142.js"></script>
 		<link href="{{ url_for('static', filename='css/bootstrap-social.css') }}" rel="stylesheet">
+
+		<!-- Data-tables Core CSS -->
+		<link rel="stylesheet" href="//cdn.datatables.net/1.10.15/css/dataTables.bootstrap4.min.css">
+		<link rel="stylesheet" href="//cdn.datatables.net/responsive/2.1.1/css/responsive.bootstrap4.min.css">
 
 		<!--- Publications -->
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/bib-publication-list.css') }}" type="text/css" />
@@ -23,7 +27,12 @@
         <link href="{{ url_for('static', filename='css/graal.css') }}" rel="stylesheet">
 		<link href="{{ url_for('static', filename='css/navbar.css') }}" rel="stylesheet">
 
-        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
     </head>
 
     <body>
@@ -151,7 +160,6 @@
 				<div class="row">
 					{% for person in alumni %}
 						<div class="col-sm-3" style="padding-bottom: 30px">
-							<a id="{{ '#{0!s}{1!s}'.format(person.first_name, person.last_name) }}">
 							<div class="container">
 								<div class="row">
 									<div class="col-sm-12 text-center">
@@ -207,7 +215,16 @@
 				<h2>Publications</h2>
 				<div class="row">
 					<div class="col-sm-12">
-						<table id="pubTable" class="display"></table>
+						<table id="pubTable" class="table table-striped table-bordered dt-responsive" width="100%">
+							<thead>
+								<tr>
+									<th>Year</th>
+									<th>Publication</th>
+									<th>PDF</th>
+									<th>Bibtex</th>
+								</tr>
+							</thead>
+						</table>
 					</div>
 				</div>
 			</div>
@@ -266,22 +283,22 @@
 			<div class="section" id="affiliations">
 				<h2>Affiliations</h2>
 				<div class="row">
-					<div class="col-sm-2 col-xs-12">
+					<div class="col-sm-2">
 						<a href="//crdm.ulaval.ca" target="_blank">
 							<img src="{{ url_for('static', filename='images/logos/crdmul_en.png') }}" class="img-fluid affiliation-logo" />
 						</a>
 					</div>
-					<div class="col-sm-2 col-xs-12">
+					<div class="col-sm-2">
 						<a href="//corbeillab.genome.ulaval.ca" target="_blank">
 							<img src="{{ url_for('static', filename='images/logos/corbeil_lab.png') }}" class="img-fluid affiliation-logo" />
 						</a>
 					</div>
-					<div class="col-sm-3 col-xs-12">
+					<div class="col-sm-3">
 						<a href="//www.biomicrosystems.ulaval.ca" target="_blank">
 							<img src="{{ url_for('static', filename='images/logos/bml.png') }}" class="img-fluid affiliation-logo" />
 						</a>
 					</div>
-					<div class="col-sm-3 col-xs-12">
+					<div class="col-sm-3">
 						<a href="//www.ulaval.ca" target="_blank">
 							<img src="{{ url_for('static', filename='images/logos/ul.png') }}" class="img-fluid affiliation-logo" />
 						</a>
@@ -300,12 +317,18 @@
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-		<script src="http://maps.google.com/maps/api/js?key=AIzaSyC-yWhGkS4QTAHkWGHN47m2J9K1EACDBFk"></script>
+		<script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+		<!-- Data-tables Core JavaScript -->
+		<script src="//cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+		<script src="//cdn.datatables.net/1.10.15/js/dataTables.bootstrap4.min.js"></script>
+		<script src="//cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js"></script>
+		<script src="//cdn.datatables.net/responsive/2.1.1/js/responsive.bootstrap4.min.js"></script>
+
+		<script src="//maps.google.com/maps/api/js?key=AIzaSyC-yWhGkS4QTAHkWGHN47m2J9K1EACDBFk"></script>
 		<script src="{{ url_for('static', filename='js/gmaps.min.js') }}"></script>
-		<script src="{{ url_for('static', filename='js/bib-list-min.js') }}"></script>
-        <script type="text/javascript" src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+
 		<script>
 			$(document).ready(function(){
 			  // Add scrollspy to <body>
@@ -348,8 +371,30 @@
 				}
 			  });
 
-			bibtexify("{{ url_for('static', filename='bib/publications.bib') }}", "pubTable", {"visualization": false,
-				"datatable": {"bPaginate": true, "pageLength": 10}});
+			function create_bibtex_buttons(url){
+            	return "<a href='" + url + "' class='btn btn-primary btn-xs'> Bibtex </a>";
+        	}
+
+        	$('#pubTable').DataTable( {
+				"ajax": {
+					"url": "{{ url_for('static', filename='bib/publications.json') }}",
+					"dataSrc": ""
+				},
+				"columns": [
+					{ "data": "year" },
+					{ "data": "citation", "bSortable": false},
+					{ "data": "url",
+					  "render": function(data, type, row){
+				        return "<a href='" + data + "' target='_blank' class='btn btn-danger btn-sm'> PDF </a>";
+					  },
+					  "bSortable": false},
+					{ "data": "url_bibtex",
+					  "render": function(data, type, row){
+				        return "<a href='" + data + "' target='_blank' class='btn btn-primary btn-sm'> BIB </a>";
+					  },
+					  "bSortable": false}
+				]
+			} );
 		</script>
 	</body>
 </html>
