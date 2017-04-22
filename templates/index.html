@@ -220,8 +220,7 @@
 								<tr>
 									<th>Year</th>
 									<th>Publication</th>
-									<th>PDF</th>
-									<th>Bibtex</th>
+									<th>URL</th>
 								</tr>
 							</thead>
 						</table>
@@ -385,12 +384,7 @@
 					{ "data": "citation", "bSortable": false},
 					{ "data": "url",
 					  "render": function(data, type, row){
-				        return "<a href='" + data + "' target='_blank' class='btn btn-danger btn-sm'> PDF </a>";
-					  },
-					  "bSortable": false},
-					{ "data": "url_bibtex",
-					  "render": function(data, type, row){
-				        return "<a href='" + data + "' target='_blank' class='btn btn-primary btn-sm'> BIB </a>";
+				        return "<a href='" + data + "' target='_blank' class='btn btn-primary btn-sm'> View </a>";
 					  },
 					  "bSortable": false}
 				]
