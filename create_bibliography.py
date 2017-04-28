@@ -35,9 +35,7 @@ def create_bibliography():
         for publication_short in author.publications:
             print(publication_short)
             try:
-                logging.debug("Searching full entry for: %s\n" % publication_short.bib["title"])
-
-                # 1. Do we already have the publication in the bibliography?
+               # 1. Do we already have the publication in the bibliography?
                 uniq_id = publication_short.id_citations
                 if uniq_id == "":
                     print("id_citations is not a good uniq id")
@@ -45,6 +43,7 @@ def create_bibliography():
                 if seen_id[uniq_id]:  # We already have this publication in the shelves.
                     logging.debug("Publication with id %s was already in the shelves" % uniq_id)
                     continue
+                logging.debug("Searching full entry for: %s\n"%publication_short.bib["title"])
 
                 # 2. Publication was not in the shelves. Search for the publication informations.
                 for publication_full in scholarly.search_pubs_query(publication_short.bib["title"]):
@@ -59,7 +58,7 @@ def create_bibliography():
                 title = publication_full.bib["title"]
                 try:
                     authors = publication_full.bib["author"]
-                    journal = publication_full.bib["journal"]
+                    journal = publication_full.bib.get("journal", publication_full.bib.get("booktitle"))
                     year = publication_full.bib["year"]
                 except KeyError:
                     # Major information missing, just skip it.

@@ -18,6 +18,12 @@
     "year": "2012"
   },
   {
+    "url": "http://dl.acm.org/citation.cfm?id=1553419",
+    "citation": "Germain P., Lacasse A., Laviolette F. et al. (2009). PAC-Bayesian learning of linear classifiers. Proceedings of the 26th Annual International Conference on Machine Learning, , 353--360 ",
+    "uniq_id": "uwwWC3cAAAAJ:u5HHmVD_uO8C",
+    "year": "2009"
+  },
+  {
     "url": "http://www.sciencedirect.com/science/article/pii/S0890540105001951",
     "citation": "Danos V., Desharnais J., Laviolette F. et al. (2006). Bisimulation and cocongruence for probabilistic systems. Information and Computation, 204, 503--523 ",
     "uniq_id": "uwwWC3cAAAAJ:d1gkVwhDpl0C",
@@ -28,6 +34,12 @@
     "citation": "Ganin Y., Ustinova E., Ajakan H. et al. (2016). Domain-adversarial training of neural networks. Journal of Machine Learning Research, 17, 1--35 ",
     "uniq_id": "uwwWC3cAAAAJ:NhqRSupF_l8C",
     "year": "2016"
+  },
+  {
+    "url": "http://ieeexplore.ieee.org/abstract/document/4634981/",
+    "citation": "Desharnais J., Laviolette F., Tracol M. (2008). Approximate analysis of probabilistic processes: Logic, simulation and games. Quantitative Evaluation of Systems, 2008. QEST'08. Fifth International Conference on, , 264--273 ",
+    "uniq_id": "uwwWC3cAAAAJ:9yKSN-GCB0IC",
+    "year": "2008"
   },
   {
     "url": "https://papers.nips.cc/paper/2959-pac-bayes-bounds-for-the-risk-of-the-majority-vote-and-the-variance-of-the-gibbs-classifier.pdf",
@@ -54,10 +66,10 @@
     "year": "2008"
   },
   {
-    "url": "http://www.sciencedirect.com/science/article/pii/S0012365X00001278",
-    "citation": "Chastand M., Laviolette F., Polat N. (2000). On constructible graphs, infinite bridged graphs and weakly cop-win graphs. Discrete Mathematics, 224, 61--78 ",
-    "uniq_id": "uwwWC3cAAAAJ:zYLM7Y9cAGgC",
-    "year": "2000"
+    "url": "http://machinelearning.wustl.edu/mlpapers/paper_files/ICML2011Roy_379.pdf",
+    "citation": "Roy J., Marchand M., Laviolette F. (2011). From PAC-Bayes bounds to quadratic programs for majority votes. Proceedings of the 28th International Conference on Machine Learning (ICML-11), , 649--656 ",
+    "uniq_id": "uwwWC3cAAAAJ:YsMSGLbcyi4C",
+    "year": "2011"
   },
   {
     "url": "http://www.sciencedirect.com/science/article/pii/S0195669898902347",
@@ -90,10 +102,46 @@
     "year": "2013"
   },
   {
+    "url": "http://link.springer.com/chapter/10.1007/978-3-642-16108-7_13",
+    "citation": "Lever G., Laviolette F., Shawe-Taylor J. (2010). Distribution-dependent PAC-Bayes priors. International Conference on Algorithmic Learning Theory, , 119--133 ",
+    "uniq_id": "uwwWC3cAAAAJ:W7OEmFMy1HYC",
+    "year": "2010"
+  },
+  {
+    "url": "http://papers.nips.cc/paper/3821-from-pac-bayes-bounds-to-kl-regularization",
+    "citation": "Germain P., Lacasse A., Marchand M. et al. (2009). From PAC-Bayes bounds to KL regularization. Advances in Neural Information Processing Systems, , 603--610 ",
+    "uniq_id": "uwwWC3cAAAAJ:LkGwnXOMwfcC",
+    "year": "2009"
+  },
+  {
     "url": "http://dl.acm.org/citation.cfm?id=2831140",
     "citation": "Germain P., Lacasse A., Laviolette F. et al. (2015). Risk bounds for the majority vote: From a PAC-Bayesian analysis to a learning algorithm. The Journal of Machine Learning Research, 16, 787--860 ",
     "uniq_id": "uwwWC3cAAAAJ:f2IySw72cVMC",
     "year": "2015"
+  },
+  {
+    "url": "http://www.jmlr.org/proceedings/papers/v28/germain13.pdf",
+    "citation": "Germain P., Habrard A., Laviolette F. et al. (2013). A PAC-Bayesian Approach for Domain Adaptation with Specialization to Linear Classifiers.. ICML (3), , 738--746 ",
+    "uniq_id": "uwwWC3cAAAAJ:J_g5lzvAfSwC",
+    "year": "2013"
+  },
+  {
+    "url": "http://www.jmlr.org/proceedings/papers/v22/lacoste12/lacoste12.pdf",
+    "citation": "Lacoste A., Laviolette F., Marchand M. (2012). Bayesian Comparison of Machine Learning Algorithms on Single and Multiple Datasets.. AISTATS, , 665--675 ",
+    "uniq_id": "uwwWC3cAAAAJ:R3hNpaxXUhUC",
+    "year": "2012"
+  },
+  {
+    "url": "http://link.springer.com/chapter/10.1007/978-3-642-33558-7_70",
+    "citation": "Morin M., Papillon A., Abi-Zeid I. et al. (2012). Constraint programming for path planning with uncertainty. Principles and Practice of Constraint Programming, , 988--1003 ",
+    "uniq_id": "uwwWC3cAAAAJ:M3ejUd6NZC8C",
+    "year": "2012"
+  },
+  {
+    "url": "http://dl.acm.org/citation.cfm?id=1102412",
+    "citation": "Laviolette F., Marchand M. (2005). PAC-Bayes risk bounds for sample-compressed Gibbs classifiers. Proceedings of the 22nd international conference on Machine learning, , 481--488 ",
+    "uniq_id": "uwwWC3cAAAAJ:roLk4NBRz8UC",
+    "year": "2005"
   },
   {
     "url": "http://www.sciencedirect.com/science/article/pii/S0095895696917347",
@@ -102,15 +150,69 @@
     "year": "1997"
   },
   {
+    "url": "https://papers.nips.cc/paper/3120-a-pac-bayes-risk-bound-for-general-loss-functions.pdf",
+    "citation": "Germain P., Lacasse A., Laviolette F. et al. (2006). A pac-bayes risk bound for general loss functions. NIPS, , 449--456 ",
+    "uniq_id": "uwwWC3cAAAAJ:Se3iqnhoufwC",
+    "year": "2006"
+  },
+  {
+    "url": "http://machinelearning.wustl.edu/mlpapers/paper_files/ICML2011Germain_218.pdf",
+    "citation": "Germain P., Lacoste A., Marchand M. et al. (2011). A PAC-Bayes sample-compression approach to kernel methods. Proceedings of the 28th International Conference on Machine Learning (ICML-11), , 297--304 ",
+    "uniq_id": "uwwWC3cAAAAJ:MXK_kJrjxJIC",
+    "year": "2011"
+  },
+  {
+    "url": "http://link.springer.com/chapter/10.1007/11564096_23",
+    "citation": "Laviolette F., Marchand M., Shah M. (2005). Margin-sparsity trade-off for the set covering machine. European Conference on Machine Learning, , 206--217 ",
+    "uniq_id": "uwwWC3cAAAAJ:Y0pCki6q_DkC",
+    "year": "2005"
+  },
+  {
+    "url": "http://papers.nips.cc/paper/3444-a-transductive-bound-for-the-voted-classifier-with-an-application-to-semi-supervised-learning",
+    "citation": "Amini M., Usunier N., Laviolette F. (2009). A transductive bound for the voted classifier with an application to semi-supervised learning. Advances in Neural Information Processing Systems, , 65--72 ",
+    "uniq_id": "uwwWC3cAAAAJ:5nxA0vEk-isC",
+    "year": "2009"
+  },
+  {
     "url": "https://papers.nips.cc/paper/2844-a-pac-bayes-approach-to-the-set-covering-machine.pdf",
     "citation": "Laviolette F., Marchand M., Shah M. (2006). A PAC-Bayes approach to the set covering machine. Advances in neural information processing systems, 18, 731 ",
     "uniq_id": "uwwWC3cAAAAJ:hqOjcs7Dif8C",
     "year": "2006"
   },
   {
+    "url": "http://www.jmlr.org/proceedings/papers/v48/germain16.pdf",
+    "citation": "Germain P., Habrard A., Laviolette F. et al. (2016). A new PAC-Bayesian perspective on domain adaptation. Proceedings of the 33rd International Conference on Machine Learning (ICML 2016), New York, NY, United States, ,  ",
+    "uniq_id": "uwwWC3cAAAAJ:dshw04ExmUIC",
+    "year": "2016"
+  },
+  {
     "url": "http://www.sciencedirect.com/science/article/pii/S0022175913002718",
     "citation": "Gigu{\\`e}re S., Drouin A., Lacoste A. et al. (2013). MHC-NP: Predicting peptides naturally processed by the MHC. Journal of immunological methods, 400, 30--36 ",
     "uniq_id": "uwwWC3cAAAAJ:hFOr9nPyWt4C",
+    "year": "2013"
+  },
+  {
+    "url": "http://link.springer.com/chapter/10.1007/11944836_23",
+    "citation": "Desharnais J., Laviolette F., Zhioua S. (2006). Testing probabilistic equivalence through reinforcement learning. International Conference on Foundations of Software Technology and Theoretical Computer Science, , 236--247 ",
+    "uniq_id": "uwwWC3cAAAAJ:0EnyYjriUFMC",
+    "year": "2006"
+  },
+  {
+    "url": "http://link.springer.com/chapter/10.1007/11871842_7",
+    "citation": "Amini M., Usunier N., Laviolette F. et al. (2006). A selective sampling strategy for label ranking. European Conference on Machine Learning, , 18--29 ",
+    "uniq_id": "uwwWC3cAAAAJ:3fE2CSJIrl8C",
+    "year": "2006"
+  },
+  {
+    "url": "http://www.jmlr.org/proceedings/papers/v33/begin14.pdf",
+    "citation": "B{\\'e}gin L., Germain P., Laviolette F. et al. (2014). PAC-Bayesian Theory for Transductive Learning.. AISTATS, , 105--113 ",
+    "uniq_id": "uwwWC3cAAAAJ:YFjsv_pBGBYC",
+    "year": "2014"
+  },
+  {
+    "url": "http://www.jmlr.org/proceedings/papers/v28/giguere13.pdf",
+    "citation": "Giguere S., Laviolette F., Marchand M. et al. (2013). Risk bounds and learning algorithms for the regression approach to structured output prediction. International Conference on Machine Learning, , 107--114 ",
+    "uniq_id": "uwwWC3cAAAAJ:hC7cP41nSMkC",
     "year": "2013"
   },
   {
@@ -126,10 +228,22 @@
     "year": "2015"
   },
   {
+    "url": "http://www.jmlr.org/proceedings/papers/v32/lacoste14.pdf",
+    "citation": "Larochelle H., Marchand M., Laviolette F. (2014). Agnostic Bayesian learning of ensembles. None, ,  ",
+    "uniq_id": "uwwWC3cAAAAJ:RHpTSmoSYBkC",
+    "year": "2014"
+  },
+  {
     "url": "https://arxiv.org/abs/1402.0796",
     "citation": "Lacoste A., Larochelle H., Laviolette F. et al. (2014). Sequential model-based ensemble optimization. arXiv preprint arXiv:1402.0796, ,  ",
     "uniq_id": "uwwWC3cAAAAJ:j3f4tGmQtD8C",
     "year": "2014"
+  },
+  {
+    "url": "http://www.jmlr.org/proceedings/papers/v26/seldin12a/seldin12a.pdf",
+    "citation": "Seldin Y., Cesa-Bianchi N., Auer P. et al. (2012). PAC-Bayes-Bernstein inequality for martingales and its application to multiarmed bandits. None, ,  ",
+    "uniq_id": "uwwWC3cAAAAJ:Zph67rFs4hoC",
+    "year": "2012"
   },
   {
     "url": "https://arxiv.org/abs/1105.4585",
@@ -156,16 +270,52 @@
     "year": "2011"
   },
   {
+    "url": "http://link.springer.com/chapter/10.1007/11766247_32",
+    "citation": "Desharnais J., Laviolette F., Moturu K. et al. (2006). Trace equivalence characterization through reinforcement learning. Conference of the Canadian Society for Computational Studies of Intelligence, , 371--382 ",
+    "uniq_id": "uwwWC3cAAAAJ:KlAtU1dfN6UC",
+    "year": "2006"
+  },
+  {
+    "url": "https://www.researchgate.net/profile/Richard_Khoury/publication/266629722_A_Framework_for_Building_Adaptive_Intelligent_Virtual_Assistants/links/55c8f4be08aeca747d670aa8.pdf",
+    "citation": "Lamontagne L., Laviolette F., Khoury R. et al. (2014). A framework for building adaptive intelligent virtual assistants. Proc. of the 13th IASTED Int\u2019l Conf. on Artificial Intelligence and Applications, , 17--19 ",
+    "uniq_id": "uwwWC3cAAAAJ:GnPB-g6toBAC",
+    "year": "2014"
+  },
+  {
+    "url": "http://link.springer.com/chapter/10.1007/978-3-642-04081-8_20",
+    "citation": "Desharnais J., Laviolette F., Turgeon A. (2009). A demonic approach to information in probabilistic systems. International Conference on Concurrency Theory, , 289--304 ",
+    "uniq_id": "uwwWC3cAAAAJ:_kc_bZDykSQC",
+    "year": "2009"
+  },
+  {
     "url": "http://www.sciencedirect.com/science/article/pii/0012365X9200524U",
     "citation": "Laviolette F. (1994). Decomposition of infinite eulerian graphs with a small number of vertices of infinite degree. Discrete Mathematics, 130, 83--87 ",
     "uniq_id": "uwwWC3cAAAAJ:YOwf2qJgpHMC",
     "year": "1994"
   },
   {
+    "url": "http://www.jmlr.org/proceedings/papers/v37/giguere15.pdf",
+    "citation": "Giguere S., Rolland A., Laviolette F. et al. (2015). Algorithms for the Hard Pre-Image Problem of String Kernels and the General Problem of String Prediction.. ICML, , 2021--2029 ",
+    "uniq_id": "uwwWC3cAAAAJ:CHSYGLWDkRkC",
+    "year": "2015"
+  },
+  {
     "url": "https://arxiv.org/abs/1412.1074",
     "citation": "Drouin A., Gigu{\\`e}re S., Sagatovich V. et al. (2014). Learning interpretable models of phenotypes from whole genome sequences with the Set Covering Machine. arXiv preprint arXiv:1412.1074, ,  ",
     "uniq_id": "uwwWC3cAAAAJ:3s1wT3WcHBgC",
     "year": "2014"
+  },
+  {
+    "url": "http://www2.ift.ulaval.ca/~pgiguere/papers/IJCAI2013.pdf",
+    "citation": "Latulippe M., Drouin A., Giguere P. et al. (2013). Accelerated Robust Point Cloud Registration in Natural Environments through Positive and Unlabeled Learning.. IJCAI, ,  ",
+    "uniq_id": "uwwWC3cAAAAJ:IWHjjKOFINEC",
+    "year": "2013"
+  },
+  {
+    "url": "http://link.springer.com/chapter/10.1007/978-3-642-15883-4_11",
+    "citation": "Lacasse A., Laviolette F., Marchand M. et al. (2010). Learning with randomized majority votes. Joint European Conference on Machine Learning and Knowledge Discovery in Databases, , 162--177 ",
+    "uniq_id": "uwwWC3cAAAAJ:mB3voiENLucC",
+    "year": "2010"
   },
   {
     "url": "http://www.jmlr.org/papers/v8/hussain07a.html",
@@ -186,16 +336,52 @@
     "year": "2016"
   },
   {
+    "url": "http://link.springer.com/chapter/10.1007/978-3-319-23219-5_29",
+    "citation": "Simard F., Morin M., Quimper C. et al. (2015). Bounding an optimal search path with a game of cop and robber on graphs. International Conference on Principles and Practice of Constraint Programming, , 403--418 ",
+    "uniq_id": "uwwWC3cAAAAJ:UxriW0iASnsC",
+    "year": "2015"
+  },
+  {
     "url": "http://www.sciencedirect.com/science/article/pii/S0890540113000163",
     "citation": "Desharnais J., Laviolette F., Zhioua S. (2013). Testing probabilistic equivalence through Reinforcement Learning. Information and Computation, 227, 21--57 ",
     "uniq_id": "uwwWC3cAAAAJ:TQgYirikUcIC",
     "year": "2013"
   },
   {
+    "url": "http://link.springer.com/chapter/10.1007/978-3-642-33558-7_65",
+    "citation": "Germain P., Giguere S., Roy J. et al. (2012). A pseudo-boolean set covering machine. Principles and Practice of Constraint Programming, , 916--924 ",
+    "uniq_id": "uwwWC3cAAAAJ:k_IJM867U9cC",
+    "year": "2012"
+  },
+  {
+    "url": "",
+    "citation": "Lacasse A., Laviolette F., Marchand M. (2009). PAC-Bayesian Learning of Linear Classifiers. Proceedings of the 26th International Conference on Machine Learning, ,  ",
+    "uniq_id": "uwwWC3cAAAAJ:dfsIfKJdRG4C",
+    "year": "2009"
+  },
+  {
     "url": "http://www.springerlink.com/index/2164J4U5612T1N57.pdf",
     "citation": "Zhioua S., Precup D., Laviolette F. et al. (2009). Learning the difference between partially observable dynamical systems. Machine Learning and Knowledge Discovery in Databases, , 664--677 ",
     "uniq_id": "uwwWC3cAAAAJ:7PzlFSSx8tAC",
     "year": "2009"
+  },
+  {
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.585.7630&rep=rep1&type=pdf",
+    "citation": "Laviolette F., Zhioua S. (2006). Testing stochastic processes through reinforcement learning. NIPS Workshop on Testing of Deployable Learning and Decision Systems, , 8 ",
+    "uniq_id": "uwwWC3cAAAAJ:mVmsd5A6BfQC",
+    "year": "2006"
+  },
+  {
+    "url": "http://www.jmlr.org/proceedings/papers/v51/roy16.pdf",
+    "citation": "Roy J., Marchand M., Laviolette F. (2016). A Column Generation Bound Minimization Approach with PAC-Bayesian Generalization Guarantees. Proceedings of the 19th International Conference on Artificial Intelligence and Statistics, , 1241--1249 ",
+    "uniq_id": "uwwWC3cAAAAJ:XiSMed-E-HIC",
+    "year": "2016"
+  },
+  {
+    "url": "https://hal.archives-ouvertes.fr/hal-01223164/",
+    "citation": "Germain P., Laviolette F., Habrard A. et al. (2015). A New PAC-Bayesian view of domain adaptation. NIPS 2015 Workshop on Transfer and Multi-Task Learning: Trends and New Perspectives, ,  ",
+    "uniq_id": "uwwWC3cAAAAJ:uWQEDVKXjbEC",
+    "year": "2015"
   },
   {
     "url": "https://arxiv.org/abs/1503.06944",
@@ -216,10 +402,28 @@
     "year": "2014"
   },
   {
+    "url": "http://link.springer.com/chapter/10.1007/978-3-319-10816-2_11",
+    "citation": "Chinaei H., Lamontagne L., Laviolette F. et al. (2014). A topic model scoring approach for personalized QA systems. International Conference on Text, Speech, and Dialogue, , 84--92 ",
+    "uniq_id": "uwwWC3cAAAAJ:SeFeTyx0c_EC",
+    "year": "2014"
+  },
+  {
     "url": "https://arxiv.org/abs/1212.2340",
     "citation": "Germain P., Habrard A., Laviolette F. et al. (2012). PAC-Bayesian Learning and Domain Adaptation. arXiv preprint arXiv:1212.2340, ,  ",
     "uniq_id": "uwwWC3cAAAAJ:TFP_iSt0sucC",
     "year": "2012"
+  },
+  {
+    "url": "http://link.springer.com/chapter/10.1007/978-3-540-68825-9_19",
+    "citation": "Laviolette F., Marchand M., Shanian S. (2008). Selective sampling for classification. Conference of the Canadian Society for Computational Studies of Intelligence, , 191--202 ",
+    "uniq_id": "uwwWC3cAAAAJ:-f6ydRqryjwC",
+    "year": "2008"
+  },
+  {
+    "url": "http://link.springer.com/chapter/10.1007/978-3-540-68825-9_31",
+    "citation": "Laviolette F., Tobin L. (2008). A stochastic point-based algorithm for pomdps. Conference of the Canadian Society for Computational Studies of Intelligence, , 332--343 ",
+    "uniq_id": "uwwWC3cAAAAJ:qUcmZB5y_30C",
+    "year": "2008"
   },
   {
     "url": "http://www.sciencedirect.com/science/article/pii/S0925231216310177",
@@ -234,10 +438,28 @@
     "year": "2016"
   },
   {
+    "url": "http://ieeexplore.ieee.org/abstract/document/7759384/",
+    "citation": "Allard U., Nougarou F., Fall C. et al. (2016). A convolutional neural network for robotic arm guidance using sEMG based frequency-features. Intelligent Robots and Systems (IROS), 2016 IEEE/RSJ International Conference on, , 2464--2470 ",
+    "uniq_id": "uwwWC3cAAAAJ:tS2w5q8j5-wC",
+    "year": "2016"
+  },
+  {
     "url": "https://pdfs.semanticscholar.org/6b57/b001f66968c93459c0b58762d28028bafed3.pdf",
     "citation": "Germain P., Habrard A., Laviolette F. et al. (2016). PAC-Bayesian Theorems for Domain Adaptation with Specialization to Linear Classifiers PAC-Bayesian Theorems for Multiview Learning. stat, 1050, 3 ",
     "uniq_id": "uwwWC3cAAAAJ:sSrBHYA8nusC",
     "year": "2016"
+  },
+  {
+    "url": "http://graal.ift.ulaval.ca/adrouin/talks/ccbc_glbio_2016.pdf",
+    "citation": "Drouin A., Gigu{\\`e}re S., D{\\'e}raspe M. et al. (2016). Set Covering Machines and Reference-Free Genome Comparisons Uncover Predictive Biomarkers of Antibiotic Resistance. None, ,  ",
+    "uniq_id": "uwwWC3cAAAAJ:K3LRdlH-MEoC",
+    "year": "2016"
+  },
+  {
+    "url": "http://dl.acm.org/citation.cfm?id=2888865",
+    "citation": "Morin M., Paradis F., Rolland A. et al. (2015). Machine learning-based metamodels for sawing simulation. Proceedings of the 2015 Winter Simulation Conference, , 2160--2171 ",
+    "uniq_id": "uwwWC3cAAAAJ:OU6Ihb5iCvQC",
+    "year": "2015"
   },
   {
     "url": "https://arxiv.org/abs/1506.02535",
@@ -249,6 +471,12 @@
     "url": "https://arxiv.org/abs/1505.06249",
     "citation": "Drouin A., Gigu{\\`e}re S., D{\\'e}raspe M. et al. (2015). Greedy Biomarker Discovery in the Genome with Applications to Antimicrobial Resistance. arXiv preprint arXiv:1505.06249, ,  ",
     "uniq_id": "uwwWC3cAAAAJ:abG-DnoFyZgC",
+    "year": "2015"
+  },
+  {
+    "url": "http://ai2-s2-pdfs.s3.amazonaws.com/d4e6/fbdbeac6f295679d5eb6554cbc0a0af624cc.pdf",
+    "citation": "Allard U., Khoury R., Lamontagne L. et al. (2015). Optimizing Question-Answering Systems Using Genetic Algorithms.. FLAIRS Conference, , 32--37 ",
+    "uniq_id": "uwwWC3cAAAAJ:EUQCXRtRnyEC",
     "year": "2015"
   },
   {
@@ -288,123 +516,9 @@
     "year": "2013"
   },
   {
-    "url": "",
-    "citation": "Benveniste A., Blumensath A., Bournez O. et al. (2006). Eijck, Jan van, 1620. Information and Computation, 204, 1853--1854 ",
-    "uniq_id": "uwwWC3cAAAAJ:2P1L_qKh6hAC",
-    "year": "2006"
-  },
-  {
-    "url": "http://www.sciencedirect.com/science/article/pii/S1571066104051370",
-    "citation": "Laviolette F. (2004). The Countable Character of Uncountable Graphs. Electronic Notes in Theoretical Computer Science, 87, 205--224 ",
-    "uniq_id": "uwwWC3cAAAAJ:bEWYMUwI8FkC",
-    "year": "2004"
-  },
-  {
-    "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-2889-6",
-    "citation": "Drouin A., Gigu{\\`e}re S., D{\\'e}raspe M. et al. (2016). Predictive computational phenotyping and biomarker discovery using reference-free genome comparisons. BMC genomics, 17, 754 ",
-    "uniq_id": "uwwWC3cAAAAJ:738O_yMBCRsC",
-    "year": "2016"
-  },
-  {
-    "url": "http://iopscience.iop.org/article/10.1209/0295-5075/11/6/001/meta",
-    "citation": "Marchand M., Golea M., Ruj{\\'a}n P. (1990). A convergence theorem for sequential learning in two-layer perceptrons. EPL (Europhysics Letters), 11, 487 ",
-    "uniq_id": "M792u2sAAAAJ:maZDTaKrznsC",
-    "year": "1990"
-  },
-  {
-    "url": "http://www.jmlr.org/papers/v3/marchand02a.html",
-    "citation": "Marchand M., Shawe-Taylor J. (2002). The set covering machine. Journal of Machine Learning Research, 3, 723--746 ",
-    "uniq_id": "M792u2sAAAAJ:M3NEmzRMIkIC",
-    "year": "2002"
-  },
-  {
-    "url": "http://iopscience.iop.org/article/10.1209/0295-5075/12/3/003/meta",
-    "citation": "Golea M., Marchand M. (1990). A growth algorithm for neural network decision trees. EPL (Europhysics Letters), 12, 205 ",
-    "uniq_id": "M792u2sAAAAJ:JV2RwH3_ST0C",
-    "year": "1990"
-  },
-  {
-    "url": "http://www.jmlr.org/papers/volume17/15-239/source/15-239.pdf",
-    "citation": "Ganin Y., Ustinova E., Ajakan H. et al. (2016). Domain-adversarial training of neural networks. Journal of Machine Learning Research, 17, 1--35 ",
-    "uniq_id": "M792u2sAAAAJ:5ugPr518TE4C",
-    "year": "2016"
-  },
-  {
-    "url": "http://www.tandfonline.com/doi/abs/10.1088/0954-898X_4_1_005",
-    "citation": "Marchand M., Golea M. (1993). On learning simple neural concepts: from halfspace intersections to neural decision lists. Network: Computation in Neural Systems, 4, 67--85 ",
-    "uniq_id": "M792u2sAAAAJ:hMod-77fHWUC",
-    "year": "1993"
-  },
-  {
-    "url": "http://www.jmlr.org/papers/v6/marchand05a.html",
-    "citation": "Marchand M., Sokolova M. (2005). Learning with decision lists of data-dependent features. Journal of Machine Learning Research, 6, 427--451 ",
-    "uniq_id": "M792u2sAAAAJ:GnPB-g6toBAC",
-    "year": "2005"
-  },
-  {
-    "url": "https://papers.nips.cc/paper/2959-pac-bayes-bounds-for-the-risk-of-the-majority-vote-and-the-variance-of-the-gibbs-classifier.pdf",
-    "citation": "Lacasse A., Laviolette F., Marchand M. et al. (2007). PAC-Bayes bounds for the risk of the majority vote and the variance of the Gibbs classifier. Advances in Neural Information Processing Systems, 19, 769 ",
-    "uniq_id": "M792u2sAAAAJ:NaGl4SEjCO4C",
-    "year": "2007"
-  },
-  {
-    "url": "http://ieeexplore.ieee.org/abstract/document/5765989/",
-    "citation": "Shah M., Marchand M., Corbeil J. (2012). Feature selection with conjunctions of decision stumps and learning from microarray data. IEEE transactions on pattern analysis and machine intelligence, 34, 174--186 ",
-    "uniq_id": "M792u2sAAAAJ:2P1L_qKh6hAC",
-    "year": "2012"
-  },
-  {
-    "url": "https://retrovirology.biomedcentral.com/articles/10.1186/1742-4690-5-110",
-    "citation": "Boisvert S., Marchand M., Laviolette F. et al. (2008). HIV-1 coreceptor usage prediction without multiple alignments: an application of string kernels. Retrovirology, 5, 110 ",
-    "uniq_id": "M792u2sAAAAJ:BqipwSGYUEgC",
-    "year": "2008"
-  },
-  {
-    "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.58.1660",
-    "citation": "Marchand M., Hood K., Caill{\\'e} A. (1987). Nonconvex interactions and the occurrence of modulated phases. Physical review letters, 58, 1660 ",
-    "uniq_id": "M792u2sAAAAJ:iH-uZ7U-co4C",
-    "year": "1987"
-  },
-  {
-    "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.37.1898",
-    "citation": "Marchand M., Hood K., Caill{\\'e} A. (1988). Nonconvex interactions: A mechanism for the occurrence of modulated order in condensed matter. Physical Review B, 37, 1898 ",
-    "uniq_id": "M792u2sAAAAJ:bEWYMUwI8FkC",
-    "year": "1988"
-  },
-  {
-    "url": "https://arxiv.org/abs/1412.4446",
-    "citation": "Ajakan H., Germain P., Larochelle H. et al. (2014). Domain-adversarial neural networks. arXiv preprint arXiv:1412.4446, ,  ",
-    "uniq_id": "M792u2sAAAAJ:q3oQSFYPqjQC",
-    "year": "2014"
-  },
-  {
-    "url": "http://www.jmlr.org/papers/v8/laviolette07a.html",
-    "citation": "Laviolette F., Marchand M. (2007). PAC-Bayes risk bounds for stochastic averages and majority votes of sample-compressed classifiers. Journal of Machine Learning Research, 8, 1461--1487 ",
-    "uniq_id": "M792u2sAAAAJ:vV6vV6tmYwMC",
-    "year": "2007"
-  },
-  {
-    "url": "https://papers.nips.cc/paper/2235-the-decision-list-machine.pdf",
-    "citation": "Sokolova M., Marchand M., Japkowicz N. et al. (2003). The decision list machine. Advances in Neural Information Processing Systems, , 945--952 ",
-    "uniq_id": "M792u2sAAAAJ:RGFaLdJalmkC",
-    "year": "2003"
-  },
-  {
-    "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-82",
-    "citation": "Gigu{\\`e}re S., Marchand M., Laviolette F. et al. (2013). Learning a peptide-protein binding affinity predictor with kernel ridge regression. BMC bioinformatics, 14, 82 ",
-    "uniq_id": "M792u2sAAAAJ:cFHS6HbyZ2cC",
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.361.7062&rep=rep1&type=pdf",
+    "citation": "Panangaden P., Danos V., Desharnais J. et al. (2013). Approximating Markov Processes, Again!. None, ,  ",
+    "uniq_id": "uwwWC3cAAAAJ:a0OBvERweLwC",
     "year": "2013"
-  },
-  {
-    "url": "http://link.springer.com/article/10.1023/A:1022637108202",
-    "citation": "Hancock T., Golea M., Marchand M. (1994). Learning nonoverlapping perceptron networks from examples and membership queries. Machine Learning, 16, 161--183 ",
-    "uniq_id": "M792u2sAAAAJ:ns9cj8rnVeAC",
-    "year": "1994"
-  },
-  {
-    "url": "http://dl.acm.org/citation.cfm?id=2831140",
-    "citation": "Germain P., Lacasse A., Laviolette F. et al. (2015). Risk bounds for the majority vote: From a PAC-Bayesian analysis to a learning algorithm. The Journal of Machine Learning Research, 16, 787--860 ",
-    "uniq_id": "M792u2sAAAAJ:V3AGJWp-ZtQC",
-    "year": "2015"
   }
 ]
