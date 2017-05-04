@@ -520,5 +520,221 @@
     "citation": "Panangaden P., Danos V., Desharnais J. et al. (2013). Approximating Markov Processes, Again!. None, ,  ",
     "uniq_id": "uwwWC3cAAAAJ:a0OBvERweLwC",
     "year": "2013"
+  },
+  {
+    "url": "http://www.sciencedirect.com/science/article/pii/S0012365X00001278",
+    "citation": "Chastand M., Laviolette F., Polat N. (2000). On constructible graphs, infinite bridged graphs and weakly cop-win graphs. Discrete Mathematics, 224, 61--78 ",
+    "uniq_id": "uwwWC3cAAAAJ:zYLM7Y9cAGgC",
+    "year": "2000"
+  },
+  {
+    "url": "http://papers.nips.cc/paper/4227-pac-bayesian-analysis-of-contextual-bandits",
+    "citation": "Seldin Y., Auer P., Shawe-Taylor J. et al. (2011). PAC-Bayesian analysis of contextual bandits. Advances in Neural Information Processing Systems, , 1683--1691 ",
+    "uniq_id": "uwwWC3cAAAAJ:UebtZRa9Y70C",
+    "year": "2011"
+  },
+  {
+    "url": "",
+    "citation": "Laviolette F., Lever G., Shawe-Taylor J. (2010). distribution-dependent PAC-Bayes priors. None, ,  ",
+    "uniq_id": "uwwWC3cAAAAJ:4JMBOYKVnBMC",
+    "year": "2010"
+  },
+  {
+    "url": "",
+    "citation": "Benveniste A., Blumensath A., Bournez O. et al. (2006). Eijck, Jan van, 1620. Information and Computation, 204, 1853--1854 ",
+    "uniq_id": "uwwWC3cAAAAJ:2P1L_qKh6hAC",
+    "year": "2006"
+  },
+  {
+    "url": "http://theses.ulaval.ca/archimede/meta/23679",
+    "citation": "Gagnon J. (2006). Colliers et bracelets dont les perles importent peu. None, ,  ",
+    "uniq_id": "uwwWC3cAAAAJ:70eg2SAEIzsC",
+    "year": "2006"
+  },
+  {
+    "url": "https://pdfs.semanticscholar.org/66d0/23a4184f0df984cd8a79f5c940c1878a2370.pdf",
+    "citation": "Danos V., Desharnais J., Laviolette F. et al. (2005). Almost Sure Bisimulation in Labelled Markov Processes. None, ,  ",
+    "uniq_id": "uwwWC3cAAAAJ:blknAaTinKkC",
+    "year": "2005"
+  },
+  {
+    "url": "http://www.sciencedirect.com/science/article/pii/S1571066104051370",
+    "citation": "Laviolette F. (2004). The Countable Character of Uncountable Graphs. Electronic Notes in Theoretical Computer Science, 87, 205--224 ",
+    "uniq_id": "uwwWC3cAAAAJ:bEWYMUwI8FkC",
+    "year": "2004"
+  },
+  {
+    "url": "http://elibrary.ru/item.asp?id=6675590",
+    "citation": "LAVIOLETTE F. (1997). DECOMPOSITIONS ET AUTRES FORMES DE RECOUVREMENTS DE GRAPHES INFINIS (FRENCH AND ENGLISH TEXT). None, ,  ",
+    "uniq_id": "uwwWC3cAAAAJ:l7t_Zn2s7bgC",
+    "year": "1997"
+  },
+  {
+    "url": "",
+    "citation": "Laviolette F. (1987). Treillis localiques et topologie. None, ,  ",
+    "uniq_id": "uwwWC3cAAAAJ:ns9cj8rnVeAC",
+    "year": "1987"
+  },
+  {
+    "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-2889-6",
+    "citation": "Drouin A., Gigu{\\`e}re S., D{\\'e}raspe M. et al. (2016). Predictive computational phenotyping and biomarker discovery using reference-free genome comparisons. BMC genomics, 17, 754 ",
+    "uniq_id": "uwwWC3cAAAAJ:738O_yMBCRsC",
+    "year": "2016"
+  },
+  {
+    "url": "http://iopscience.iop.org/article/10.1209/0295-5075/11/6/001/meta",
+    "citation": "Marchand M., Golea M., Ruj{\\'a}n P. (1990). A convergence theorem for sequential learning in two-layer perceptrons. EPL (Europhysics Letters), 11, 487 ",
+    "uniq_id": "M792u2sAAAAJ:maZDTaKrznsC",
+    "year": "1990"
+  },
+  {
+    "url": "http://www.jmlr.org/papers/v3/marchand02a.html",
+    "citation": "Marchand M., Shawe-Taylor J. (2002). The set covering machine. Journal of Machine Learning Research, 3, 723--746 ",
+    "uniq_id": "M792u2sAAAAJ:M3NEmzRMIkIC",
+    "year": "2002"
+  },
+  {
+    "url": "http://dl.acm.org/citation.cfm?id=1553419",
+    "citation": "Germain P., Lacasse A., Laviolette F. et al. (2009). PAC-Bayesian learning of linear classifiers. Proceedings of the 26th Annual International Conference on Machine Learning, , 353--360 ",
+    "uniq_id": "M792u2sAAAAJ:blknAaTinKkC",
+    "year": "2009"
+  },
+  {
+    "url": "http://ieeexplore.ieee.org/abstract/document/118686/",
+    "citation": "Rujan P., Marchand M. (1989). A geometric approach to learning in neural networks. Proceedings of the International Joint Conference on Nerual Networks II, 105, 109 ",
+    "uniq_id": "M792u2sAAAAJ:YFjsv_pBGBYC",
+    "year": "1989"
+  },
+  {
+    "url": "http://iopscience.iop.org/article/10.1209/0295-5075/12/3/003/meta",
+    "citation": "Golea M., Marchand M. (1990). A growth algorithm for neural network decision trees. EPL (Europhysics Letters), 12, 205 ",
+    "uniq_id": "M792u2sAAAAJ:JV2RwH3_ST0C",
+    "year": "1990"
+  },
+  {
+    "url": "http://www.jmlr.org/papers/volume17/15-239/source/15-239.pdf",
+    "citation": "Ganin Y., Ustinova E., Ajakan H. et al. (2016). Domain-adversarial training of neural networks. Journal of Machine Learning Research, 17, 1--35 ",
+    "uniq_id": "M792u2sAAAAJ:5ugPr518TE4C",
+    "year": "2016"
+  },
+  {
+    "url": "http://www.tandfonline.com/doi/abs/10.1088/0954-898X_4_1_005",
+    "citation": "Marchand M., Golea M. (1993). On learning simple neural concepts: from halfspace intersections to neural decision lists. Network: Computation in Neural Systems, 4, 67--85 ",
+    "uniq_id": "M792u2sAAAAJ:hMod-77fHWUC",
+    "year": "1993"
+  },
+  {
+    "url": "http://www.jmlr.org/papers/v6/marchand05a.html",
+    "citation": "Marchand M., Sokolova M. (2005). Learning with decision lists of data-dependent features. Journal of Machine Learning Research, 6, 427--451 ",
+    "uniq_id": "M792u2sAAAAJ:GnPB-g6toBAC",
+    "year": "2005"
+  },
+  {
+    "url": "https://papers.nips.cc/paper/2959-pac-bayes-bounds-for-the-risk-of-the-majority-vote-and-the-variance-of-the-gibbs-classifier.pdf",
+    "citation": "Lacasse A., Laviolette F., Marchand M. et al. (2007). PAC-Bayes bounds for the risk of the majority vote and the variance of the Gibbs classifier. Advances in Neural Information Processing Systems, 19, 769 ",
+    "uniq_id": "M792u2sAAAAJ:NaGl4SEjCO4C",
+    "year": "2007"
+  },
+  {
+    "url": "http://ieeexplore.ieee.org/abstract/document/5765989/",
+    "citation": "Shah M., Marchand M., Corbeil J. (2012). Feature selection with conjunctions of decision stumps and learning from microarray data. IEEE transactions on pattern analysis and machine intelligence, 34, 174--186 ",
+    "uniq_id": "M792u2sAAAAJ:2P1L_qKh6hAC",
+    "year": "2012"
+  },
+  {
+    "url": "https://retrovirology.biomedcentral.com/articles/10.1186/1742-4690-5-110",
+    "citation": "Boisvert S., Marchand M., Laviolette F. et al. (2008). HIV-1 coreceptor usage prediction without multiple alignments: an application of string kernels. Retrovirology, 5, 110 ",
+    "uniq_id": "M792u2sAAAAJ:BqipwSGYUEgC",
+    "year": "2008"
+  },
+  {
+    "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.58.1660",
+    "citation": "Marchand M., Hood K., Caill{\\'e} A. (1987). Nonconvex interactions and the occurrence of modulated phases. Physical review letters, 58, 1660 ",
+    "uniq_id": "M792u2sAAAAJ:iH-uZ7U-co4C",
+    "year": "1987"
+  },
+  {
+    "url": "http://machinelearning.wustl.edu/mlpapers/paper_files/ICML2011Roy_379.pdf",
+    "citation": "Roy J., Marchand M., Laviolette F. (2011). From PAC-Bayes bounds to quadratic programs for majority votes. Proceedings of the 28th International Conference on Machine Learning (ICML-11), , 649--656 ",
+    "uniq_id": "M792u2sAAAAJ:SeFeTyx0c_EC",
+    "year": "2011"
+  },
+  {
+    "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.37.1898",
+    "citation": "Marchand M., Hood K., Caill{\\'e} A. (1988). Nonconvex interactions: A mechanism for the occurrence of modulated order in condensed matter. Physical Review B, 37, 1898 ",
+    "uniq_id": "M792u2sAAAAJ:bEWYMUwI8FkC",
+    "year": "1988"
+  },
+  {
+    "url": "https://arxiv.org/abs/1412.4446",
+    "citation": "Ajakan H., Germain P., Larochelle H. et al. (2014). Domain-adversarial neural networks. arXiv preprint arXiv:1412.4446, ,  ",
+    "uniq_id": "M792u2sAAAAJ:q3oQSFYPqjQC",
+    "year": "2014"
+  },
+  {
+    "url": "http://www.jmlr.org/papers/v8/laviolette07a.html",
+    "citation": "Laviolette F., Marchand M. (2007). PAC-Bayes risk bounds for stochastic averages and majority votes of sample-compressed classifiers. Journal of Machine Learning Research, 8, 1461--1487 ",
+    "uniq_id": "M792u2sAAAAJ:vV6vV6tmYwMC",
+    "year": "2007"
+  },
+  {
+    "url": "https://www.researchgate.net/profile/Mario_Marchand/publication/2371609_Learning_with_the_Set_Covering_Machine/links/0fcfd50c8b5c77d3cd000000.pdf",
+    "citation": "Marchand M., Shawe-Taylor J. (2001). Learning with the set covering machine. ICML, , 345--352 ",
+    "uniq_id": "M792u2sAAAAJ:O3NaXMp0MMsC",
+    "year": "2001"
+  },
+  {
+    "url": "https://papers.nips.cc/paper/2235-the-decision-list-machine.pdf",
+    "citation": "Sokolova M., Marchand M., Japkowicz N. et al. (2003). The decision list machine. Advances in Neural Information Processing Systems, , 945--952 ",
+    "uniq_id": "M792u2sAAAAJ:RGFaLdJalmkC",
+    "year": "2003"
+  },
+  {
+    "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-82",
+    "citation": "Gigu{\\`e}re S., Marchand M., Laviolette F. et al. (2013). Learning a peptide-protein binding affinity predictor with kernel ridge regression. BMC bioinformatics, 14, 82 ",
+    "uniq_id": "M792u2sAAAAJ:cFHS6HbyZ2cC",
+    "year": "2013"
+  },
+  {
+    "url": "http://link.springer.com/article/10.1023/A:1022637108202",
+    "citation": "Hancock T., Golea M., Marchand M. (1994). Learning nonoverlapping perceptron networks from examples and membership queries. Machine Learning, 16, 161--183 ",
+    "uniq_id": "M792u2sAAAAJ:ns9cj8rnVeAC",
+    "year": "1994"
+  },
+  {
+    "url": "http://papers.nips.cc/paper/3821-from-pac-bayes-bounds-to-kl-regularization",
+    "citation": "Germain P., Lacasse A., Marchand M. et al. (2009). From PAC-Bayes bounds to KL regularization. Advances in Neural Information Processing Systems, , 603--610 ",
+    "uniq_id": "M792u2sAAAAJ:35N4QoGY0k4C",
+    "year": "2009"
+  },
+  {
+    "url": "http://dl.acm.org/citation.cfm?id=2831140",
+    "citation": "Germain P., Lacasse A., Laviolette F. et al. (2015). Risk bounds for the majority vote: From a PAC-Bayesian analysis to a learning algorithm. The Journal of Machine Learning Research, 16, 787--860 ",
+    "uniq_id": "M792u2sAAAAJ:V3AGJWp-ZtQC",
+    "year": "2015"
+  },
+  {
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.46.7658",
+    "citation": "Ruj{\\'a}n P., Marchand M. (1999). Computing the Bayes kernel classifier. None, ,  ",
+    "uniq_id": "M792u2sAAAAJ:J_g5lzvAfSwC",
+    "year": "1999"
+  },
+  {
+    "url": "https://otik.uk.zcu.cz/handle/11025/1319",
+    "citation": "Quirion S., Duchesne C., Laurendeau D. et al. (2008). Comparing gplvm approaches for dimensionality reduction in character animation. None, ,  ",
+    "uniq_id": "M792u2sAAAAJ:rO6llkc54NcC",
+    "year": "2008"
+  },
+  {
+    "url": "http://www.mitpressjournals.org/doi/abs/10.1162/neco.1993.5.5.767",
+    "citation": "Golea M., Marchand M. (1993). On learning perceptrons with binary weights. Neural Computation, 5, 767--782 ",
+    "uniq_id": "M792u2sAAAAJ:RYcK_YlVTxYC",
+    "year": "1993"
+  },
+  {
+    "url": "http://www.jmlr.org/proceedings/papers/v22/lacoste12/lacoste12.pdf",
+    "citation": "Lacoste A., Laviolette F., Marchand M. (2012). Bayesian Comparison of Machine Learning Algorithms on Single and Multiple Datasets.. AISTATS, , 665--675 ",
+    "uniq_id": "M792u2sAAAAJ:xtRiw3GOFMkC",
+    "year": "2012"
   }
 ]
