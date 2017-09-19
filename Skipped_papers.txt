@@ -1,137 +1,48 @@
-Can't find authors, journal or year for PAC-Bayesian learning of linear classifiers. Entry was skipped.
-Can't find authors, journal or year for Approximate analysis of probabilistic processes: Logic, simulation and games. Entry was skipped.
-Can't find authors, journal or year for From PAC-Bayes bounds to quadratic programs for majority votes. Entry was skipped.
-Can't find authors, journal or year for PAC-Bayesian analysis of contextual bandits. Entry was skipped.
-Can't find authors, journal or year for Distribution-dependent PAC-Bayes priors. Entry was skipped.
-Can't find authors, journal or year for From PAC-Bayes bounds to KL regularization. Entry was skipped.
-Can't find authors, journal or year for A PAC-Bayesian Approach for Domain Adaptation with Specialization to Linear Classifiers.. Entry was skipped.
-Can't find authors, journal or year for Bayesian Comparison of Machine Learning Algorithms on Single and Multiple Datasets.. Entry was skipped.
-Can't find authors, journal or year for Constraint programming for path planning with uncertainty. Entry was skipped.
-Can't find authors, journal or year for PAC-Bayes risk bounds for sample-compressed Gibbs classifiers. Entry was skipped.
-Can't find authors, journal or year for A pac-bayes risk bound for general loss functions. Entry was skipped.
-Can't find authors, journal or year for A PAC-Bayes sample-compression approach to kernel methods. Entry was skipped.
-Can't find authors, journal or year for Margin-sparsity trade-off for the set covering machine. Entry was skipped.
-Can't find authors, journal or year for A transductive bound for the voted classifier with an application to semi-supervised learning. Entry was skipped.
-Can't find authors, journal or year for A new PAC-Bayesian perspective on domain adaptation. Entry was skipped.
-Can't find authors, journal or year for Testing probabilistic equivalence through reinforcement learning. Entry was skipped.
-Can't find authors, journal or year for A selective sampling strategy for label ranking. Entry was skipped.
-Can't find authors, journal or year for PAC-Bayesian Theory for Transductive Learning.. Entry was skipped.
-Can't find authors, journal or year for Risk bounds and learning algorithms for the regression approach to structured output prediction. Entry was skipped.
-Can't find authors, journal or year for Agnostic Bayesian learning of ensembles. Entry was skipped.
-Paper was not kept for an unknown error: Decompositions of infinite graphs: I—bond-faithful decompositions
 Paper was not kept for an unknown error: PAC-Bayesian bounds based on the Rényi divergence
-Can't find authors, journal or year for PAC-Bayes-Bernstein inequality for martingales and its application to multiarmed bandits. Entry was skipped.
-Can't find authors, journal or year for Trace equivalence characterization through reinforcement learning. Entry was skipped.
-Can't find authors, journal or year for A framework for building adaptive intelligent virtual assistants. Entry was skipped.
-Can't find authors, journal or year for A demonic approach to information in probabilistic systems. Entry was skipped.
-Can't find authors, journal or year for Algorithms for the Hard Pre-Image Problem of String Kernels and the General Problem of String Prediction.. Entry was skipped.
-Can't find authors, journal or year for Accelerated Robust Point Cloud Registration in Natural Environments through Positive and Unlabeled Learning.. Entry was skipped.
-Can't find authors, journal or year for Learning with randomized majority votes. Entry was skipped.
-Can't find authors, journal or year for Bounding an optimal search path with a game of cop and robber on graphs. Entry was skipped.
-Can't find authors, journal or year for A pseudo-boolean set covering machine. Entry was skipped.
-Can't find authors, journal or year for PAC-Bayesian Learning of Linear Classifiers. Entry was skipped.
-Can't find authors, journal or year for Testing stochastic processes through reinforcement learning. Entry was skipped.
+Paper was not kept for an unknown error: Decompositions of infinite graphs: I—bond-faithful decompositions
 Can't find authors, journal or year for PAC-Bayesian inequalities for martingales. 2011b. In review. Entry was skipped.
-Can't find authors, journal or year for A Column Generation Bound Minimization Approach with PAC-Bayesian Generalization Guarantees. Entry was skipped.
-Can't find authors, journal or year for A New PAC-Bayesian view of domain adaptation. Entry was skipped.
-Can't find authors, journal or year for A topic model scoring approach for personalized QA systems. Entry was skipped.
 Paper was not kept for an unknown error: Une analyse PAC-Bayésienne de l'adaptation de domaine et sa spécialisation aux classifieurs linéaires
-Can't find authors, journal or year for Selective sampling for classification. Entry was skipped.
-Can't find authors, journal or year for A stochastic point-based algorithm for pomdps. Entry was skipped.
 Paper was not kept for an unknown error: Decompositions of infinite graphs: Part I–Bond-faithful decompositions
-Can't find authors, journal or year for Human analysts at superhuman scales. Entry was skipped.
-Can't find authors, journal or year for A convolutional neural network for robotic arm guidance using sEMG based frequency-features. Entry was skipped.
 Paper was not kept for an unknown error: Théorèmes PAC-Bayésiens pour l'apprentissage multi-vues
-Can't find authors, journal or year for Set Covering Machines and Reference-Free Genome Comparisons Uncover Predictive Biomarkers of Antibiotic Resistance. Entry was skipped.
-Can't find authors, journal or year for Machine learning-based metamodels for sawing simulation. Entry was skipped.
-Can't find authors, journal or year for Optimizing Question-Answering Systems Using Genetic Algorithms.. Entry was skipped.
 Paper was not kept for an unknown error: MAT-1919: Mathématiques pour informaticien
-Can't find authors, journal or year for Approximating Markov Processes, Again!. Entry was skipped.
 Paper was not kept for an unknown error: MAT-1919: Mathématiques pour informaticien
-Can't find authors, journal or year for distribution-dependent PAC-Bayes priors. Entry was skipped.
-Can't find authors, journal or year for Colliers et bracelets dont les perles importent peu. Entry was skipped.
-Can't find authors, journal or year for Almost Sure Bisimulation in Labelled Markov Processes. Entry was skipped.
 Paper was not kept for an unknown error: Décompositions et autres formes de recouvrements de graphes infinis
-Can't find authors, journal or year for DECOMPOSITIONS ET AUTRES FORMES DE RECOUVREMENTS DE GRAPHES INFINIS (FRENCH AND ENGLISH TEXT). Entry was skipped.
-Can't find authors, journal or year for Treillis localiques et topologie. Entry was skipped.
 Paper was not kept for an unknown error: A New PAC-Bayesian Perspective on Domain Adaptation–Supplementary Material
 Paper was not kept for an unknown error: Algorithmes d’apprentissage automatique inspirés de la théorie PAC-Bayes
+Can't find authors, journal or year for The distant segments kernel and the support vector machine: an alignment-free method for HIV type 1 coreceptor usage prediction. Entry was skipped.
+Can't find authors, journal or year for CqBoost: A Column Generation Method for Minimizing the C-Bound. Entry was skipped.
+Can't find authors, journal or year for Addendum: Relaxation of the Optimal Search Path Problem with the Cop and Robber Game. Entry was skipped.
+Can't find authors, journal or year for Vertex transitive cop-win graphs... and more. Entry was skipped.
+Can't find authors, journal or year for Model Averaging With Holdout Estimation of the Posterior Distribution. Entry was skipped.
+Can't find authors, journal or year for PAC-Bayesian Analysis: A Link Between Inference and Statistical Physics. Entry was skipped.
+Can't find authors, journal or year for PAC-Bayesian Analysis in Supervised, Unsupervised, and Reinforcement Learning. Entry was skipped.
 Can't find authors, journal or year for Supplementary Material to A PAC-Bayesian Approach for Domain Adaptation with Specialization to Linear Classifiers. Entry was skipped.
 Can't find authors, journal or year for A PAC-Bayes Sample-compression Approach to Kernel Methods: Supplementary material. Entry was skipped.
 Paper was not kept for an unknown error: La théorie PAC-Bayes en apprentissage supervisé
 Paper was not kept for an unknown error: ICML 2013–SUPPLEMENTARY MATERIAL
 Can't find authors, journal or year for Agnostic Bayesian Learning of Ensembles. Entry was skipped.
-Can't find authors, journal or year for PAC-Bayesian learning of linear classifiers. Entry was skipped.
-Can't find authors, journal or year for A geometric approach to learning in neural networks. Entry was skipped.
-Can't find authors, journal or year for From PAC-Bayes bounds to quadratic programs for majority votes. Entry was skipped.
-Can't find authors, journal or year for Learning with the set covering machine. Entry was skipped.
-Can't find authors, journal or year for From PAC-Bayes bounds to KL regularization. Entry was skipped.
-Can't find authors, journal or year for Computing the Bayes kernel classifier. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
+Paper was not kept for an unknown error: On learning µ-perceptron networks with binary weights
 Paper was not kept for an unknown error: On learning μ-perceptron networks on the uniform distribution
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
 Paper was not kept for an unknown error: A brief study of the classical statistical mechanics of spin–Peierls chains
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
+Can't find authors, journal or year for Ift-65764 apprentissage automatique (machine learning). Entry was skipped.
 Paper was not kept for an unknown error: Strong unimodality and exact learning of constant depth µ-perceptron networks
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
 Paper was not kept for an unknown error: IFT-2008: Algorithmes et structures de données
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
 Paper was not kept for an unknown error: GLO-2100: Algorithmes et structures de données pour ingénieurs
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
 Paper was not kept for an unknown error: Perspective chrétienne d'une justice alternative: la justice réparatrice
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
+Paper was not kept for an unknown error: GLO-2100: Algorithmes et structures de données pour ingénieurs
+Can't find authors, journal or year for Risk Bounds and Learning Algorithms for the Regression Ap-proach to Structured Output Prediction. Entry was skipped.
+Can't find authors, journal or year for A Geometric Approach to Learning in Neural Networks. Entry was skipped.
+Can't find authors, journal or year for Large Margin Learning for Prediction over Unknown Graph Structures-A Multiple Kernel Learning Approach. Entry was skipped.
+Can't find authors, journal or year for Multiple Kernel Learning for Prediction on Unknown Graph Structures. Entry was skipped.
 Paper was not kept for an unknown error: Algorithmes d’apprentissage automatique inspirés de la théorie PAC-Bayes
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
+Can't find authors, journal or year for CqBoost: A Column Generation Method for Minimizing the C-Bound. Entry was skipped.
 Paper was not kept for an unknown error: Algorithmes d’apprentissage prometteurs pour problèmes de classification
 Paper was not kept for an unknown error: PAC-Bayes Bounds for the Risk of the Majority Vote and the Variance of the Gibbs Classiﬁer
 Paper was not kept for an unknown error: ICML 2013–SUPPLEMENTARY MATERIAL
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
-Can't find authors, journal or year for Comparing gplvm approaches for dimensionality reduction in character animation. Entry was skipped.
+Can't find authors, journal or year for Model Averaging With Holdout Estimation of the Posterior Distribution. Entry was skipped.
+Can't find authors, journal or year for 18 Computing the Bayes Kernel Classier. Entry was skipped.
+Can't find authors, journal or year for PAC-Bayes Learning of Conjunctions and Classification of Gene-Expression Data. Entry was skipped.
+Can't find authors, journal or year for A PAC-Bayes Sample-compression Approach to Kernel Methods: Supplementary material. Entry was skipped.
+Can't find authors, journal or year for A quick sample.... Entry was skipped.
+Can't find authors, journal or year for The distant segments kernel and the support vector machine: an alignment-free method for HIV type 1 coreceptor usage prediction. Entry was skipped.
+Can't find authors, journal or year for 18 Computing the Bayes Kernel Classifier. Entry was skipped.

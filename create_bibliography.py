@@ -33,6 +33,7 @@ def create_bibliography():
         author = next(author_query).fill()
         logging.debug("Filled author\n")
         for publication_short in author.publications:
+            print("Working on publication:")
             print(publication_short)
             try:
                # 1. Do we already have the publication in the bibliography?
@@ -43,14 +44,16 @@ def create_bibliography():
                 if seen_id[uniq_id]:  # We already have this publication in the shelves.
                     logging.debug("Publication with id %s was already in the shelves" % uniq_id)
                     continue
-                logging.debug("Searching full entry for: %s\n"%publication_short.bib["title"])
+
+                print("Searching full entry for: %s\n"%publication_short.bib["title"])
 
                 # 2. Publication was not in the shelves. Search for the publication informations.
                 for publication_full in scholarly.search_pubs_query(publication_short.bib["title"]):
-                    print(publication_full)
+                    print("one hit: %s" %publication_full)
                     if publication_full.bib["title"] == publication_short.bib["title"]:
                         publication_full.fill()
                         break
+
                 if not publication_full._filled:
                     print("Warning: Full citation for paper '%s' was not found" % publication_short.bib["title"])
                     continue
