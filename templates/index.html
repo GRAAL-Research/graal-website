@@ -85,7 +85,7 @@
 The main focus of the GRAAL research group is machine learning theory and applications.
 Our group strives to understand how learning theory can offer strong guaranties on the accuracy of learned models. Moreover, our group is at the forefront of practical applications of artificial intelligence, with research projects in language processing, bioinformatics, big data, and learning theory. Our work impacts drug discovery, personalized medicine, medical diagnostic, risk evaluation in insurance, software security, safety in social networks, and more. 
 <br /><br />
-The GRAAL is part of the <a href="//:www.ift.ulaval.ca">Department of Computer Science and Software Engineering</a> at <a href="//:ulaval.ca">Universit&eacute; Laval</a> and is led by Professors François Laviolette, Mario Marchand, Jacques Corbeil, Luc Lamontagne, and Richard Khoury.
+The GRAAL is part of the <a href="//www.ift.ulaval.ca">Department of Computer Science and Software Engineering</a> at <a href="//ulaval.ca">Universit&eacute; Laval</a> and is led by Professors François Laviolette, Mario Marchand, Jacques Corbeil, Luc Lamontagne, and Richard Khoury.
 
 								</div>
 							</div>
@@ -106,7 +106,7 @@ The GRAAL is part of the <a href="//:www.ift.ulaval.ca">Department of Computer S
 							<div class="container">
 								<div class="row">
 									<div class="col-sm-12 text-center">
-										<a href="{{ person.website if person.website else 'javascript:void(0)' }}" target="_blank">
+										<a href="{{ person.website if person.website else (person.linkedin if person.linkedin else 'javascript:void(0)') }}" target="_blank">
 											<img src="{{ url_for('static', filename='{0!s}'.format(person.face_picture)) }}" class="rounded-circle img-fluid" />
 										</a>
 									</div>
@@ -159,7 +159,7 @@ The GRAAL is part of the <a href="//:www.ift.ulaval.ca">Department of Computer S
 							<div class="container">
 								<div class="row">
 									<div class="col-sm-12 text-center">
-										<a href="{{ person.website if person.website else 'javascript:void(0)' }}" target="_blank">
+										<a href="{{ person.website if person.website else (person.linkedin if person.linkedin else 'javascript:void(0)') }}" target="_blank">
 											<img src="{{ url_for('static', filename='{0!s}'.format(person.face_picture)) }}" class="rounded-circle img-fluid" />
 										</a>
 									</div>
@@ -229,7 +229,7 @@ The GRAAL is part of the <a href="//:www.ift.ulaval.ca">Department of Computer S
 				<h2>Software</h2>
 				<div class="row">
 					<div class="col-sm-12">
-						List of software goes here.
+						Coming soon!
 					</div>
 				</div>
 			</div>
@@ -372,7 +372,7 @@ The GRAAL is part of the <a href="//:www.ift.ulaval.ca">Department of Computer S
 
         	$('#pubTable').DataTable( {
 				"ajax": {
-					"url": "{{ url_for('static', filename='bib/publications.json') }}",
+					"url": "{{ url_for('static', filename='bib/bibliography_graal.json') }}",
 					"dataSrc": ""
 				},
 				"columns": [
