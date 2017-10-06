@@ -262,7 +262,14 @@ def hello():
                  joined_year=2017,
                  face_picture="images/faces/ebrassard.png",
                  linkedin="https://www.linkedin.com/in/eloi-brassard-gourdeau-92a786144/",
-                 github="https://github.com/eloibg/")
+                 github="https://github.com/eloibg/"),
+        Graalien(first_name="Frédérik",
+                 last_name="Paradis",
+                 status="phd",
+                 joined_year=2017,
+                 face_picture="images/faces/fparadis.png",
+                 linkedin="https://www.linkedin.com/in/frederik-paradis/",
+                 github="https://github.com/freud14/")
     ]
 
     # Sort by name date
