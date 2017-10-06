@@ -12,8 +12,8 @@ app = Flask(__name__)
 
 
 member_status_pretty_names = {"undergrad": {"fr": "Étudiant sous-gradué", "en": "Undergraduate student"},
-                              "master": {"fr": "Étudiant de maîtrise", "en": "Masters student"},
-                              "alumni_master": {"fr": "Maîtrise", "en": "Masters"},
+                              "master": {"fr": "Étudiant de maîtrise", "en": "Master's student"},
+                              "alumni_master": {"fr": "Maîtrise", "en": "Master's"},
                               "phd": {"fr": "Étudiant doctorant", "en": "PhD Student"},
                               "alumni_phd": {"fr": "Doctorat", "en": "PhD"},
                               "postdoc": {"fr": "Chercheur post-doctoral", "en": "Postdoctoral Researcher"},
