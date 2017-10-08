@@ -12,8 +12,8 @@ app = Flask(__name__)
 
 
 member_status_pretty_names = {"undergrad": {"fr": "Étudiant sous-gradué", "en": "Undergraduate student"},
-                              "master": {"fr": "Étudiant de maîtrise", "en": "Masters student"},
-                              "alumni_master": {"fr": "Maîtrise", "en": "Masters"},
+                              "master": {"fr": "Étudiant de maîtrise", "en": "Master's student"},
+                              "alumni_master": {"fr": "Maîtrise", "en": "Master's"},
                               "phd": {"fr": "Étudiant doctorant", "en": "PhD Student"},
                               "alumni_phd": {"fr": "Doctorat", "en": "PhD"},
                               "postdoc": {"fr": "Chercheur post-doctoral", "en": "Postdoctoral Researcher"},
@@ -262,7 +262,14 @@ def hello():
                  joined_year=2017,
                  face_picture="images/faces/ebrassard.png",
                  linkedin="https://www.linkedin.com/in/eloi-brassard-gourdeau-92a786144/",
-                 github="https://github.com/eloibg/")
+                 github="https://github.com/eloibg/"),
+        Graalien(first_name="Frédérik",
+                 last_name="Paradis",
+                 status="phd",
+                 joined_year=2017,
+                 face_picture="images/faces/fparadis.png",
+                 linkedin="https://www.linkedin.com/in/frederik-paradis/",
+                 github="https://github.com/freud14/")
     ]
 
     # Sort by name date
