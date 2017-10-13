@@ -269,7 +269,13 @@ def hello():
                  joined_year=2017,
                  face_picture="images/faces/fparadis.png",
                  linkedin="https://www.linkedin.com/in/frederik-paradis/",
-                 github="https://github.com/freud14/")
+                 github="https://github.com/freud14/"),
+        Graalien(first_name="Roxane",
+                 last_name="Debruyker",
+                 status="phd",
+                 joined_year=2017,
+                 face_picture="images/faces/rdebruyker.png",
+                 twitter="https://twitter.com/dbr_roxane")
     ]
 
     # Sort by name date
