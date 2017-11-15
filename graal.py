@@ -275,7 +275,20 @@ def hello():
                  status="phd",
                  joined_year=2017,
                  face_picture="images/faces/rdebruyker.png",
-                 twitter="https://twitter.com/dbr_roxane")
+                 twitter="https://twitter.com/dbr_roxane"),
+        Graalien(first_name="Talia",
+                 last_name="Sanchez Viera",
+                 status="master",
+                 joined_year=2017,
+                 face_picture="images/faces/tsanchez.png",
+                 linkedin="https://www.linkedin.com/in/talia-sanchez-viera-38a45214b/"),
+        Graalien(first_name="Baptiste",
+                 last_name="Bauvin",
+                 status="phd",
+                 joined_year=2016,
+                 face_picture="images/faces/bbauvin.png",
+                 github="https://github.com/babau1",
+                 linkedin="https://www.linkedin.com/in/baptiste-bauvin-603b11aa/")
     ]
 
     # Sort by name date
