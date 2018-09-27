@@ -290,7 +290,7 @@ def hello():
                  joined_year=2016,
                  face_picture="images/faces/bbauvin.png",
                  github="https://github.com/babau1",
-                 linkedin="https://www.linkedin.com/in/baptiste-bauvin-603b11aa/")
+                 linkedin="https://www.linkedin.com/in/baptiste-bauvin-603b11aa/"),
         Graalien(first_name="Mathieu",
                  last_name="Alain",
                  status="undergrad",
