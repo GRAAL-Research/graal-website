@@ -290,7 +290,14 @@ def hello():
                  joined_year=2016,
                  face_picture="images/faces/bbauvin.png",
                  github="https://github.com/babau1",
-                 linkedin="https://www.linkedin.com/in/baptiste-bauvin-603b11aa/")
+                 linkedin="https://www.linkedin.com/in/baptiste-bauvin-603b11aa/"),
+	Graalien(first_name="David",
+                 last_name="Beauchemin",
+                 status="master",
+                 joined_year=2018,
+                 face_picture="images/faces/dbeauchemin.png",
+                 github="https://github.com/davebulaval",
+                 linkedin="https://www.linkedin.com/in/david-beauchemin-918343108/")
     ]
 
     # Sort by name date
