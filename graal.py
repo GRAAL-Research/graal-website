@@ -291,13 +291,20 @@ def hello():
                  face_picture="images/faces/bbauvin.png",
                  github="https://github.com/babau1",
                  linkedin="https://www.linkedin.com/in/baptiste-bauvin-603b11aa/"),
-	Graalien(first_name="David",
+        Graalien(first_name="Jean-Samuel",
+                 last_name="Leboeuf",
+                 status="phd",
+                 joined_year=2017,
+                 face_picture="images/faces/jsleboeuf.png",
+                 github="https://github.com/jsleb333",
+                 linkedin="https://www.linkedin.com/in/jean-samuel-leboeuf"),
+        Graalien(first_name="David",
                  last_name="Beauchemin",
                  status="master",
                  joined_year=2018,
                  face_picture="images/faces/dbeauchemin.png",
                  github="https://github.com/davebulaval",
-                 linkedin="https://www.linkedin.com/in/david-beauchemin-918343108/")
+                 linkedin="https://www.linkedin.com/in/david-beauchemin-918343108/"),
     ]
 
     # Sort by name date
