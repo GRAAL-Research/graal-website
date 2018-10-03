@@ -5,7 +5,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 import sys
 if sys.version_info.major < 3:
     reload(sys)
-#sys.setdefaultencoding('utf8')
+sys.setdefaultencoding('utf8')
 
 from flask import Flask, render_template
 app = Flask(__name__)
