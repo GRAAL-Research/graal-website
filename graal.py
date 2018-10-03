@@ -5,7 +5,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 import sys
 if sys.version_info.major < 3:
     reload(sys)
-sys.setdefaultencoding('utf8')
+#sys.setdefaultencoding('utf8')
 
 from flask import Flask, render_template
 app = Flask(__name__)
@@ -154,7 +154,7 @@ def hello():
                  status="master",
                  joined_year=2016,
                  face_picture="images/faces/jgingras.png",
-                 linkedin="https://www.linkedin.com/in/jonathan-gingras-084b3a84/",
+                 linkedin="https://www.linkedin.com/in/jonathan-gingras-jr-eng-084b3a84/",
                  github="https://github.com/jonathangingras"),
         Graalien(first_name="Hana",
                  last_name="Ajakan",
