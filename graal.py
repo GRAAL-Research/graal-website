@@ -312,6 +312,13 @@ def hello():
                  face_picture="images/faces/dbeauchemin.png",
                  github="https://github.com/davebulaval",
                  linkedin="https://www.linkedin.com/in/david-beauchemin-918343108/"),
+        Graalien(first_name="Jean-Thomas",
+                 last_name="Baillargeon",
+                 status="master",
+                 joined_year=2018,
+                 face_picture="images/faces/jtbai.png",
+                 linkedin="https://www.linkedin.com/in/jean-thomas-baillargeon-10a33446"),
+
     ]
 
     # Sort by name date
