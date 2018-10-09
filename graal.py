@@ -318,6 +318,12 @@ def hello():
                  joined_year=2018,
                  face_picture="images/faces/jtbai.png",
                  linkedin="https://www.linkedin.com/in/jean-thomas-baillargeon-10a33446"),
+     Graalien(first_name="Alex",
+                 last_name="St-Jean",
+                 status="master",
+                 joined_year=2018,
+                 face_picture="images/faces/alexstj.png",
+                 linkedin="https://www.linkedin.com/in/alex-st-jean-8a0502119"),
 
     ]
 
