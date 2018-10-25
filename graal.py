@@ -143,7 +143,7 @@ def hello():
                  twitter="https://twitter.com/fredericraymond"),
         Graalien(first_name="Francis",
                  last_name="Brochu",
-                 status="alumni'master",
+                 status="alumni_master",
                  joined_year=2014,
                  face_picture="images/faces/fbrochu.png",
                  linkedin="https://www.linkedin.com/in/francis-brochu-a31948139/",
