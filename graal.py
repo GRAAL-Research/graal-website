@@ -119,7 +119,7 @@ def hello():
                  status="master",
                  joined_year=2016,
                  face_picture="images/faces/gletarte.png",
-                 linkedin="hhttps://www.linkedin.com/in/ga%C3%ABl-letarte-961373165/",
+                 linkedin="https://www.linkedin.com/in/ga%C3%ABl-letarte-961373165/",
                  scholar="https://scholar.google.ca/citations?user=XMCOvKoAAAAJ",
                  github="https://github.com/gletarte",
                  website="http://graal.ift.ulaval.ca/gletarte/"),
