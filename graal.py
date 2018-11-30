@@ -5,7 +5,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 import sys
 if sys.version_info.major < 3:
     reload(sys)
-sys.setdefaultencoding('utf8')
+    sys.setdefaultencoding('utf8')
 
 from flask import Flask, render_template
 app = Flask(__name__)
@@ -50,10 +50,8 @@ class Graalien(object):
     def status(self):
         return member_status_pretty_names[self.status_]
 
-
-@app.route('/')
-def hello():
-    professors = [
+def get_prof():
+    return [
         Graalien(first_name="François",
                  last_name="Laviolette",
                  status="prof",
@@ -95,7 +93,9 @@ def hello():
                  scholar="http://scholar.google.ca/citations?user=PgyHf0oAAAAJ",
                  website="http://www2.ift.ulaval.ca/~rikho/")
     ]
-    graaliens = [
+
+def get_students():
+    return [
         Graalien(first_name="Alexandre",
                  last_name="Drouin",
                  status="phd",
@@ -318,14 +318,29 @@ def hello():
                  joined_year=2018,
                  face_picture="images/faces/jtbai.png",
                  linkedin="https://www.linkedin.com/in/jean-thomas-baillargeon-10a33446"),
-     Graalien(first_name="Alex",
+        Graalien(first_name="Alex",
                  last_name="St-Jean",
                  status="master",
                  joined_year=2018,
                  face_picture="images/faces/alexstj.png",
                  linkedin="https://www.linkedin.com/in/alex-st-jean-8a0502119"),
-
+        Graalien(first_name="Camille",
+                 last_name="Besse",
+                 status="alumni_postdoc",
+                 joined_year=2010,
+                 face_picture="images/faces/cbesse.png",
+                 linkedin="https://www.linkedin.com/in/camillebesse",
+                 scholar="https://scholar.google.ca/citations?user=k6v8L0MAAAAJ",
+                 github="https://github.com/K-miy",
+                 website="http://www.cbesse.net",
+                 twitter="https://twitter.com/_kamiy_"),
     ]
+
+
+@app.route('/')
+def hello():
+    professors = get_prof()
+    graaliens = get_students()
 
     # Sort by name date
     graaliens = sorted(graaliens, key=lambda x: x.joined_year, reverse=False)
