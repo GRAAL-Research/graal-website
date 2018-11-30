@@ -133,7 +133,7 @@ def get_students():
                  github="https://github.com/plpla"),
         Graalien(first_name="Frédéric",
                  last_name="Raymond",
-                 status="postdoc",
+                 status="alumni_postdoc",
                  joined_year=2011,
                  face_picture="images/faces/fraymond.png",
                  linkedin="https://www.linkedin.com/in/fredericraymond/",
