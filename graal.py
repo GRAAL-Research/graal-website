@@ -295,7 +295,7 @@ def get_students():
                  last_name="Alain",
                  status="master",
                  joined_year=2018,
-                 face_picture="images/faces/malain.jpg",
+                 face_picture="images/faces/malain.png",
                  scholar="https://scholar.google.ca/citations?user=FJu2i-gAAAAJ&hl",
                  website="https://mathieualain.github.io/"),
         Graalien(first_name="Jean-Samuel",
