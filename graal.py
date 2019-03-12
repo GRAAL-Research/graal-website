@@ -314,7 +314,7 @@ def get_students():
                  linkedin="https://www.linkedin.com/in/david-beauchemin-918343108/"),
         Graalien(first_name="Jean-Thomas",
                  last_name="Baillargeon",
-                 status="master",
+                 status="phd",
                  joined_year=2018,
                  face_picture="images/faces/jtbai.png",
                  linkedin="https://www.linkedin.com/in/jean-thomas-baillargeon-10a33446"),
@@ -334,6 +334,13 @@ def get_students():
                  github="https://github.com/K-miy",
                  website="http://www.cbesse.net",
                  twitter="https://twitter.com/_kamiy_"),
+        Graalien(first_name="Christopher",
+                 last_name="Blier-Wong",
+                 status="phd",
+                 joined_year=2019,
+                 face_picture="images/faces/cblierwong.png",
+                 github="https://github.com/chblw",
+                 linkedin="https://www.linkedin.com/in/christopher-blier-wong-7651b6b6/"),
     ]
 
 
