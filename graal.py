@@ -122,7 +122,7 @@ def get_students():
                  linkedin="https://www.linkedin.com/in/ga%C3%ABl-letarte-961373165/",
                  scholar="https://scholar.google.ca/citations?user=XMCOvKoAAAAJ",
                  github="https://github.com/gletarte",
-                 website="http://graal.ift.ulaval.ca/gletarte/"),
+                 website="https://gletarte.github.io/"),
         Graalien(first_name="Pier-Luc",
                  last_name="Plante",
                  status="phd",
