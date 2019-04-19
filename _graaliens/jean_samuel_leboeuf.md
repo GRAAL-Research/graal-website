@@ -1,0 +1,10 @@
+---
+first_name: Jean-Samuel
+last_name: Leboeuf
+status: phd
+is_alumni: false
+joined_year: 2017
+face_picture: images/faces/jsleboeuf.png
+github: https://github.com/jsleb333
+linkedin: https://www.linkedin.com/in/jean-samuel-leboeuf
+---

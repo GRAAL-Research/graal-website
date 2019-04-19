@@ -1,0 +1,11 @@
+---
+first_name: Mazid Abiodoun
+last_name: Osseni
+status: phd
+is_alumni: false
+joined_year: 2015
+face_picture: images/faces/mosseni.png
+linkedin: https://www.linkedin.com/in/mazidosseni/
+scholar: https://scholar.google.ca/citations?user=lu6ZxEYAAAAJ
+github: https://github.com/dizam92
+---

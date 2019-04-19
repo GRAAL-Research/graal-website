@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -14,18 +16,18 @@
 
 		<!-- Bootstrap social buttons -->
 		<script src="//use.fontawesome.com/10e735f142.js"></script>
-		<link href="{{ url_for('static', filename='css/bootstrap-social.css') }}" rel="stylesheet">
+		<link href="/static/css/bootstrap-social.css" rel="stylesheet">
 
 		<!-- Data-tables Core CSS -->
 		<link rel="stylesheet" href="//cdn.datatables.net/1.10.15/css/dataTables.bootstrap4.min.css">
 		<link rel="stylesheet" href="//cdn.datatables.net/responsive/2.1.1/css/responsive.bootstrap4.min.css">
 
 		<!--- Publications -->
-		<link rel="stylesheet" href="{{ url_for('static', filename='css/bib-publication-list.css') }}" type="text/css" />
+		<link rel="stylesheet" href="/static/css/bib-publication-list.css" type="text/css" />
 
         <!-- Custom styles for this template -->
-        <link href="{{ url_for('static', filename='css/graal.css') }}" rel="stylesheet">
-		<link href="{{ url_for('static', filename='css/navbar.css') }}" rel="stylesheet">
+        <link href="/static/css/graal.css" rel="stylesheet">
+		<link href="/static/css/navbar.css" rel="stylesheet">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,7 +76,7 @@
 			<div class="section" id="about">
 				<div class="row">
 					<div class="col-sm-6">
-						<img src="{{ url_for('static', filename='images/graal-clipped.png') }}" class="img-fluid" />
+						<img src="/static/images/graal-clipped.png" class="img-fluid" />
 					</div>
 
 					<div class="col-sm-6">
@@ -83,7 +85,7 @@
 							<div class="row">
 								<div class="col-sm-12">
 The main focus of the GRAAL research group is machine learning theory and applications.
-Our group strives to understand how learning theory can offer strong guaranties on the accuracy of learned models. Moreover, our group is at the forefront of practical applications of artificial intelligence, with research projects in language processing, bioinformatics, big data, and learning theory. Our work impacts drug discovery, personalized medicine, medical diagnostic, risk evaluation in insurance, software security, safety in social networks, and more. 
+Our group strives to understand how learning theory can offer strong guaranties on the accuracy of learned models. Moreover, our group is at the forefront of practical applications of artificial intelligence, with research projects in language processing, bioinformatics, big data, and learning theory. Our work impacts drug discovery, personalized medicine, medical diagnostic, risk evaluation in insurance, software security, safety in social networks, and more.
 <br /><br />
 The GRAAL is part of the <a href="//www.ift.ulaval.ca">Department of Computer Science and Software Engineering</a> at <a href="//ulaval.ca">Universit&eacute; Laval</a> and is led by Professors François Laviolette, Mario Marchand, Jacques Corbeil, Luc Lamontagne, and Richard Khoury.
 
@@ -97,50 +99,54 @@ The GRAAL is part of the <a href="//www.ift.ulaval.ca">Department of Computer Sc
 			<!-- Team -->
 			<div class="section" id="team">
 				<h2>Team</h2>
-
+				{% assign professors = site.graaliens | where_exp: "graalien", "graalien.status == 'prof'" | sort: "last_name" | sort: "joined_year" %}
+				{% assign students = site.graaliens | where_exp: "graalien", "graalien.status != 'prof'" | sort: "last_name" | sort: "joined_year" %}
+				{% assign ordered_graaliens = professors | concat: students %}
+				{% assign graaliens = ordered_graaliens | where:"is_alumni", false %}
+				{% assign alumni = ordered_graaliens | where:"is_alumni", true %}
 				<!-- Current members -->
 				<div class="row">
 					{% for person in graaliens %}
 						<div class="col-sm-3" style="padding-bottom: 30px">
-							<a id="{{ '#{0!s}{1!s}'.format(person.first_name, person.last_name) }}">
+							<a id="#{{ person.first_name | escape }}{{ person.last_name | escape }}">
 							<div class="container">
 								<div class="row">
 									<div class="col-sm-12 text-center">
-										<a href="{{ person.website if person.website else (person.linkedin if person.linkedin else 'javascript:void(0)') }}" target="_blank">
-											<img src="{{ url_for('static', filename='{0!s}'.format(person.face_picture)) }}" class="rounded-circle img-fluid" />
+										<a href="{% if person.website %}{{ person.website | escape }}{% elsif person.linkedin %}{{ person.linkedin | escape }}{% else %}javascript:void(0){% endif %}" target="_blank">
+											<img src="/static/{{ person.face_picture | escape }}" class="rounded-circle img-fluid" />
 										</a>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-sm-12 text-center">{{ "{0!s} {1!s}".format(person.first_name.title(), person.last_name.title()) }}</div>
+									<div class="col-sm-12 text-center">{{ person.first_name | escape }} {{ person.last_name | escape }}</div>
 								</div>
 								<div class="row" style="font-size: 80%; text-align: center;">
-									<div class="col-sm-12 text-center">{{ person.status["en"] }}</div>
+									<div class="col-sm-12 text-center">{{ site.data.status[person.status]["en"] | escape }}</div>
 								</div>
 								<div class="row">
 									<div class="col-sm-12 text-center">
 										{% if person.linkedin %}
-										<a class="btn btn-xs btn-social-icon btn-linkedin" href="{{ person.linkedin }}" target="_blank">
+										<a class="btn btn-xs btn-social-icon btn-linkedin" href="{{ person.linkedin | escape }}" target="_blank">
 											<span class="fa fa-linkedin"></span>
 										</a>
 										{% endif %}
 										{% if person.scholar %}
-										<a class="btn btn-xs btn-social-icon btn-github" href="{{ person.scholar }}" target="_blank">
-											<img src="{{ url_for('static', filename='images/scholar.png') }}" />
+										<a class="btn btn-xs btn-social-icon btn-github" href="{{ person.scholar | escape }}&amp;view_op=list_works&amp;sortby=pubdate" target="_blank">
+											<img src="/static/images/scholar.png" />
 										</a>
 										{% endif %}
 										{% if person.github %}
-										<a class="btn btn-xs btn-social-icon btn-github" href="{{ person.github }}" target="_blank">
+										<a class="btn btn-xs btn-social-icon btn-github" href="{{ person.github | escape }}" target="_blank">
 											<span class="fa fa-github"></span>
 										</a>
 										{% endif %}
 										{% if person.website %}
-										<a class="btn btn-xs btn-social-icon btn-reddit" href="{{ person.website }}" target="_blank">
-											<img src="{{ url_for('static', filename='images/homepage.png') }}" />
+										<a class="btn btn-xs btn-social-icon btn-reddit" href="{{ person.website | escape }}" target="_blank">
+											<img src="/static/images/homepage.png" />
 										</a>
 										{% endif %}
 										{% if person.twitter %}
-										<a class="btn btn-xs btn-social-icon btn-twitter" href="{{ person.twitter }}" target="_blank">
+										<a class="btn btn-xs btn-social-icon btn-twitter" href="{{ person.twitter | escape }}" target="_blank">
 											<span class="fa fa-twitter"></span>
 										</a>
 										{% endif %}
@@ -159,41 +165,41 @@ The GRAAL is part of the <a href="//www.ift.ulaval.ca">Department of Computer Sc
 							<div class="container">
 								<div class="row">
 									<div class="col-sm-12 text-center">
-										<a href="{{ person.website if person.website else (person.linkedin if person.linkedin else 'javascript:void(0)') }}" target="_blank">
-											<img src="{{ url_for('static', filename='{0!s}'.format(person.face_picture)) }}" class="rounded-circle img-fluid" />
+										<a href="{% if person.website %}{{ person.website | escape }}{% elsif person.linkedin %}{{ person.linkedin | escape }}{% else %}javascript:void(0){% endif %}" target="_blank">
+											<img src="/static/{{ person.face_picture | escape }}" class="rounded-circle img-fluid" />
 										</a>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-sm-12 text-center">{{ "{0!s} {1!s}".format(person.first_name.title(), person.last_name.title()) }}</div>
+									<div class="col-sm-12 text-center">{{ person.first_name | escape }} {{ person.last_name | escape }}</div>
 								</div>
 								<div class="row" style="font-size: 80%; text-align: center;">
-									<div class="col-sm-12 text-center">{{ person.status["en"] }}</div>
+									<div class="col-sm-12 text-center">{{ site.data.status[person.status]["en"] | escape }}</div>
 								</div>
 								<div class="row">
 									<div class="col-sm-12 text-center">
 										{% if person.linkedin %}
-										<a class="btn btn-xs btn-social-icon btn-linkedin" href="{{ person.linkedin }}" target="_blank">
+										<a class="btn btn-xs btn-social-icon btn-linkedin" href="{{ person.linkedin | escape }}" target="_blank">
 											<span class="fa fa-linkedin"></span>
 										</a>
 										{% endif %}
 										{% if person.scholar %}
-										<a class="btn btn-xs btn-social-icon btn-github" href="{{ person.scholar }}" target="_blank">
-											<img src="{{ url_for('static', filename='images/scholar.png') }}" />
+										<a class="btn btn-xs btn-social-icon btn-github" href="{{ person.scholar | escape }}&amp;view_op=list_works&amp;sortby=pubdate" target="_blank">
+											<img src="/static/images/scholar.png" />
 										</a>
 										{% endif %}
 										{% if person.github %}
-										<a class="btn btn-xs btn-social-icon btn-github" href="{{ person.github }}" target="_blank">
+										<a class="btn btn-xs btn-social-icon btn-github" href="{{ person.github | escape }}" target="_blank">
 											<span class="fa fa-github"></span>
 										</a>
 										{% endif %}
 										{% if person.website %}
-										<a class="btn btn-xs btn-social-icon btn-reddit" href="{{ person.website }}" target="_blank">
-											<img src="{{ url_for('static', filename='images/homepage.png') }}" />
+										<a class="btn btn-xs btn-social-icon btn-reddit" href="{{ person.website | escape }}" target="_blank">
+											<img src="/static/images/homepage.png" />
 										</a>
 										{% endif %}
 										{% if person.twitter %}
-										<a class="btn btn-xs btn-social-icon btn-twitter" href="{{ person.twitter }}" target="_blank">
+										<a class="btn btn-xs btn-social-icon btn-twitter" href="{{ person.twitter | escape }}" target="_blank">
 											<span class="fa fa-twitter"></span>
 										</a>
 										{% endif %}
@@ -280,22 +286,22 @@ The GRAAL is part of the <a href="//www.ift.ulaval.ca">Department of Computer Sc
 				<div class="row">
 					<div class="col-sm-2">
 						<a href="//crdm.ulaval.ca" target="_blank">
-							<img src="{{ url_for('static', filename='images/logos/crdmul_en.png') }}" class="img-fluid affiliation-logo" />
+							<img src="/static/images/logos/crdmul_en.png" class="img-fluid affiliation-logo" />
 						</a>
 					</div>
 					<div class="col-sm-2">
 						<a href="//corbeillab.genome.ulaval.ca" target="_blank">
-							<img src="{{ url_for('static', filename='images/logos/corbeil_lab.png') }}" class="img-fluid affiliation-logo" />
+							<img src="/static/images/logos/corbeil_lab.png" class="img-fluid affiliation-logo" />
 						</a>
 					</div>
 					<div class="col-sm-3">
 						<a href="//www.biomicrosystems.ulaval.ca" target="_blank">
-							<img src="{{ url_for('static', filename='images/logos/bml.png') }}" class="img-fluid affiliation-logo" />
+							<img src="/static/images/logos/bml.png" class="img-fluid affiliation-logo" />
 						</a>
 					</div>
 					<div class="col-sm-3">
 						<a href="//www.ulaval.ca" target="_blank">
-							<img src="{{ url_for('static', filename='images/logos/ul.png') }}" class="img-fluid affiliation-logo" />
+							<img src="/static/images/logos/ul.png" class="img-fluid affiliation-logo" />
 						</a>
 					</div>
 				</div>
@@ -322,7 +328,7 @@ The GRAAL is part of the <a href="//www.ift.ulaval.ca">Department of Computer Sc
 		<script src="//cdn.datatables.net/responsive/2.1.1/js/responsive.bootstrap4.min.js"></script>
 
 		<script src="//maps.google.com/maps/api/js?key=AIzaSyC-yWhGkS4QTAHkWGHN47m2J9K1EACDBFk"></script>
-		<script src="{{ url_for('static', filename='js/gmaps.min.js') }}"></script>
+		<script src="/static/js/gmaps.min.js"></script>
 
 		<script>
 			$(document).ready(function(){
@@ -372,7 +378,7 @@ The GRAAL is part of the <a href="//www.ift.ulaval.ca">Department of Computer Sc
 
         	$('#pubTable').DataTable( {
 				"ajax": {
-					"url": "{{ url_for('static', filename='bib/bibliography_graal.json') }}",
+					"url": "/static/bib/bibliography_graal.json",
 					"dataSrc": ""
 				},
 				"columns": [

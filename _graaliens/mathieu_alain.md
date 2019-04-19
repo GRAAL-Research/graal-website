@@ -1,0 +1,10 @@
+---
+first_name: Mathieu
+last_name: Alain
+status: master
+is_alumni: false
+joined_year: 2018
+face_picture: images/faces/malain.png
+scholar: https://scholar.google.ca/citations?user=FJu2i-gAAAAJ&hl
+website: https://mathieualain.github.io/
+---
