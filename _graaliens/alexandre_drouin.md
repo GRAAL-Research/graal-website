@@ -1,8 +1,8 @@
 ---
 first_name: Alexandre
 last_name: Drouin
-status: phd
-is_alumni: false
+status: alumni_phd
+is_alumni: true
 joined_year: 2012
 face_picture: images/faces/adrouin.png
 linkedin: https://www.linkedin.com/in/drouinalexandre/
