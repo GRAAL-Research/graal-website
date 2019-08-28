@@ -1,7 +1,7 @@
 ---
 first_name: Gaël
 last_name: Letarte
-status: master
+status: phd
 is_alumni: false
 joined_year: 2016
 face_picture: images/faces/gletarte.png
