@@ -47,7 +47,7 @@ def create_bibliography_entry(key, publication_element):
     journal = get_value(publication_element, 'journal', default=booktitle)
     volume = get_value(publication_element, 'volume')
     pages = get_value(publication_element, 'pages')
-    url = pages = get_value(publication_element, 'ee')
+    url = get_value(publication_element, 'ee')
 
     authors_list = [el.text for el in publication_element.iter('author')]
     authors = format_authors(authors_list)
