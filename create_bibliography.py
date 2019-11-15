@@ -13,7 +13,8 @@ PROFESSOR_DLPB_IDS = [
     "l/Lamontagne:Luc",
     "k/Khoury:Richard",
     "c/Corbeil:Jacques",
-    "d/Durand:Audrey"
+    "d/Durand:Audrey",
+    "g/Germain:Pascal"
 ]
 
 

@@ -7,6 +7,12 @@
   },
   {
     "year": 2019,
+    "citation": "Kouko G., Desharnais J., Laviolette F. (2019). Finite Approximation of LMPs for Exact Verification of Reachability Properties. QEST, 70-87",
+    "url": "https://doi.org/10.1007/978-3-030-30281-8_5",
+    "uniq_id": "conf/qest/KoukoDL19"
+  },
+  {
+    "year": 2019,
     "citation": "Letarte G., Germain P., Guedj B. et al. (2019). Dichotomize and Generalize: PAC-Bayesian Binary Activated Deep Neural Networks. CoRR, abs/1905.10259",
     "url": "http://arxiv.org/abs/1905.10259",
     "uniq_id": "journals/corr/abs-1905-10259"
@@ -238,6 +244,12 @@
     "citation": "Ajakan H., Germain P., Larochelle H. et al. (2014). Domain-Adversarial Neural Networks. CoRR, abs/1412.4446",
     "url": "http://arxiv.org/abs/1412.4446",
     "uniq_id": "journals/corr/AjakanGLLM14"
+  },
+  {
+    "year": 2013,
+    "citation": "Godzaridis \u00c9., Boisvert S., Xia F. et al. (2013). Human Analysts at Superhuman Scales: What Has Friendly Software To Do? Big Data, 1, 227-236",
+    "url": "https://doi.org/10.1089/big.2013.0031",
+    "uniq_id": "journals/bigdata/GodzaridisBXKBL13"
   },
   {
     "year": 2013,
@@ -960,6 +972,12 @@
     "uniq_id": "conf/apn/BergerL93"
   },
   {
+    "year": 2019,
+    "citation": "Vo D., Khoury R. (2019). Language Identification on Massive Datasets of Short Message using an Attention Mechanism CNN. CoRR, abs/1910.06748",
+    "url": "http://arxiv.org/abs/1910.06748",
+    "uniq_id": "journals/corr/abs-1910-06748"
+  },
+  {
     "year": 2018,
     "citation": "Khoury R., Khoury R., Hamou-Lhadj A. (2018). Microtext Processing. Encyclopedia of Social Network Analysis and Mining. 2nd Ed.",
     "url": "https://doi.org/10.1007/978-1-4939-7131-2_353",
@@ -1194,6 +1212,12 @@
     "uniq_id": "journals/corr/abs-1909-07543"
   },
   {
+    "year": 2019,
+    "citation": "Vaswani S., Mehrabian A., Durand A. et al. (2019). Old Dog Learns New Tricks: Randomized UCB for Bandit Problems. CoRR, abs/1910.04928",
+    "url": "http://arxiv.org/abs/1910.04928",
+    "uniq_id": "journals/corr/abs-1910-04928"
+  },
+  {
     "year": 2018,
     "citation": "Durand A., Maillard O., Pineau J. (2018). Streaming kernel regression with provably adaptive mean, variance, and regularization. J. Mach. Learn. Res., 19, 17:1-17:34",
     "url": "http://jmlr.org/papers/v19/17-404.html",
@@ -1300,5 +1324,59 @@
     "citation": "Durand A., Gagn\u00e9 C., Gardner M. et al. (2010). SCHNAPS: a generic population-based simulator for public health purposes. SummerSim, 182-189",
     "url": "http://portal.acm.org/citation.cfm?id=1999438&CFID=29315481&CFTOKEN=81718596",
     "uniq_id": "conf/scsc/DurandGGRGR10"
+  },
+  {
+    "year": 2019,
+    "citation": "Goyal A., Morvant E., Germain P. et al. (2019). Multiview Boosting by Controlling the Diversity and the Accuracy of View-specific Voters. Neurocomputing, 358, 81-92",
+    "url": "https://doi.org/10.1016/j.neucom.2019.04.072",
+    "uniq_id": "journals/ijon/GoyalMGA19"
+  },
+  {
+    "year": 2019,
+    "citation": "Letarte G., Morvant E., Germain P. (2019). Pseudo-Bayesian Learning with Kernel Fourier Transform as Prior. AISTATS, 768-776",
+    "url": "http://proceedings.mlr.press/v89/letarte19a.html",
+    "uniq_id": "conf/aistats/LetarteMG19"
+  },
+  {
+    "year": 2019,
+    "citation": "Gautheron L., Germain P., Habrard A. et al. (2019). Learning Landmark-Based Ensembles with Random Fourier Features and Gradient Boosting. CoRR, abs/1906.06203",
+    "url": "http://arxiv.org/abs/1906.06203",
+    "uniq_id": "journals/corr/abs-1906-06203"
+  },
+  {
+    "year": 2019,
+    "citation": "Nozawa K., Germain P., Guedj B. (2019). PAC-Bayesian Contrastive Unsupervised Representation Learning. CoRR, abs/1910.04464",
+    "url": "http://arxiv.org/abs/1910.04464",
+    "uniq_id": "journals/corr/abs-1910-04464"
+  },
+  {
+    "year": 2018,
+    "citation": "Goyal A., Morvant E., Germain P. et al. (2018). Multiview Boosting by Controlling the Diversity and the Accuracy of View-specific Voters. CoRR, abs/1808.05784",
+    "url": "http://arxiv.org/abs/1808.05784",
+    "uniq_id": "journals/corr/abs-1808-05784"
+  },
+  {
+    "year": 2018,
+    "citation": "Letarte G., Morvant E., Germain P. (2018). Pseudo-Bayesian Learning with Kernel Fourier Transform as Prior. CoRR, abs/1810.12683",
+    "url": "http://arxiv.org/abs/1810.12683",
+    "uniq_id": "journals/corr/abs-1810-12683"
+  },
+  {
+    "year": 2017,
+    "citation": "Goyal A., Morvant E., Germain P. et al. (2017). PAC-Bayesian Analysis for a Two-Step Hierarchical Multiview Learning Approach. ECML/PKDD (2), 205-221",
+    "url": "https://doi.org/10.1007/978-3-319-71246-8_13",
+    "uniq_id": "conf/pkdd/GoyalMGA17"
+  },
+  {
+    "year": 2016,
+    "citation": "Germain P., Bach F. R., Lacoste A. et al. (2016). PAC-Bayesian Theory Meets Bayesian Inference. NIPS, 1876-1884",
+    "url": "http://papers.nips.cc/paper/6569-pac-bayesian-theory-meets-bayesian-inference",
+    "uniq_id": "conf/nips/GermainBLL16"
+  },
+  {
+    "year": 2016,
+    "citation": "Germain P., Bach F. R., Lacoste A. et al. (2016). PAC-Bayesian Theory Meets Bayesian Inference. CoRR, abs/1605.08636",
+    "url": "http://arxiv.org/abs/1605.08636",
+    "uniq_id": "journals/corr/GermainBLL16"
   }
 ]
