@@ -58,8 +58,10 @@
   other = "Software"
 [software_title]
   other = "Software"
-[coming_soon]
-  other = "Coming soon!"
+[more]
+  other = "More"
+[poutyne_desc]
+  other = "A Keras-like framework for PyTorch that handles much of the boilerplating code needed to train neural networks."
 
 [contact]
   other = "Contact"

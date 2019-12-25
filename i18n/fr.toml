@@ -57,8 +57,10 @@
   other = "Logiciels"
 [software_title]
   other = "Logiciels"
-[coming_soon]
-  other = "Bientôt disponible!"
+[more]
+  other = "En savoir plus"
+[poutyne_desc]
+  other = "Un framework à la Keras pour PyTorch qui élimine le code répétitif nécessaire pour entraîner des réseaux de neurones."
 
 [contact]
   other = "Contact"
