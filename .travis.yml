@@ -10,4 +10,4 @@ deploy:
   local-dir: "./public/"
   provider: pages
   on:
-    branch: hugo
+    branch: master
