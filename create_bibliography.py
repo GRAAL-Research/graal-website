@@ -74,7 +74,7 @@ def create_bibliography():
                 entry = create_bibliography_entry(key, publication_element)
                 bibliography.append(entry)
 
-    json.dump(bibliography, open("static/bib/bibliography_graal.json", 'w'), indent=2)
+    json.dump(bibliography, open("static/bib/bibliography.json", 'w'), indent=2)
 
 if __name__ == '__main__':
     create_bibliography()

@@ -1,0 +1,13 @@
+relativeURLs = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+DefaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    baseURL = "https://grail.ift.ulaval.ca"
+    languageName = "EN"
+    weight = 1
+  [languages.fr]
+    baseURL = "https://graal.ift.ulaval.ca"
+    languageName = "FR"
+    weight = 2

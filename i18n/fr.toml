@@ -1,0 +1,73 @@
+[group_name]
+  other = "Groupe de recherche en apprentissage automatique de l'Université Laval (GRAAL)"
+[lab_name]
+  other = "Laboratoire du GRAAL"
+[acronym]
+  other = "GRAAL"
+
+[about]
+  other = "À propos"
+[about_title]
+  other = "À propos"
+[about_desc]
+  other = """Le Groupe de recherche en apprentissage automatique de l'Université Laval (GRAAL) se concentre principalement sur la théorie et les applications de l'apprentissage automatique. Notre groupe s'efforce de comprendre comment la théorie de l'apprentissage peut offrir de solides garanties sur l'exactitude des modèles appris. De plus, notre groupe est à la pointe des applications pratiques de l'intelligence artificielle, avec des projets de recherche en traitement de la langue naturelle, de la bioinformatique, des données massives et de la théorie de l'apprentissage. Notre travail a un impact sur la découverte de médicaments, la médecine personnalisée, le diagnostic médical, l'évaluation des risques en assurance, la sécurité des logiciels, la sécurité des réseaux sociaux, etc.
+  <br /><br />
+  Le GRAAL fait parti du <a href="//www.ift.ulaval.ca">Département d'informatique et de génie logiciel</a> de l'<a href="//ulaval.ca">Universit&eacute; Laval</a> et est dirigé par les Professeurs François Laviolette, Mario Marchand, Jacques Corbeil, Luc Lamontagne, Richard Khoury, et Audrey Durand.
+  """
+
+[team]
+  other = "Équipe"
+[team_title]
+  other = "Équipe"
+[team_alumni_title]
+  other = "Alumni"
+[undergrad]
+  other = "Étudiant sous-gradué"
+[master]
+  other = "Étudiant de maîtrise"
+[phd]
+  other = "Étudiant doctorant"
+[alumni_phd]
+  other = "Doctorat"
+[postdoc]
+  other = "Chercheur post-doctoral"
+[alumni_postdoc]
+  other = "Chercheur post-doctoral"
+[alumni_master]
+  other = "Maîtrise"
+[prof]
+  other = "Professeur"
+
+[publications]
+  other = "Publications"
+[publications_title]
+  other = "Publications"
+[year]
+  other = "Année"
+[publication]
+  other = "Publication"
+[url]
+  other = "Lien"
+[view]
+  other = "Voir"
+[datatables_language_url]
+  other = "French"
+
+[software]
+  other = "Logiciels"
+[software_title]
+  other = "Logiciels"
+[coming_soon]
+  other = "Bientôt disponible!"
+
+[contact]
+  other = "Contact"
+[contact_title]
+  other = "Contact"
+[mailing_address]
+  other = "Adresse postale"
+
+[affiliations]
+  other = "Affiliations"
+[affiliations_title]
+  other = "Affiliations et partenaires"
