@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-12 text-center">
                 <a href="{{ if .website }}{{ .website }}{{else if .linkedin }}{{ .linkedin }}{{ else }}javascript:void(0){{ end }}" target="_blank">
-                    <img src="/{{ .face_picture }}" class="rounded-circle img-fluid" />
+                    <img src="./{{ .face_picture }}" class="rounded-circle img-fluid" />
                 </a>
             </div>
         </div>
@@ -22,7 +22,7 @@
                 {{ end }}
                 {{ if .scholar }}
                 <a class="btn btn-xs btn-social-icon btn-github" href="{{ .scholar }}&amp;view_op=list_works&amp;sortby=pubdate" target="_blank">
-                    <img src="/images/scholar.png" />
+                    <img src="./images/scholar.png" />
                 </a>
                 {{ end }}
                 {{ if .github }}
@@ -32,7 +32,7 @@
                 {{ end }}
                 {{ if .website }}
                 <a class="btn btn-xs btn-social-icon btn-reddit" href="{{ .website }}" target="_blank">
-                    <img src="/images/homepage.png" />
+                    <img src="./images/homepage.png" />
                 </a>
                 {{ end }}
                 {{ if .twitter }}

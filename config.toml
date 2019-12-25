@@ -1,4 +1,3 @@
-relativeURLs = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 removePathAccents = true
 
