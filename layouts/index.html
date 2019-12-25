@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="../../favicon.ico">
 
         <title>{{ i18n "group_name" }}</title>
 
@@ -47,22 +46,22 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-					<a class="nav-link" href="#{{ anchorize (i18n "about") }}">{{ i18n "about" }}</a>
+					<a class="nav-link" href="#{{ i18n "about" | urlize }}">{{ i18n "about" }}</a>
                 </li>
                 <li class="nav-item">
-					<a class="nav-link" href="#{{ anchorize (i18n "team") }}">{{ i18n "team" }}</a>
+					<a class="nav-link" href="#{{ i18n "team" | urlize }}">{{ i18n "team" }}</a>
                 </li>
 				<li class="nav-item">
-					<a class="nav-link" href="#{{ anchorize (i18n "publications") }}">{{ i18n "publications" }}</a>
+					<a class="nav-link" href="#{{ i18n "publications" | urlize }}">{{ i18n "publications" }}</a>
                 </li>
 				<li class="nav-item">
-					<a class="nav-link" href="#{{ anchorize (i18n "software") }}">{{ i18n "software" }}</a>
+					<a class="nav-link" href="#{{ i18n "software" | urlize }}">{{ i18n "software" }}</a>
                 </li>
 				<li class="nav-item">
-					<a class="nav-link" href="#{{ anchorize (i18n "contact") }}">{{ i18n "contact" }}</a>
+					<a class="nav-link" href="#{{ i18n "contact" | urlize }}">{{ i18n "contact" }}</a>
                 </li>
 				<li class="nav-item">
-					<a class="nav-link" href="#{{ anchorize (i18n "affiliations") }}">{{ i18n "affiliations" }}</a>
+					<a class="nav-link" href="#{{ i18n "affiliations" | urlize }}">{{ i18n "affiliations" }}</a>
 				</li>
 				{{ range $.Site.Home.AllTranslations }}
 					{{ if ne $.Site.Language .Language}}
@@ -78,7 +77,7 @@
         <div class="container">
 
 			<!-- Top logo -->
-			<div class="section" id="{{ anchorize (i18n "about") }}">
+			<div class="section" id="{{ i18n "about" | urlize }}">
 				<div class="row">
 					<div class="col-sm-6">
 						<img src="/images/graal-clipped.png" class="img-fluid" />
@@ -98,7 +97,7 @@
 			</div>
 
 			<!-- Team -->
-			<div class="section" id="{{ anchorize (i18n "team") }}">
+			<div class="section" id="{{ i18n "team" | urlize }}">
 				<h2>{{ i18n "team_title" }}</h2>
 				{{ $graaliens := slice}}{{ range $.Site.Data.graaliens }}{{ $graaliens = $graaliens | append . }}{{ end }}
 				{{ $professors := sort (sort (where $graaliens "status" "prof") "last_name") "joined_year" }}
@@ -124,7 +123,7 @@
 			</div>
 
 			<!-- Publications -->
-			<div class="section" id="{{ anchorize (i18n "publications") }}">
+			<div class="section" id="{{ i18n "publications" | urlize }}">
 				<h2>{{ i18n "publications_title" }}</h2>
 				<div class="row">
 					<div class="col-sm-12">
@@ -142,7 +141,7 @@
 			</div>
 
 			<!-- Software -->
-			<div class="section" id="{{ anchorize (i18n "software") }}">
+			<div class="section" id="{{ i18n "software" | urlize }}">
 				<h2>{{ i18n "software_title" }}</h2>
 				<div class="row">
 					<div class="col-sm-12">
@@ -152,7 +151,7 @@
 			</div>
 
 			<!-- Contact -->
-			<div class="section" id="{{ anchorize (i18n "contact") }}">
+			<div class="section" id="{{ i18n "contact" | urlize }}">
 				<h2>{{ i18n "contact_title" }}</h2>
 				<div class="row">
 					<div class="col-sm-5">
@@ -192,7 +191,7 @@
 			</div>
 
 			<!-- Affiliations -->
-			<div class="section" id="{{ anchorize (i18n "affiliations") }}">
+			<div class="section" id="{{ i18n "affiliations" | urlize }}">
 				<h2>{{ i18n "affiliations_title" }}</h2>
 				<div class="row">
 					<div class="col-sm-2">

@@ -1,5 +1,6 @@
 relativeURLs = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
+removePathAccents = true
 
 DefaultContentLanguage = "en"
 [languages]
