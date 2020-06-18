@@ -3,6 +3,7 @@ install:
   - sudo dpkg -i hugo_0.62.0_Linux-64bit.deb
 script:
   - hugo
+  - cp layouts/404.html public/
 deploy:
   target-branch: gh-pages
   github_token: "$GITHUB_TOKEN"
