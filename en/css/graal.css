@@ -1,0 +1,18 @@
+.section{
+    padding-top: 80px;
+}
+
+.face{
+    margin-bottom: 50px
+}
+
+.footer{
+    padding-top: 100px;
+}
+
+.affiliation-logo{
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    padding-bottom: 30px;
+}

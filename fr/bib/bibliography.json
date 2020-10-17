@@ -1,0 +1,1544 @@
+[
+  {
+    "year": 2020,
+    "citation": "Allard U. C., Gagnon-Turcotte G., Phinyomark A. et al. (2020). Unsupervised Domain Adversarial Self-Calibration for Electromyography-Based Gesture Recognition. IEEE Access, 8, 177941-177955",
+    "url": "https://doi.org/10.1109/ACCESS.2020.3027497",
+    "uniq_id": "journals/access/AllardGPGSLG20"
+  },
+  {
+    "year": 2020,
+    "citation": "Germain P., Habrard A., Laviolette F. et al. (2020). PAC-Bayes and domain adaptation. Neurocomputing, 379, 379-397",
+    "url": "https://doi.org/10.1016/j.neucom.2019.10.105",
+    "uniq_id": "journals/ijon/GermainHLM20"
+  },
+  {
+    "year": 2020,
+    "citation": "Bauvin B., Capponi C., Roy J. et al. (2020). Fast greedy  Mach. Learn., 109, 1945-1986",
+    "url": "https://doi.org/10.1007/s10994-020-05902-7",
+    "uniq_id": "journals/ml/BauvinCRL20"
+  },
+  {
+    "year": 2020,
+    "citation": "Dallaire P., Ambrogioni L., Trottier L. et al. (2020). The Indian Chefs Process. UAI, 245",
+    "url": "http://www.auai.org/uai2020/proceedings/245_main_paper.pdf",
+    "uniq_id": "conf/uai/DallaireATGHGGL20"
+  },
+  {
+    "year": 2020,
+    "citation": "Dallaire P., Ambrogioni L., Trottier L. et al. (2020). The Indian Chefs Process. CoRR, abs/2001.10657",
+    "url": "https://arxiv.org/abs/2001.10657",
+    "uniq_id": "journals/corr/abs-2001-10657"
+  },
+  {
+    "year": 2020,
+    "citation": "Simard F., Desharnais J., Laviolette F. (2020). General Cops and Robbers Games with randomness. CoRR, abs/2004.11503",
+    "url": "https://arxiv.org/abs/2004.11503",
+    "uniq_id": "journals/corr/abs-2004-11503"
+  },
+  {
+    "year": 2020,
+    "citation": "Yassine M., Beauchemin D., Laviolette F. et al. (2020). Leveraging Subword Embeddings for Multinational Address Parsing. CoRR, abs/2006.16152",
+    "url": "https://arxiv.org/abs/2006.16152",
+    "uniq_id": "journals/corr/abs-2006-16152"
+  },
+  {
+    "year": 2019,
+    "citation": "Allard U. C., Gagnon-Turcotte G., Laviolette F. et al. (2019). A Low-Cost, Wireless, 3-D-Printed Custom Armband for sEMG Hand Gesture Recognition. Sensors, 19, 2811",
+    "url": "https://doi.org/10.3390/s19122811",
+    "uniq_id": "journals/sensors/AllardGLG19"
+  },
+  {
+    "year": 2019,
+    "citation": "Letarte G., Germain P., Guedj B. et al. (2019). Dichotomize and Generalize: PAC-Bayesian Binary Activated Deep Neural Networks. NeurIPS, 6869-6879",
+    "url": "http://papers.nips.cc/paper/8911-dichotomize-and-generalize-pac-bayesian-binary-activated-deep-neural-networks",
+    "uniq_id": "conf/nips/LetarteGGL19"
+  },
+  {
+    "year": 2019,
+    "citation": "Kouko G., Desharnais J., Laviolette F. (2019). Finite Approximation of LMPs for Exact Verification of Reachability Properties. QEST, 70-87",
+    "url": "https://doi.org/10.1007/978-3-030-30281-8_5",
+    "uniq_id": "conf/qest/KoukoDL19"
+  },
+  {
+    "year": 2019,
+    "citation": "Letarte G., Germain P., Guedj B. et al. (2019). Dichotomize and Generalize: PAC-Bayesian Binary Activated Deep Neural Networks. CoRR, abs/1905.10259",
+    "url": "http://arxiv.org/abs/1905.10259",
+    "uniq_id": "journals/corr/abs-1905-10259"
+  },
+  {
+    "year": 2019,
+    "citation": "Tossou P., Dura B., Laviolette F. et al. (2019). Adaptive Deep Kernel Learning. CoRR, abs/1905.12131",
+    "url": "http://arxiv.org/abs/1905.12131",
+    "uniq_id": "journals/corr/abs-1905-12131"
+  },
+  {
+    "year": 2019,
+    "citation": "Allard U. C., Campbell E., Phinyomark A. et al. (2019). Interpreting Deep Learning Features for Myoelectric Control: A Comparison with Handcrafted Features. CoRR, abs/1912.00283",
+    "url": "http://arxiv.org/abs/1912.00283",
+    "uniq_id": "journals/corr/abs-1912-00283"
+  },
+  {
+    "year": 2019,
+    "citation": "Allard U. C., Gagnon-Turcotte G., Phinyomark A. et al. (2019). Virtual Reality to Study the Gap Between Offline and Real-Time EMG-based Gesture Recognition. CoRR, abs/1912.09380",
+    "url": "http://arxiv.org/abs/1912.09380",
+    "uniq_id": "journals/corr/abs-1912-09380"
+  },
+  {
+    "year": 2019,
+    "citation": "Allard U. C., Gagnon-Turcotte G., Phinyomark A. et al. (2019). Unsupervised Domain Adversarial Self-Calibration for Electromyographic-based Gesture Recognition. CoRR, abs/1912.11037",
+    "url": "http://arxiv.org/abs/1912.11037",
+    "uniq_id": "journals/corr/abs-1912-11037"
+  },
+  {
+    "year": 2018,
+    "citation": "Letarte G., Paradis F., Gigu\u00e8re P. et al. (2018). Importance of Self-Attention for Sentiment Analysis. BlackboxNLP@EMNLP, 267-275",
+    "url": "https://doi.org/10.18653/v1/w18-5429",
+    "uniq_id": "conf/emnlp/LetartePGL18"
+  },
+  {
+    "year": 2018,
+    "citation": "Allard U. C., Fall C. L., Drouin A. et al. (2018). Deep Learning for Electromyographic Hand Gesture Signal Classification by Leveraging Transfer Learning. CoRR, abs/1801.07756",
+    "url": "http://arxiv.org/abs/1801.07756",
+    "uniq_id": "journals/corr/abs-1801-07756"
+  },
+  {
+    "year": 2017,
+    "citation": "Laviolette F., Morvant E., Ralaivola L. et al. (2017). Risk upper bounds for general ensemble methods with an application to multiclass classification. Neurocomputing, 219, 15-25",
+    "url": "https://doi.org/10.1016/j.neucom.2016.09.016",
+    "uniq_id": "journals/ijon/LavioletteMRR17"
+  },
+  {
+    "year": 2017,
+    "citation": "Allard U. C., Dube G., Khoury R. et al. (2017). Time Adaptive Dual Particle Swarm Optimization. CEC, 2534-2543",
+    "url": "https://doi.org/10.1109/CEC.2017.7969613",
+    "uniq_id": "conf/cec/AllardDKLGL17"
+  },
+  {
+    "year": 2017,
+    "citation": "Drouin A., Hocking T., Laviolette F. (2017). Maximum Margin Interval Trees. NIPS, 4947-4956",
+    "url": "http://papers.nips.cc/paper/7080-maximum-margin-interval-trees",
+    "uniq_id": "conf/nips/DrouinHL17"
+  },
+  {
+    "year": 2017,
+    "citation": "Allard U. C., St-Onge D., Gigu\u00e8re P. et al. (2017). Towards the use of consumer-grade electromyographic armbands for interactive, artistic robotics performances. RO-MAN, 1030-1036",
+    "url": "https://doi.org/10.1109/ROMAN.2017.8172430",
+    "uniq_id": "conf/ro-man/AllardSGLG17"
+  },
+  {
+    "year": 2017,
+    "citation": "Allard U. C., Fall C. L., Campeau-Lecours A. et al. (2017). Transfer learning for sEMG hand gestures recognition using convolutional neural networks. SMC, 1663-1668",
+    "url": "https://doi.org/10.1109/SMC.2017.8122854",
+    "uniq_id": "conf/smc/AllardFCGLG17"
+  },
+  {
+    "year": 2017,
+    "citation": "Ganin Y., Ustinova E., Ajakan H. et al. (2017). Domain-Adversarial Training of Neural Networks. Domain Adaptation in Computer Vision Applications, 189-209",
+    "url": "https://doi.org/10.1007/978-3-319-58347-1_10",
+    "uniq_id": "series/acvpr/GaninUAGLLML17"
+  },
+  {
+    "year": 2017,
+    "citation": "Drouin A., Hocking T. D., Laviolette F. (2017). Maximum Margin Interval Trees. CoRR, abs/1710.04234",
+    "url": "http://arxiv.org/abs/1710.04234",
+    "uniq_id": "journals/corr/abs-1710-04234"
+  },
+  {
+    "year": 2016,
+    "citation": "Ganin Y., Ustinova E., Ajakan H. et al. (2016). Domain-Adversarial Training of Neural Networks. J. Mach. Learn. Res., 17, 59:1-59:35",
+    "url": "http://jmlr.org/papers/v17/15-239.html",
+    "uniq_id": "journals/jmlr/GaninUAGLLML16"
+  },
+  {
+    "year": 2016,
+    "citation": "B\u00e9gin L., Germain P., Laviolette F. et al. (2016). PAC-Bayesian Bounds based on the R\u00e9nyi Divergence. AISTATS, 435-444",
+    "url": "http://proceedings.mlr.press/v51/begin16.html",
+    "uniq_id": "conf/aistats/BeginGLR16"
+  },
+  {
+    "year": 2016,
+    "citation": "Roy J., Marchand M., Laviolette F. (2016). A Column Generation Bound Minimization Approach with PAC-Bayesian Generalization Guarantees. AISTATS, 1241-1249",
+    "url": "http://proceedings.mlr.press/v51/roy16.html",
+    "uniq_id": "conf/aistats/RoyML16"
+  },
+  {
+    "year": 2016,
+    "citation": "Germain P., Habrard A., Laviolette F. et al. (2016). A New PAC-Bayesian Perspective on Domain Adaptation. ICML, 859-868",
+    "url": "http://proceedings.mlr.press/v48/germain16.html",
+    "uniq_id": "conf/icml/GermainHLM16"
+  },
+  {
+    "year": 2016,
+    "citation": "Allard U. C., Nougarou F., Fall C. L. et al. (2016). A convolutional neural network for robotic arm guidance using sEMG based frequency-features. IROS, 2464-2470",
+    "url": "https://doi.org/10.1109/IROS.2016.7759384",
+    "uniq_id": "conf/iros/AllardNFGGLG16"
+  },
+  {
+    "year": 2016,
+    "citation": "Drouin A., Raymond F., St-Pierre G. L. et al. (2016). Large scale modeling of antimicrobial resistance with interpretable classifiers. CoRR, abs/1612.01030",
+    "url": "http://arxiv.org/abs/1612.01030",
+    "uniq_id": "journals/corr/DrouinRSMCL16"
+  },
+  {
+    "year": 2015,
+    "citation": "Germain P., Lacasse A., Laviolette F. et al. (2015). Risk bounds for the majority vote: from a PAC-Bayesian analysis to a learning algorithm. J. Mach. Learn. Res., 16, 787-860",
+    "url": "http://dl.acm.org/citation.cfm?id=2831140",
+    "uniq_id": "journals/jmlr/GermainLLMR15"
+  },
+  {
+    "year": 2015,
+    "citation": "Gigu\u00e8re S., Laviolette F., Marchand M. et al. (2015). Machine Learning Assisted Design of Highly Active Peptides for Drug Discovery. PLoS Comput. Biol., 11",
+    "url": "https://doi.org/10.1371/journal.pcbi.1004074",
+    "uniq_id": "journals/ploscb/GiguereLMTMLBC15"
+  },
+  {
+    "year": 2015,
+    "citation": "Simard F., Morin M., Quimper C. et al. (2015). Bounding an Optimal Search Path with a Game of Cop and Robber on Graphs. CP, 403-418",
+    "url": "https://doi.org/10.1007/978-3-319-23219-5_29",
+    "uniq_id": "conf/cp/SimardMQLD15"
+  },
+  {
+    "year": 2015,
+    "citation": "Allard U. C., Khoury R., Lamontagne L. et al. (2015). Optimizing Question-Answering Systems Using Genetic Algorithms. FLAIRS Conference, 32-37",
+    "url": "http://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS15/paper/view/10362",
+    "uniq_id": "conf/flairs/AllardKLBLG15"
+  },
+  {
+    "year": 2015,
+    "citation": "Gigu\u00e8re S., Rolland A., Laviolette F. et al. (2015). Algorithms for the Hard Pre-Image Problem of String Kernels and the General Problem of String Prediction. ICML, 2021-2029",
+    "url": "http://proceedings.mlr.press/v37/giguere15.html",
+    "uniq_id": "conf/icml/GiguereRLM15"
+  },
+  {
+    "year": 2015,
+    "citation": "Morin M., Paradis F., Rolland A. et al. (2015). Machine learning-based metamodels for sawing simulation. Winter Simulation Conference, 2160-2171",
+    "url": "https://doi.org/10.1109/WSC.2015.7408329",
+    "uniq_id": "conf/wsc/MorinPRWGL15"
+  },
+  {
+    "year": 2015,
+    "citation": "Laviolette F., Morvant E., Ralaivola L. et al. (2015). On Generalizing the C-Bound to the Multiclass and Multi-label Settings. CoRR, abs/1501.03001",
+    "url": "http://arxiv.org/abs/1501.03001",
+    "uniq_id": "journals/corr/LavioletteMRR15"
+  },
+  {
+    "year": 2015,
+    "citation": "Germain P., Habrard A., Laviolette F. et al. (2015). An Improvement to the Domain Adaptation Bound in a PAC-Bayesian context. CoRR, abs/1501.03002",
+    "url": "http://arxiv.org/abs/1501.03002",
+    "uniq_id": "journals/corr/GermainHLM15"
+  },
+  {
+    "year": 2015,
+    "citation": "Germain P., Habrard A., Laviolette F. et al. (2015). PAC-Bayesian Theorems for Domain Adaptation with Specialization to Linear Classifiers. CoRR, abs/1503.06944",
+    "url": "http://arxiv.org/abs/1503.06944",
+    "uniq_id": "journals/corr/GermainHLM15a"
+  },
+  {
+    "year": 2015,
+    "citation": "Germain P., Lacasse A., Laviolette F. et al. (2015). Risk Bounds for the Majority Vote: From a PAC-Bayesian Analysis to a Learning Algorithm. CoRR, abs/1503.08329",
+    "url": "http://arxiv.org/abs/1503.08329",
+    "uniq_id": "journals/corr/GermainLLMR15"
+  },
+  {
+    "year": 2015,
+    "citation": "Drouin A., Gigu\u00e8re S., D\u00e9raspe M. et al. (2015). Greedy Biomarker Discovery in the Genome with Applications to Antimicrobial Resistance. CoRR, abs/1505.06249",
+    "url": "http://arxiv.org/abs/1505.06249",
+    "uniq_id": "journals/corr/DrouinGDLMC15"
+  },
+  {
+    "year": 2015,
+    "citation": "Ganin Y., Ustinova E., Ajakan H. et al. (2015). Domain-Adversarial Training of Neural Networks. CoRR, abs/1505.07818",
+    "url": "http://arxiv.org/abs/1505.07818",
+    "uniq_id": "journals/corr/GaninUAGLLML15"
+  },
+  {
+    "year": 2015,
+    "citation": "Fortier-Dubois L., Laviolette F., Marchand M. et al. (2015). Efficient Learning of Ensembles with QuadBoost. CoRR, abs/1506.02535",
+    "url": "http://arxiv.org/abs/1506.02535",
+    "uniq_id": "journals/corr/Fortier-DuboisL15"
+  },
+  {
+    "year": 2015,
+    "citation": "Germain P., Habrard A., Laviolette F. et al. (2015). A New PAC-Bayesian Perspective on Domain Adaptation. CoRR, abs/1506.04573",
+    "url": "http://arxiv.org/abs/1506.04573",
+    "uniq_id": "journals/corr/GermainHLM15b"
+  },
+  {
+    "year": 2014,
+    "citation": "B\u00e9gin L., Germain P., Laviolette F. et al. (2014). PAC-Bayesian Theory for Transductive Learning. AISTATS, 105-113",
+    "url": "http://proceedings.mlr.press/v33/begin14.html",
+    "uniq_id": "conf/aistats/BeginGLR14"
+  },
+  {
+    "year": 2014,
+    "citation": "Lacoste A., Marchand M., Laviolette F. et al. (2014). Agnostic Bayesian Learning of Ensembles. ICML, 611-619",
+    "url": "http://proceedings.mlr.press/v32/lacoste14.html",
+    "uniq_id": "conf/icml/LacosteMLL14"
+  },
+  {
+    "year": 2014,
+    "citation": "Chinaei H., Lamontagne L., Laviolette F. et al. (2014). A Topic Model Scoring Approach for Personalized QA Systems. TSD, 84-92",
+    "url": "https://doi.org/10.1007/978-3-319-10816-2_11",
+    "uniq_id": "conf/tsd/ChinaeiLLK14"
+  },
+  {
+    "year": 2014,
+    "citation": "Lacoste A., Larochelle H., Marchand M. et al. (2014). Sequential Model-Based Ensemble Optimization. UAI, 440-448",
+    "url": "https://dslpitt.org/uai/displayArticleDetails.jsp?mmnu=1&smnu=2&article_id=2479&proceeding_id=30",
+    "uniq_id": "conf/uai/LacosteLML14"
+  },
+  {
+    "year": 2014,
+    "citation": "Lacoste A., Larochelle H., Laviolette F. et al. (2014). Sequential Model-Based Ensemble Optimization. CoRR, abs/1402.0796",
+    "url": "http://arxiv.org/abs/1402.0796",
+    "uniq_id": "journals/corr/LacosteLLM14"
+  },
+  {
+    "year": 2014,
+    "citation": "Drouin A., Gigu\u00e8re S., Sagatovich V. et al. (2014). Learning interpretable models of phenotypes from whole genome sequences with the Set Covering Machine. CoRR, abs/1412.1074",
+    "url": "http://arxiv.org/abs/1412.1074",
+    "uniq_id": "journals/corr/DrouinGSDLMC14"
+  },
+  {
+    "year": 2014,
+    "citation": "Gigu\u00e8re S., Rolland A., Laviolette F. et al. (2014). On the String Kernel Pre-Image Problem with Applications in Drug Discovery. CoRR, abs/1412.1463",
+    "url": "http://arxiv.org/abs/1412.1463",
+    "uniq_id": "journals/corr/GiguereRLM14"
+  },
+  {
+    "year": 2014,
+    "citation": "Ajakan H., Germain P., Larochelle H. et al. (2014). Domain-Adversarial Neural Networks. CoRR, abs/1412.4446",
+    "url": "http://arxiv.org/abs/1412.4446",
+    "uniq_id": "journals/corr/AjakanGLLM14"
+  },
+  {
+    "year": 2013,
+    "citation": "Godzaridis \u00c9., Boisvert S., Xia F. et al. (2013). Human Analysts at Superhuman Scales: What Has Friendly Software To Do? Big Data, 1, 227-236",
+    "url": "https://doi.org/10.1089/big.2013.0031",
+    "uniq_id": "journals/bigdata/GodzaridisBXKBL13"
+  },
+  {
+    "year": 2013,
+    "citation": "Gigu\u00e8re S., Marchand M., Laviolette F. et al. (2013). Learning a peptide-protein binding affinity predictor with kernel ridge regression. BMC Bioinform., 14, 82",
+    "url": "https://doi.org/10.1186/1471-2105-14-82",
+    "uniq_id": "journals/bmcbi/GiguereMLDC13"
+  },
+  {
+    "year": 2013,
+    "citation": "Desharnais J., Laviolette F., Zhioua S. (2013). Testing probabilistic equivalence through Reinforcement Learning. Inf. Comput., 227, 21-57",
+    "url": "https://doi.org/10.1016/j.ic.2013.02.002",
+    "uniq_id": "journals/iandc/DesharnaisLZ13"
+  },
+  {
+    "year": 2013,
+    "citation": "Lever G., Laviolette F., Shawe-Taylor J. (2013). Tighter PAC-Bayes bounds through distribution-dependent priors. Theor. Comput. Sci., 473, 4-28",
+    "url": "https://doi.org/10.1016/j.tcs.2012.10.013",
+    "uniq_id": "journals/tcs/LeverLS13"
+  },
+  {
+    "year": 2013,
+    "citation": "Gigu\u00e8re S., Laviolette F., Marchand M. et al. (2013). Risk Bounds and Learning Algorithms for the Regression Approach to Structured Output Prediction. ICML (1), 107-114",
+    "url": "http://proceedings.mlr.press/v28/giguere13.html",
+    "uniq_id": "conf/icml/GiguereLMS13"
+  },
+  {
+    "year": 2013,
+    "citation": "Germain P., Habrard A., Laviolette F. et al. (2013). A PAC-Bayesian Approach for Domain Adaptation with Specialization to Linear Classifiers. ICML (3), 738-746",
+    "url": "http://proceedings.mlr.press/v28/germain13.html",
+    "uniq_id": "conf/icml/GermainHLM13"
+  },
+  {
+    "year": 2013,
+    "citation": "Latulippe M., Drouin A., Gigu\u00e8re P. et al. (2013). Accelerated Robust Point Cloud Registration in Natural Environments through Positive and Unlabeled Learning. IJCAI, 2480-2487",
+    "url": "http://www.aaai.org/ocs/index.php/IJCAI/IJCAI13/paper/view/6848",
+    "uniq_id": "conf/ijcai/LatulippeDGL13"
+  },
+  {
+    "year": 2012,
+    "citation": "Seldin Y., Laviolette F., Cesa-Bianchi N. et al. (2012). PAC-Bayesian Inequalities for Martingales. IEEE Trans. Inf. Theory, 58, 7086-7093",
+    "url": "https://doi.org/10.1109/TIT.2012.2211334",
+    "uniq_id": "journals/tit/SeldinLCSA12"
+  },
+  {
+    "year": 2012,
+    "citation": "Germain P., Gigu\u00e8re S., Roy J. et al. (2012). A Pseudo-Boolean Set Covering Machine. CP, 916-924",
+    "url": "https://doi.org/10.1007/978-3-642-33558-7_65",
+    "uniq_id": "conf/cp/GermainGRZLQ12"
+  },
+  {
+    "year": 2012,
+    "citation": "Morin M., Papillon A., Abi-Zeid I. et al. (2012). Constraint Programming for Path Planning with Uncertainty - Solving the Optimal Search Path Problem. CP, 988-1003",
+    "url": "https://doi.org/10.1007/978-3-642-33558-7_70",
+    "uniq_id": "conf/cp/MorinPALQ12"
+  },
+  {
+    "year": 2012,
+    "citation": "Seldin Y., Laviolette F., Cesa-Bianchi N. et al. (2012). PAC-Bayesian Inequalities for Martingales. UAI, 12",
+    "url": "https://dslpitt.org/uai/displayArticleDetails.jsp?mmnu=1&smnu=2&article_id=2341&proceeding_id=28",
+    "uniq_id": "conf/uai/SeldinLCSA12"
+  },
+  {
+    "year": 2012,
+    "citation": "Seldin Y., Cesa-Bianchi N., Auer P. et al. (2012). PAC-Bayes-Bernstein Inequality for Martingales and its Application to Multiarmed Bandits. ICML On-line Trading of Exploration and Exploitation, 98-111",
+    "url": "http://proceedings.mlr.press/v26/seldin12a.html",
+    "uniq_id": "journals/jmlr/SeldinCALS12"
+  },
+  {
+    "year": 2012,
+    "citation": "Lacoste A., Laviolette F., Marchand M. (2012). Bayesian Comparison of Machine Learning Algorithms on Single and Multiple Datasets. AISTATS, 665-675",
+    "url": "http://proceedings.mlr.press/v22/lacoste12.html",
+    "uniq_id": "journals/jmlr/LacosteLM12"
+  },
+  {
+    "year": 2012,
+    "citation": "Gigu\u00e8re S., Marchand M., Laviolette F. et al. (2012). Learning a peptide-protein binding affinity predictor with kernel ridge regression CoRR, abs/1207.7253",
+    "url": "http://arxiv.org/abs/1207.7253",
+    "uniq_id": "journals/corr/abs-1207-7253"
+  },
+  {
+    "year": 2012,
+    "citation": "Germain P., Habrard A., Laviolette F. et al. (2012). PAC-Bayesian Learning and Domain Adaptation CoRR, abs/1212.2340",
+    "url": "http://arxiv.org/abs/1212.2340",
+    "uniq_id": "journals/corr/abs-1212-2340"
+  },
+  {
+    "year": 2011,
+    "citation": "Desharnais J., Laviolette F., Turgeon A. (2011). A logical duality for underspecified probabilistic systems. Inf. Comput., 209, 850-871",
+    "url": "https://doi.org/10.1016/j.ic.2010.12.005",
+    "uniq_id": "journals/iandc/DesharnaisLT11"
+  },
+  {
+    "year": 2011,
+    "citation": "Germain P., Lacoste A., Laviolette F. et al. (2011). A PAC-Bayes Sample-compression Approach to Kernel Methods. ICML, 297-304",
+    "url": "https://icml.cc/2011/papers/218_icmlpaper.pdf",
+    "uniq_id": "conf/icml/GermainLLMS11"
+  },
+  {
+    "year": 2011,
+    "citation": "Roy J., Laviolette F., Marchand M. (2011). From PAC-Bayes Bounds to Quadratic Programs for Majority Votes. ICML, 649-656",
+    "url": "https://icml.cc/2011/papers/379_icmlpaper.pdf",
+    "uniq_id": "conf/icml/RoyLM11"
+  },
+  {
+    "year": 2011,
+    "citation": "Seldin Y., Auer P., Laviolette F. et al. (2011). PAC-Bayesian Analysis of Contextual Bandits. NIPS, 1683-1691",
+    "url": "http://papers.nips.cc/paper/4227-pac-bayesian-analysis-of-contextual-bandits",
+    "uniq_id": "conf/nips/SeldinALSO11"
+  },
+  {
+    "year": 2011,
+    "citation": "Seldin Y., Laviolette F., Shawe-Taylor J. et al. (2011). PAC-Bayesian Analysis of Martingales and Multiarmed Bandits CoRR, abs/1105.2416",
+    "url": "http://arxiv.org/abs/1105.2416",
+    "uniq_id": "journals/corr/abs-1105-2416"
+  },
+  {
+    "year": 2011,
+    "citation": "Seldin Y., Cesa-Bianchi N., Laviolette F. et al. (2011). PAC-Bayesian Analysis of the Exploration-Exploitation Trade-off CoRR, abs/1105.4585",
+    "url": "http://arxiv.org/abs/1105.4585",
+    "uniq_id": "journals/corr/abs-1105-4585"
+  },
+  {
+    "year": 2011,
+    "citation": "Seldin Y., Cesa-Bianchi N., Auer P. et al. (2011). PAC-Bayes-Bernstein Inequality for Martingales and its Application to Multiarmed Bandits CoRR, abs/1110.6755",
+    "url": "http://arxiv.org/abs/1110.6755",
+    "uniq_id": "journals/corr/abs-1110-6755"
+  },
+  {
+    "year": 2011,
+    "citation": "Seldin Y., Laviolette F., Cesa-Bianchi N. et al. (2011). PAC-Bayesian Inequalities for Martingales CoRR, abs/1110.6886",
+    "url": "http://arxiv.org/abs/1110.6886",
+    "uniq_id": "journals/corr/abs-1110-6886"
+  },
+  {
+    "year": 2010,
+    "citation": "Boisvert S., Laviolette F., Corbeil J. (2010). Ray: Simultaneous Assembly of Reads from a Mix of High-Throughput Sequencing Technologies. J. Comput. Biol., 17, 1519-1533",
+    "url": "https://doi.org/10.1089/cmb.2009.0238",
+    "uniq_id": "journals/jcb/BoisvertLC10"
+  },
+  {
+    "year": 2010,
+    "citation": "Laviolette F., Marchand M., Shah M. et al. (2010). Learning the set covering machine by bound minimization and margin-sparsity trade-off. Mach. Learn., 78, 175-201",
+    "url": "https://doi.org/10.1007/s10994-009-5137-3",
+    "uniq_id": "journals/ml/LavioletteMSS10"
+  },
+  {
+    "year": 2010,
+    "citation": "Lever G., Laviolette F., Shawe-Taylor J. (2010). Distribution-Dependent PAC-Bayes Priors. ALT, 119-133",
+    "url": "https://doi.org/10.1007/978-3-642-16108-7_13",
+    "uniq_id": "conf/alt/LeverLS10"
+  },
+  {
+    "year": 2010,
+    "citation": "Lacasse A., Laviolette F., Marchand M. et al. (2010). Learning with Randomized Majority Votes. ECML/PKDD (2), 162-177",
+    "url": "https://doi.org/10.1007/978-3-642-15883-4_11",
+    "uniq_id": "conf/pkdd/LacasseLMT10"
+  },
+  {
+    "year": 2009,
+    "citation": "Desharnais J., Laviolette F., Turgeon A. (2009). A Demonic Approach to Information in Probabilistic Systems. CONCUR, 289-304",
+    "url": "https://doi.org/10.1007/978-3-642-04081-8_20",
+    "uniq_id": "conf/concur/DesharnaisLT09"
+  },
+  {
+    "year": 2009,
+    "citation": "Germain P., Lacasse A., Laviolette F. et al. (2009). PAC-Bayesian learning of linear classifiers. ICML, 353-360",
+    "url": "https://doi.org/10.1145/1553374.1553419",
+    "uniq_id": "conf/icml/GermainLLM09"
+  },
+  {
+    "year": 2009,
+    "citation": "Germain P., Lacasse A., Laviolette F. et al. (2009). From PAC-Bayes Bounds to KL Regularization. NIPS, 603-610",
+    "url": "http://papers.nips.cc/paper/3821-from-pac-bayes-bounds-to-kl-regularization",
+    "uniq_id": "conf/nips/GermainLLMS09"
+  },
+  {
+    "year": 2009,
+    "citation": "Zhioua S., Precup D., Laviolette F. et al. (2009). Learning the Difference between Partially Observable Dynamical Systems. ECML/PKDD (2), 664-677",
+    "url": "https://doi.org/10.1007/978-3-642-04174-7_43",
+    "uniq_id": "conf/pkdd/ZhiouaPLD09"
+  },
+  {
+    "year": 2008,
+    "citation": "Laviolette F., Marchand M., Shanian S. (2008). Selective Sampling for Classification. Canadian Conference on AI, 191-202",
+    "url": "https://doi.org/10.1007/978-3-540-68825-9_19",
+    "uniq_id": "conf/ai/LavioletteMS08"
+  },
+  {
+    "year": 2008,
+    "citation": "Laviolette F., Tobin L. (2008). A Stochastic Point-Based Algorithm for POMDPs. Canadian Conference on AI, 332-343",
+    "url": "https://doi.org/10.1007/978-3-540-68825-9_31",
+    "uniq_id": "conf/ai/LavioletteT08"
+  },
+  {
+    "year": 2008,
+    "citation": "Amini M., Laviolette F., Usunier N. (2008). A Transductive Bound for the Voted Classifier with an Application to Semi-supervised Learning. NIPS, 65-72",
+    "url": "http://papers.nips.cc/paper/3444-a-transductive-bound-for-the-voted-classifier-with-an-application-to-semi-supervised-learning",
+    "uniq_id": "conf/nips/AminiLU08"
+  },
+  {
+    "year": 2008,
+    "citation": "Desharnais J., Laviolette F., Tracol M. (2008). Approximate Analysis of Probabilistic Processes: Logic, Simulation and Games. QEST, 264-273",
+    "url": "https://doi.org/10.1109/QEST.2008.42",
+    "uniq_id": "conf/qest/DesharnaisLT08"
+  },
+  {
+    "year": 2007,
+    "citation": "Laviolette F., Marchand M. (2007). PAC-Bayes Risk Bounds for Stochastic Averages and Majority Votes of Sample-Compressed Classifiers. J. Mach. Learn. Res., 8, 1461-1487",
+    "url": "http://dl.acm.org/citation.cfm?id=1314548",
+    "uniq_id": "journals/jmlr/LavioletteM07"
+  },
+  {
+    "year": 2007,
+    "citation": "Hussain Z., Laviolette F., Marchand M. et al. (2007). Revised Loss Bounds for the Set Covering Machine and Sample-Compression Loss Bounds for Imbalanced Data. J. Mach. Learn. Res., 8, 2533-2549",
+    "url": "http://dl.acm.org/citation.cfm?id=1390326",
+    "uniq_id": "journals/jmlr/HussainLMSBM07"
+  },
+  {
+    "year": 2006,
+    "citation": "Danos V., Desharnais J., Laviolette F. et al. (2006). Bisimulation and cocongruence for probabilistic systems. Inf. Comput., 204, 503-523",
+    "url": "https://doi.org/10.1016/j.ic.2005.02.004",
+    "uniq_id": "journals/iandc/DanosDLP06"
+  },
+  {
+    "year": 2006,
+    "citation": "Desharnais J., Laviolette F., Moturu K. P. D. et al. (2006). Trace Equivalence Characterization Through Reinforcement Learning. Canadian Conference on AI, 371-382",
+    "url": "https://doi.org/10.1007/11766247_32",
+    "uniq_id": "conf/ai/DesharnaisLMZ06"
+  },
+  {
+    "year": 2006,
+    "citation": "Amini M., Usunier N., Laviolette F. et al. (2006). A Selective Sampling Strategy for Label Ranking. ECML, 18-29",
+    "url": "https://doi.org/10.1007/11871842_7",
+    "uniq_id": "conf/ecml/AminiULLG06"
+  },
+  {
+    "year": 2006,
+    "citation": "Desharnais J., Laviolette F., Zhioua S. (2006). Testing Probabilistic Equivalence Through Reinforcement Learning. FSTTCS, 236-247",
+    "url": "https://doi.org/10.1007/11944836_23",
+    "uniq_id": "conf/fsttcs/DesharnaisLZ06"
+  },
+  {
+    "year": 2006,
+    "citation": "Germain P., Lacasse A., Laviolette F. et al. (2006). A PAC-Bayes Risk Bound for General Loss Functions. NIPS, 449-456",
+    "url": "http://papers.nips.cc/paper/3120-a-pac-bayes-risk-bound-for-general-loss-functions",
+    "uniq_id": "conf/nips/GermainLLM06"
+  },
+  {
+    "year": 2006,
+    "citation": "Lacasse A., Laviolette F., Marchand M. et al. (2006). PAC-Bayes Bounds for the Risk of the Majority Vote and the Variance of the Gibbs Classifier. NIPS, 769-776",
+    "url": "http://papers.nips.cc/paper/2959-pac-bayes-bounds-for-the-risk-of-the-majority-vote-and-the-variance-of-the-gibbs-classifier",
+    "uniq_id": "conf/nips/LacasseLMGU06"
+  },
+  {
+    "year": 2005,
+    "citation": "Laviolette F. (2005). Decompositions of infinite graphs: I - bond-faithful decompositions. J. Comb. Theory, Ser. B, 94, 259-277",
+    "url": "https://doi.org/10.1016/j.jctb.2005.01.003",
+    "uniq_id": "journals/jct/Laviolette05"
+  },
+  {
+    "year": 2005,
+    "citation": "Laviolette F. (2005). Decompositions of infinite graphs: Part II circuit decompositions. J. Comb. Theory, Ser. B, 94, 278-333",
+    "url": "https://doi.org/10.1016/j.jctb.2005.01.004",
+    "uniq_id": "journals/jct/Laviolette05a"
+  },
+  {
+    "year": 2005,
+    "citation": "Laviolette F., Marchand M., Shah M. (2005). Margin-Sparsity Trade-Off for the Set Covering Machine. ECML, 206-217",
+    "url": "https://doi.org/10.1007/11564096_23",
+    "uniq_id": "conf/ecml/LavioletteMS05"
+  },
+  {
+    "year": 2005,
+    "citation": "Laviolette F., Marchand M. (2005). PAC-Bayes risk bounds for sample-compressed Gibbs classifiers. ICML, 481-488",
+    "url": "https://doi.org/10.1145/1102351.1102412",
+    "uniq_id": "conf/icml/LavioletteM05"
+  },
+  {
+    "year": 2005,
+    "citation": "Laviolette F., Marchand M., Shah M. (2005). A PAC-Bayes approach to the Set Covering Machine. NIPS, 731-738",
+    "url": "http://papers.nips.cc/paper/2844-a-pac-bayes-approach-to-the-set-covering-machine",
+    "uniq_id": "conf/nips/LavioletteMS05"
+  },
+  {
+    "year": 2004,
+    "citation": "Laviolette F. (2004). The Countable Character of Uncountable Graphs. Electron. Notes Theor. Comput. Sci., 87, 205-224",
+    "url": "https://doi.org/10.1016/j.entcs.2004.09.019",
+    "uniq_id": "journals/entcs/Laviolette04"
+  },
+  {
+    "year": 2002,
+    "citation": "Hahn G., Laviolette F., Sauer N. et al. (2002). On cop-win graphs. Discret. Math., 258, 27-41",
+    "url": "https://doi.org/10.1016/S0012-365X(02)00260-1",
+    "uniq_id": "journals/dm/HahnLSW02"
+  },
+  {
+    "year": 2000,
+    "citation": "Chastand M., Laviolette F., Polat N. (2000). On constructible graphs, infinite bridged graphs and weakly cop-win graphs. Discret. Math., 224, 61-78",
+    "url": "https://doi.org/10.1016/S0012-365X(00)00127-8",
+    "uniq_id": "journals/dm/ChastandLP00"
+  },
+  {
+    "year": 1999,
+    "citation": "Laviolette F., Polat N. (1999). Spanning trees of countable graphs omitting sets of dominated ends. Discret. Math., 194, 151-172",
+    "url": "https://doi.org/10.1016/S0012-365X(98)00042-9",
+    "uniq_id": "journals/dm/LavioletteP99"
+  },
+  {
+    "year": 1998,
+    "citation": "Larose B., Laviolette F., Tardif C. (1998). On Normal Cayley Graphs and Hom-idempotent Graphs. Eur. J. Comb., 19, 867-881",
+    "url": "https://doi.org/10.1006/eujc.1998.0234",
+    "uniq_id": "journals/ejc/LaroseLT98"
+  },
+  {
+    "year": 1997,
+    "citation": "Hahn G., Laviolette F., Sir\u00e1n J. (1997). Edge-Ends in Countable Graphs. J. Comb. Theory, Ser. B, 70, 225-244",
+    "url": "https://doi.org/10.1006/jctb.1996.1734",
+    "uniq_id": "journals/jct/HahnLS97"
+  },
+  {
+    "year": 1994,
+    "citation": "Laviolette F. (1994). Decomposition of infinite eulerian graphs with a small number of vertices of infinite degree. Discret. Math., 130, 83-87",
+    "url": "https://doi.org/10.1016/0012-365X(92)00524-U",
+    "uniq_id": "journals/dm/Laviolette94"
+  },
+  {
+    "year": 2014,
+    "citation": "Marchand M., Su H., Morvant E. et al. (2014). Multilabel Structured Output Learning with Random Spanning Trees of Max-Margin Markov Networks. NIPS, 873-881",
+    "url": "http://papers.nips.cc/paper/5382-multilabel-structured-output-learning-with-random-spanning-trees-of-max-margin-markov-networks",
+    "uniq_id": "conf/nips/MarchandSMRS14"
+  },
+  {
+    "year": 2012,
+    "citation": "Shah M., Marchand M., Corbeil J. (2012). Feature Selection with Conjunctions of Decision Stumps and Learning from Microarray Data. IEEE Trans. Pattern Anal. Mach. Intell., 34, 174-186",
+    "url": "https://doi.org/10.1109/TPAMI.2011.82",
+    "uniq_id": "journals/pami/ShahMC12"
+  },
+  {
+    "year": 2010,
+    "citation": "Shah M., Marchand M., Corbeil J. (2010). Feature Selection with Conjunctions of Decision Stumps and Learning from Microarray Data CoRR, abs/1005.0530",
+    "url": "http://arxiv.org/abs/1005.0530",
+    "uniq_id": "journals/corr/abs-1005-0530"
+  },
+  {
+    "year": 2008,
+    "citation": "Quirion S., Duchesne C., Laurendeau D. et al. (2008). Comparing GPLVM Approaches for Dimensionality Reduction in Character Animation. J. WSCG, 16, 41-48",
+    "url": "http://wscg.zcu.cz/wscg2008/Papers_2008/journal/!_WSCG2008_Journal_final.zip",
+    "uniq_id": "journals/jwscg/QuirionDLM08"
+  },
+  {
+    "year": 2006,
+    "citation": " (2006). Advances in Artificial Intelligence, 19th Conference of the Canadian Society for Computational Studies of Intelligence, Canadian AI 2006, Qu\u00e9bec City, Qu\u00e9bec, Canada, June 7-9, 2006, Proceedings Canadian Conference on AI, 4013",
+    "url": "https://doi.org/10.1007/11766247",
+    "uniq_id": "conf/ai/2006"
+  },
+  {
+    "year": 2005,
+    "citation": "Marchand M., Sokolova M. (2005). Learning with Decision Lists of Data-Dependent Features. J. Mach. Learn. Res., 6, 427-451",
+    "url": "http://jmlr.org/papers/v6/marchand05a.html",
+    "uniq_id": "journals/jmlr/MarchandS05"
+  },
+  {
+    "year": 2004,
+    "citation": "Marchand M., Shah M. (2004). PAC-Bayes Learning of Conjunctions and Classification of Gene-Expression Data. NIPS, 881-888",
+    "url": "http://papers.nips.cc/paper/2593-pac-bayes-learning-of-conjunctions-and-classification-of-gene-expression-data",
+    "uniq_id": "conf/nips/MarchandS04"
+  },
+  {
+    "year": 2003,
+    "citation": "Marchand M., Shah M., Shawe-Taylor J. et al. (2003). The Set Covering Machine with Data-Dependent Half-Spaces. ICML, 520-527",
+    "url": "http://www.aaai.org/Library/ICML/2003/icml03-069.php",
+    "uniq_id": "conf/icml/MarchandSSS03"
+  },
+  {
+    "year": 2002,
+    "citation": "Marchand M., Shawe-Taylor J. (2002). The Set Covering Machine. J. Mach. Learn. Res., 3, 723-746",
+    "url": "http://jmlr.org/papers/v3/marchand02a.html",
+    "uniq_id": "journals/jmlr/MarchandS02"
+  },
+  {
+    "year": 2002,
+    "citation": "Sokolova M., Marchand M., Japkowicz N. et al. (2002). The Decision List Machine. NIPS, 921-928",
+    "url": "http://papers.nips.cc/paper/2235-the-decision-list-machine",
+    "uniq_id": "conf/nips/SokolovaMJS02"
+  },
+  {
+    "year": 2001,
+    "citation": "Marchand M., Shawe-Taylor J. (2001). Learning with the Set Covering Machine. ICML, 345-352",
+    "url": null,
+    "uniq_id": "conf/icml/MarchandS01"
+  },
+  {
+    "year": 1996,
+    "citation": "Golea M., Marchand M., Hancock T. R. (1996). On learning ?-perceptron networks on the uniform distribution. Neural Networks, 9, 67-82",
+    "url": "https://doi.org/10.1016/0893-6080(95)00009-7",
+    "uniq_id": "journals/nn/GoleaMH96"
+  },
+  {
+    "year": 1995,
+    "citation": "Marchand M., Hadjifaradji S. (1995). Strong Unimodality and Exact Learning of Constant Depth \u00b5-Perceptron Networks. NIPS, 288-294",
+    "url": "http://papers.nips.cc/paper/1148-strong-unimodality-and-exact-learning-of-constant-depth-perceptron-networks",
+    "uniq_id": "conf/nips/MarchandH95"
+  },
+  {
+    "year": 1994,
+    "citation": "Hancock T. R., Golea M., Marchand M. (1994). Learning Nonoverlapping Perceptron Networks from Examples and Membership Queries. Mach. Learn., 16, 161-183",
+    "url": "https://doi.org/10.1007/BF00993305",
+    "uniq_id": "journals/ml/HancockGM94"
+  },
+  {
+    "year": 1994,
+    "citation": "Marchand M., Hadjifaradji S. (1994). Learning Stochastic Perceptrons Under k-Blocking Distributions. NIPS, 279-286",
+    "url": "http://papers.nips.cc/paper/878-learning-stochastic-perceptrons-under-k-blocking-distributions",
+    "uniq_id": "conf/nips/MarchandH94"
+  },
+  {
+    "year": 1993,
+    "citation": "Golea M., Marchand M. (1993). Polynomial Time Algorithms for Learning Neural Nets of NonoverlappingPerceptrons. Comput. Intell., 9, 155-170",
+    "url": "https://doi.org/10.1111/j.1467-8640.1993.tb00305.x",
+    "uniq_id": "journals/ci/GoleaM93"
+  },
+  {
+    "year": 1993,
+    "citation": "Golea M., Marchand M. (1993). On Learning Perceptrons with Binary Weights. Neural Comput., 5, 767-782",
+    "url": "https://doi.org/10.1162/neco.1993.5.5.767",
+    "uniq_id": "journals/neco/GoleaM93"
+  },
+  {
+    "year": 1993,
+    "citation": "Golea M., Marchand M. (1993). Average Case Analysis of the Clipped Hebb Rule for Nonoverlapping Perception Networks. COLT, 151-157",
+    "url": "https://doi.org/10.1145/168304.168323",
+    "uniq_id": "conf/colt/GoleaM93"
+  },
+  {
+    "year": 1992,
+    "citation": "Golea M., Marchand M., Hancock T. R. (1992). On Learning \u00b5-Perceptron Networks with Binary Weights. NIPS, 591-598",
+    "url": "http://papers.nips.cc/paper/644-on-learning-perceptron-networks-with-binary-weights",
+    "uniq_id": "conf/nips/GoleaMH92"
+  },
+  {
+    "year": 1989,
+    "citation": "Rujan P., Marchand M. (1989). Learning by Minimizing Resources in Neural Networks. Complex Syst., 3",
+    "url": "http://www.complex-systems.com/abstracts/v03_i03_a01.html",
+    "uniq_id": "journals/compsys/RujanM89"
+  },
+  {
+    "year": 2020,
+    "citation": "Blier-Wong C., Baillargeon J., Cossette H. et al. (2020). Encoding Neighbor Information into Geographical Embeddings Using Convolutional Neural Networks. FLAIRS Conference, 15-20",
+    "url": "https://aaai.org/ocs/index.php/FLAIRS/FLAIRS20/paper/view/18400",
+    "uniq_id": "conf/flairs/Blier-WongBCLM20"
+  },
+  {
+    "year": 2020,
+    "citation": "Garneau N., Godbout M., Beauchemin D. et al. (2020). A Robust Self-Learning Method for Fully Unsupervised Cross-Lingual Mappings of Word Embeddings: Making the Method Robustly Reproducible as Well. LREC, 5546-5554",
+    "url": "https://www.aclweb.org/anthology/2020.lrec-1.681/",
+    "uniq_id": "conf/lrec/GarneauGBDL20"
+  },
+  {
+    "year": 2019,
+    "citation": "Baillargeon J., Lamontagne L., Marceau \u00c9. (2019). Weighting Words Using Bi-Normal Separation for Text Classification Tasks with Multiple Classes. Canadian Conference on AI, 433-439",
+    "url": "https://doi.org/10.1007/978-3-030-18305-9_41",
+    "uniq_id": "conf/ai/BaillargeonLM19"
+  },
+  {
+    "year": 2019,
+    "citation": "Garneau N., Leboeuf J., Lamontagne L. (2019). Contextual Generation of Word Embeddings for Out of Vocabulary Words in Downstream Tasks. Canadian Conference on AI, 563-569",
+    "url": "https://doi.org/10.1007/978-3-030-18305-9_60",
+    "uniq_id": "conf/ai/GarneauLL19"
+  },
+  {
+    "year": 2019,
+    "citation": "Garneau N., Leboeuf J., Lamontagne L. (2019). Predicting and interpreting embeddings for out of vocabulary words in downstream tasks. CoRR, abs/1903.00724",
+    "url": "http://arxiv.org/abs/1903.00724",
+    "uniq_id": "journals/corr/abs-1903-00724"
+  },
+  {
+    "year": 2019,
+    "citation": "Garneau N., Godbout M., Beauchemin D. et al. (2019). A Robust Self-Learning Method for Fully Unsupervised Cross-Lingual Mappings of Word Embeddings: Making the Method Robustly Reproducible as Well. CoRR, abs/1912.01706",
+    "url": "http://arxiv.org/abs/1912.01706",
+    "uniq_id": "journals/corr/abs-1912-01706"
+  },
+  {
+    "year": 2019,
+    "citation": "Garneau N., Leboeuf J., Pinter Y. et al. (2019). Attending Form and Context to Generate Specialized Out-of-VocabularyWords Representations. CoRR, abs/1912.06876",
+    "url": "http://arxiv.org/abs/1912.06876",
+    "uniq_id": "journals/corr/abs-1912-06876"
+  },
+  {
+    "year": 2018,
+    "citation": "Tour\u00e9 F., Badri M., Lamontagne L. (2018). Predicting different levels of the unit testing effort of classes using source code metrics: a multiple case study on open-source software. Innov. Syst. Softw. Eng., 14, 15-46",
+    "url": "https://doi.org/10.1007/s11334-017-0306-1",
+    "uniq_id": "journals/isse/ToureBL18"
+  },
+  {
+    "year": 2018,
+    "citation": "Garneau N., Leboeuf J., Lamontagne L. (2018). Predicting and interpreting embeddings for out of vocabulary words in downstream tasks. BlackboxNLP@EMNLP, 331-333",
+    "url": "https://doi.org/10.18653/v1/w18-5439",
+    "uniq_id": "conf/emnlp/GarneauLL18"
+  },
+  {
+    "year": 2017,
+    "citation": "Tour\u00e9 F., Badri M., Lamontagne L. (2017). Investigating the Prioritization of Unit Testing Effort using Software Metrics. ENASE, 69-80",
+    "url": "https://doi.org/10.5220/0006319300690080",
+    "uniq_id": "conf/enase/ToureBL17"
+  },
+  {
+    "year": 2016,
+    "citation": "Zarka R., Cordier A., Egyed-Zsigmond E. et al. (2016). Trace-based contextual recommendations. Expert Syst. Appl., 64, 194-207",
+    "url": "https://doi.org/10.1016/j.eswa.2016.07.035",
+    "uniq_id": "journals/eswa/ZarkaCELM16"
+  },
+  {
+    "year": 2016,
+    "citation": "Jahjah V., Khoury R., Lamontagne L. (2016). Word Normalization Using Phonetic Signatures. Canadian Conference on AI, 180-185",
+    "url": "https://doi.org/10.1007/978-3-319-34111-8_23",
+    "uniq_id": "conf/ai/JahjahKL16"
+  },
+  {
+    "year": 2016,
+    "citation": "Bergeron J., Schmidt A., Khoury R. et al. (2016). Building User Interest Profiles Using DBpedia in a Question Answering System. FLAIRS Conference, 14-19",
+    "url": "http://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS16/paper/view/12831",
+    "uniq_id": "conf/flairs/BergeronSKL16"
+  },
+  {
+    "year": 2016,
+    "citation": "Joganah R., Khoury R., Lamontagne L. (2016). Laval University at TREC Dynamic Domain 2016: Subtopic extraction focused on Named Entities. TREC",
+    "url": "http://trec.nist.gov/pubs/trec25/papers/LavalLakehead-DD.pdf",
+    "uniq_id": "conf/trec/JoganahKL16"
+  },
+  {
+    "year": 2016,
+    "citation": "Mo J., Lamontagne L., Khoury R. (2016). Word embeddings and Global Preference for Contextual Suggestion. TREC",
+    "url": "http://trec.nist.gov/pubs/trec25/papers/LavalLakehead-CX.pdf",
+    "uniq_id": "conf/trec/MoLK16"
+  },
+  {
+    "year": 2015,
+    "citation": "Bridge D., Lamontagne L., Plaza E. (2015). Report on the Twenty-Second International Conference on Case-Based Reasoning. AI Mag., 36, 88-89",
+    "url": "https://doi.org/10.1609/aimag.v36i2.2587",
+    "uniq_id": "journals/aim/BridgeLP15"
+  },
+  {
+    "year": 2015,
+    "citation": "Badri M., Tour\u00e9 F., Lamontagne L. (2015). Predicting Unit Testing Effort Levels of Classes: An Exploratory Study based on Multinomial Logistic Regression Modeling. SCSE, 529-538",
+    "url": "https://doi.org/10.1016/j.procs.2015.08.528",
+    "uniq_id": "conf/scse/BadriTL15"
+  },
+  {
+    "year": 2015,
+    "citation": "Joganah R., Lamontagne L., Khoury R. (2015). Laval University and Lakehead University at TREC Dynamic Domain 2015: Combination of Techniques for Subtopics Coverage. TREC",
+    "url": "http://trec.nist.gov/pubs/trec24/papers/LavallVA-DD.pdf",
+    "uniq_id": "conf/trec/JoganahLK15"
+  },
+  {
+    "year": 2015,
+    "citation": "Mo J., Lamontagne L., Khoury R. (2015). Laval University and Lakehead University Experiments at TREC 2015 Contextual Suggestion Track. TREC",
+    "url": "http://trec.nist.gov/pubs/trec24/papers/LavallVA-CX.pdf",
+    "uniq_id": "conf/trec/MoLK15"
+  },
+  {
+    "year": 2014,
+    "citation": "Tour\u00e9 F., Badri M., Lamontagne L. (2014). A metrics suite for JUnit test code: a multiple case study on open source software. J. Softw. Eng. Res. Dev., 2, 14",
+    "url": "https://doi.org/10.1186/s40411-014-0014-6",
+    "uniq_id": "journals/jserd/ToureBL14"
+  },
+  {
+    "year": 2014,
+    "citation": "Lamontagne L., Guyard A. B. (2014). Learning Case Feature Weights from Relevance and Ranking Feedback. FLAIRS Conference",
+    "url": "http://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS14/paper/view/7863",
+    "uniq_id": "conf/flairs/LamontagneG14"
+  },
+  {
+    "year": 2014,
+    "citation": "Tour\u00e9 F., Badri M., Lamontagne L. (2014). Towards a Unified Metrics Suite for JUnit Test Cases. SEKE, 115-120",
+    "url": null,
+    "uniq_id": "conf/seke/ToureBL14"
+  },
+  {
+    "year": 2014,
+    "citation": " (2014). Case-Based Reasoning Research and Development - 22nd International Conference, ICCBR 2014, Cork, Ireland, September 29, 2014 - October 1, 2014. Proceedings ICCBR, 8765",
+    "url": "https://doi.org/10.1007/978-3-319-11209-1",
+    "uniq_id": "conf/iccbr/2014"
+  },
+  {
+    "year": 2013,
+    "citation": "Zarka R., Cordier A., Egyed-Zsigmond E. et al. (2013). Similarity Measures to Compare Episodes in Modeled Traces. ICCBR, 358-372",
+    "url": "https://doi.org/10.1007/978-3-642-39056-2_26",
+    "uniq_id": "conf/iccbr/ZarkaCELM13"
+  },
+  {
+    "year": 2013,
+    "citation": "Morin M., Abi-Zeid I., Nguyen T. T. et al. (2013). Search and surveillance in emergency situations - A gis-based approach to construct optimal visibility graphs. ISCRAM",
+    "url": "http://idl.iscram.org/files/morin/2013/786_Morin_etal2013.pdf",
+    "uniq_id": "conf/iscram/MorinANLM13"
+  },
+  {
+    "year": 2013,
+    "citation": "Zarka R., Champin P., Cordier A. et al. (2013). TStore: A Trace-Base Management System - Using Finite-state Transducer Approach for Trace Transformation. MODELSWARD, 117-122",
+    "url": "https://doi.org/10.5220/0004317301170122",
+    "uniq_id": "conf/modelsward/ZarkaCCELM13"
+  },
+  {
+    "year": 2012,
+    "citation": "Chinaei H. R., Chaib-draa B., Lamontagne L. (2012). Learning Observation Models for Dialogue POMDPs. Canadian Conference on AI, 280-286",
+    "url": "https://doi.org/10.1007/978-3-642-30353-1_24",
+    "uniq_id": "conf/ai/ChinaeiCL12"
+  },
+  {
+    "year": 2012,
+    "citation": "Besse C., Bakhtiari A., Lamontagne L. (2012). Forecasting Conflicts Using N-Grams Models. FLAIRS Conference",
+    "url": "http://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS12/paper/view/4444",
+    "uniq_id": "conf/flairs/BesseBL12"
+  },
+  {
+    "year": 2011,
+    "citation": "Abi-Zeid I., Nilo O., Lamontagne L. (2011). A Constraint Optimization Approach for the Allocation of Multiple Search Units in Search and Rescue Operations. INFOR Inf. Syst. Oper. Res., 49, 15-30",
+    "url": "https://doi.org/10.3138/infor.49.1.015",
+    "uniq_id": "journals/infor/Abi-ZeidNL11"
+  },
+  {
+    "year": 2011,
+    "citation": "Recio-Garc\u00eda J. A., Lamontagne L. (2011). Special Track on Case-Based Reasoning. FLAIRS Conference",
+    "url": "http://aaai.org/ocs/index.php/FLAIRS/FLAIRS11/paper/view/2727",
+    "uniq_id": "conf/flairs/Recio-GarciaL11"
+  },
+  {
+    "year": 2010,
+    "citation": "Morin M., Lamontagne L., Abi-Zeid I. et al. (2010). The Ant Search Algorithm: An Ant Colony Optimization Algorithm for the Optimal Searcher Path Problem with Visibility. Canadian Conference on AI, 196-207",
+    "url": "https://doi.org/10.1007/978-3-642-13059-5_20",
+    "uniq_id": "conf/ai/MorinLAM10"
+  },
+  {
+    "year": 2009,
+    "citation": "Morin M., Abi-Zeid I., Lang J. P. et al. (2009). The optimal searcher path problem with a visibility criterion in discrete time and space. FUSION, 2217-2224",
+    "url": "http://ieeexplore.ieee.org/document/5203767/",
+    "uniq_id": "conf/fusion/MorinALLM09"
+  },
+  {
+    "year": 2009,
+    "citation": "Chinaei H. R., Chaib-draa B., Lamontagne L. (2009). Learning User Intentions in Spoken Dialogue Systems. ICAART, 107-114",
+    "url": null,
+    "uniq_id": "conf/icaart/ChinaeiCL09"
+  },
+  {
+    "year": 2009,
+    "citation": "Chinaei H. R., Chaib-draa B., Lamontagne L. (2009). Application of Hidden Topic Markov Models on Spoken Dialogue Systems. ICAART (Revised Selected Papers), 151-163",
+    "url": "https://doi.org/10.1007/978-3-642-11819-7_12",
+    "uniq_id": "conf/icaart/ChinaeiCL09a"
+  },
+  {
+    "year": 2009,
+    "citation": "Adeyanju I., Wiratunga N., Lothian R. et al. (2009). Case Retrieval Reuse Net (CR2N): An Architecture for Reuse of Textual Solutions. ICCBR, 14-28",
+    "url": "https://doi.org/10.1007/978-3-642-02998-1_3",
+    "uniq_id": "conf/iccbr/AdeyanjuWLSL09"
+  },
+  {
+    "year": 2008,
+    "citation": "Abi-Zeid I., Schvartz S., Tourigny N. et al. (2008). Mod\u00e9lisation du raisonnement pour les recherches d'un a\u00e9ronef port\u00e9 disparu. Rev. d'Intelligence Artif., 22, 757-789",
+    "url": "https://doi.org/10.3166/ria.22.757-789",
+    "uniq_id": "journals/ria/Abi-ZeidSTL08"
+  },
+  {
+    "year": 2008,
+    "citation": "Romdhane H., Lamontagne L. (2008). Forgetting Reinforced Cases. ECCBR, 474-486",
+    "url": "https://doi.org/10.1007/978-3-540-85502-6_32",
+    "uniq_id": "conf/ewcbr/RomdhaneL08"
+  },
+  {
+    "year": 2008,
+    "citation": "Romdhane H., Lamontagne L. (2008). Reinforcement of Local Pattern Cases for Playing Tetris. FLAIRS Conference, 263-268",
+    "url": "http://www.aaai.org/Library/FLAIRS/2008/flairs08-066.php",
+    "uniq_id": "conf/flairs/RomdhaneL08"
+  },
+  {
+    "year": 2006,
+    "citation": "Lamontagne L., Abi-Zeid I. (2006). Combining Multiple Similarity Metrics Using a Multicriteria Approach. ECCBR, 415-428",
+    "url": "https://doi.org/10.1007/11805816_31",
+    "uniq_id": "conf/ewcbr/LamontagneA06"
+  },
+  {
+    "year": 2004,
+    "citation": "Lamontagne L., Lapalme G. (2004). Textual Reuse for Email Response. ECCBR, 242-256",
+    "url": "https://doi.org/10.1007/978-3-540-28631-8_19",
+    "uniq_id": "conf/ewcbr/LamontagneL04"
+  },
+  {
+    "year": 2003,
+    "citation": "Lamontagne L., Langlais P., Lapalme G. (2003). Using Statistical Word Associations for the Retrieval of Strongly-Textual Cases. FLAIRS Conference, 124-128",
+    "url": "http://www.aaai.org/Library/FLAIRS/2003/flairs03-025.php",
+    "uniq_id": "conf/flairs/LamontagneLL03"
+  },
+  {
+    "year": 2003,
+    "citation": "Lamontagne L., Lapalme G. (2003). Applying Case-Based Reasoning to Email Response. ICEIS (2), 115-123",
+    "url": null,
+    "uniq_id": "conf/iceis/LamontagneL03"
+  },
+  {
+    "year": 2003,
+    "citation": "L\u00ea T., Lamontagne L. (2003). A Knowledge Management Tool for a Collaborative Authoring Project. ICEIS (2), 280-285",
+    "url": null,
+    "uniq_id": "conf/iceis/LeL03"
+  },
+  {
+    "year": 2003,
+    "citation": "L\u00ea T., Lamontagne L. (2003). A Collaborative E-authoring Tool for Knowledge Assets. KMGov, 175-185",
+    "url": "https://doi.org/10.1007/3-540-44836-5_18",
+    "uniq_id": "conf/kmgov/LeL03"
+  },
+  {
+    "year": 2002,
+    "citation": "Lamontagne L., Lapalme G. (2002). Raisonnement \u00e0 base de cas textuels Etat de l'art et perspectives. Rev. d'Intelligence Artif., 16, 339-366",
+    "url": "https://doi.org/10.3166/ria.16.339-366",
+    "uniq_id": "journals/ria/LamontagneL02"
+  },
+  {
+    "year": 2002,
+    "citation": "L\u00ea T., Lamontagne L. (2002). Defining Basic Units for Knowledge Interchange. DEXA Workshops, 167-176",
+    "url": "https://doi.org/10.1109/DEXA.2002.1045894",
+    "uniq_id": "conf/dexaw/LeL02"
+  },
+  {
+    "year": 2000,
+    "citation": "L\u00ea T., Lamontagne L., Nguyen T. (2000). A Visual Tool for Structuring and Modeling Organizational Memories. CIKM, 258-263",
+    "url": "https://doi.org/10.1145/354756.354827",
+    "uniq_id": "conf/cikm/LeLN00"
+  },
+  {
+    "year": 1999,
+    "citation": "Abi-Zeid I., 0001 Q. Y., Lamontagne L. (1999). Is CBR Applicable to the Coordination of Search and Rescue Operations? A Feasibility Study. ICCBR, 358-371",
+    "url": "https://doi.org/10.1007/3-540-48508-2_26",
+    "uniq_id": "conf/iccbr/Abi-ZeidYL99"
+  },
+  {
+    "year": 1998,
+    "citation": "0001 Q. Y., Abi-Zeid I., Lamontagne L. (1998). An Agent for Intelligent Situation Assessment. AIMSA, 466-474",
+    "url": "https://doi.org/10.1007/BFb0057467",
+    "uniq_id": "conf/aimsa/YangAL98"
+  },
+  {
+    "year": 1993,
+    "citation": "Berger J., Lamontagne L. (1993). A Colored Petri Net Model for a Naval Command and Control System. Application and Theory of Petri Nets, 532-541",
+    "url": "https://doi.org/10.1007/3-540-56863-8_65",
+    "uniq_id": "conf/apn/BergerL93"
+  },
+  {
+    "year": 2020,
+    "citation": "Brassard-Gourdeau \u00c9., Khoury R. (2020). Using Sentiment Information for Preemptive Detection of Toxic Comments in Online Conversations. CoRR, abs/2006.10145",
+    "url": "https://arxiv.org/abs/2006.10145",
+    "uniq_id": "journals/corr/abs-2006-10145"
+  },
+  {
+    "year": 2020,
+    "citation": "AlMousa M., Benlamri R., Khoury R. (2020). Exploiting Non-Taxonomic Relations for Measuring Semantic Similarity and Relatedness in WordNet. CoRR, abs/2006.12106",
+    "url": "https://arxiv.org/abs/2006.12106",
+    "uniq_id": "journals/corr/abs-2006-12106"
+  },
+  {
+    "year": 2020,
+    "citation": "Khoury R., Larochelle M. (2020). Generalisation of Cyberbullying Detection. CoRR, abs/2009.01046",
+    "url": "https://arxiv.org/abs/2009.01046",
+    "uniq_id": "journals/corr/abs-2009-01046"
+  },
+  {
+    "year": 2019,
+    "citation": "Vo D., Khoury R. (2019). Language Identification on Massive Datasets of Short Message using an Attention Mechanism CNN. CoRR, abs/1910.06748",
+    "url": "http://arxiv.org/abs/1910.06748",
+    "uniq_id": "journals/corr/abs-1910-06748"
+  },
+  {
+    "year": 2018,
+    "citation": "Khoury R., Khoury R., Hamou-Lhadj A. (2018). Microtext Processing. Encyclopedia of Social Network Analysis and Mining. 2nd Ed.",
+    "url": "https://doi.org/10.1007/978-1-4939-7131-2_353",
+    "uniq_id": "reference/snam/KhouryKH18"
+  },
+  {
+    "year": 2018,
+    "citation": "Brassard-Gourdeau \u00c9., Khoury R. (2018). Impact of Sentiment Detection to Recognize Toxic and Subversive Online Comments. CoRR, abs/1812.01704",
+    "url": "http://arxiv.org/abs/1812.01704",
+    "uniq_id": "journals/corr/abs-1812-01704"
+  },
+  {
+    "year": 2017,
+    "citation": "Zong S., Khoury R., Benlamri R. (2017). Local and Global Influence on Twitter. Canadian Conference on AI, 45-50",
+    "url": "https://doi.org/10.1007/978-3-319-57351-9_5",
+    "uniq_id": "conf/ai/ZongKB17"
+  },
+  {
+    "year": 2017,
+    "citation": "Gan L., Benlamri R., Khoury R. (2017). Improved Sentiment Classification by Multi-Modal Fusion. BigDataService, 11-16",
+    "url": "https://doi.org/10.1109/BigDataService.2017.11",
+    "uniq_id": "conf/bigdataservice/GanBK17"
+  },
+  {
+    "year": 2016,
+    "citation": "Khoury R., Sapsford F. (2016). Latin word stemming using Wiktionary. Digit. Scholarsh. Humanit., 31, 368-373",
+    "url": "https://doi.org/10.1093/llc/fqv008",
+    "uniq_id": "journals/lalc/KhouryS16"
+  },
+  {
+    "year": 2016,
+    "citation": "Li J., Fong S., Yan Z. et al. (2016). Hierarchical classification in text mining for sentiment analysis of online news. Soft Comput., 20, 3411-3420",
+    "url": "https://doi.org/10.1007/s00500-015-1812-4",
+    "uniq_id": "journals/soco/LiFYK16"
+  },
+  {
+    "year": 2016,
+    "citation": "Oommen B. J., Khoury R., Schmidt A. (2016). Text Classification Using \"Anti\"-Bayesian Quantile Statistics-Based Classifiers. Trans. Comput. Collect. Intell., 25, 101-126",
+    "url": "https://doi.org/10.1007/978-3-662-53580-6_7",
+    "uniq_id": "journals/tcci/OommenKS16"
+  },
+  {
+    "year": 2016,
+    "citation": " (2016). Advances in Artificial Intelligence - 29th Canadian Conference on Artificial Intelligence, Canadian AI 2016, Victoria, BC, Canada, May 31 - June 3, 2016. Proceedings Canadian Conference on AI, 9673",
+    "url": "https://doi.org/10.1007/978-3-319-34111-8",
+    "uniq_id": "conf/ai/2016"
+  },
+  {
+    "year": 2015,
+    "citation": "Khoury R. (2015). Phonetic Normalization of Microtext. ASONAM, 1600-1601",
+    "url": "https://doi.org/10.1145/2808797.2809352",
+    "uniq_id": "conf/asunam/Khoury15"
+  },
+  {
+    "year": 2015,
+    "citation": "Oommen B. J., Khoury R., Schmidt A. (2015). Text Classification Using Novel \"Anti-Bayesian\" Techniques. ICCCI (1), 1-15",
+    "url": "https://doi.org/10.1007/978-3-319-24069-5_1",
+    "uniq_id": "conf/iccci/OommenKS15"
+  },
+  {
+    "year": 2015,
+    "citation": "Khoury R. (2015). Microtext normalization using probably-phonetically-similar word discovery. WiMob, 384-391",
+    "url": "https://doi.org/10.1109/WiMOB.2015.7347988",
+    "uniq_id": "conf/wimob/Khoury15"
+  },
+  {
+    "year": 2014,
+    "citation": "Khoury R., Khoury R., Hamou-Lhadj A. (2014). Microtext Processing. Encyclopedia of Social Network Analysis and Mining, 894-904",
+    "url": "https://doi.org/10.1007/978-1-4614-6170-8_353",
+    "uniq_id": "reference/snam/KhouryKH14"
+  },
+  {
+    "year": 2013,
+    "citation": "Chen W., Khoury R., Fong S. (2013). Web 2.0 Recommendation service by multi-collaborative filtering trust network algorithm. Inf. Syst. Frontiers, 15, 533-551",
+    "url": "https://doi.org/10.1007/s10796-012-9377-6",
+    "uniq_id": "journals/isf/ChenKF13"
+  },
+  {
+    "year": 2012,
+    "citation": "Idris M., Mehrabian A., Hamou-Lhadj A. et al. (2012). Pattern-Based Trace Correlation Technique to Compare Software Versions. AIS, 159-166",
+    "url": "https://doi.org/10.1007/978-3-642-31368-4_19",
+    "uniq_id": "conf/ais2/IdrisMHK12"
+  },
+  {
+    "year": 2012,
+    "citation": "Alemzadeh M., Abida K., Khoury R. et al. (2012). Enhancement of the ROVER's Voting Scheme Using Pattern Matching. AIS, 167-174",
+    "url": "https://doi.org/10.1007/978-3-642-31368-4_20",
+    "uniq_id": "conf/ais2/AlemzadehAKK12"
+  },
+  {
+    "year": 2011,
+    "citation": "Khoury R. (2011). Query classification using Wikipedia. Int. J. Intell. Inf. Database Syst., 5, 143-163",
+    "url": "https://doi.org/10.1504/IJIIDS.2011.038969",
+    "uniq_id": "journals/ijiids/Khoury11"
+  },
+  {
+    "year": 2011,
+    "citation": "Khoury R. (2011). Question Type Classification Using a Part-of-Speech Hierarchy. AIS, 212-221",
+    "url": "https://doi.org/10.1007/978-3-642-21538-4_21",
+    "uniq_id": "conf/ais2/Khoury11"
+  },
+  {
+    "year": 2011,
+    "citation": "Alemzadeh M., Khoury R., Karray F. (2011). Exploring Wikipedia's Category Graph for Query Classification. AIS, 222-230",
+    "url": "https://doi.org/10.1007/978-3-642-21538-4_22",
+    "uniq_id": "conf/ais2/AlemzadehKK11"
+  },
+  {
+    "year": 2010,
+    "citation": "Khoury R. (2010). Using Encyclopaedic Knowledge for Query Classification. IC-AI, 857-862",
+    "url": null,
+    "uniq_id": "conf/icai/Khoury10"
+  },
+  {
+    "year": 2010,
+    "citation": "Khoury R. (2010). Exploiting Wikipedia in query understanding systems. ICDIM, 292-297",
+    "url": "https://doi.org/10.1109/ICDIM.2010.5664250",
+    "uniq_id": "conf/icdim/Khoury10"
+  },
+  {
+    "year": 2008,
+    "citation": "Khoury R., Karray F., Kamel M. S. (2008). Keyword extraction rules based on a part-of-speech hierarchy. Int. J. Adv. Media Commun., 2, 138-153",
+    "url": "https://doi.org/10.1504/IJAMC.2008.018504",
+    "uniq_id": "journals/ijamc/KhouryKK08"
+  },
+  {
+    "year": 2008,
+    "citation": "Khoury R., Karray F., Kamel M. S. (2008). Domain Representation Using Possibility Theory: An Exploratory Study. IEEE Trans. Fuzzy Syst., 16, 1531-1541",
+    "url": "https://doi.org/10.1109/TFUZZ.2008.2005011",
+    "uniq_id": "journals/tfs/KhouryKK08"
+  },
+  {
+    "year": 2007,
+    "citation": "Khoury R. (2007). Grammatical Functions and Possibilistic Reasoning for the Extraction and Representation of Semantic Knowledge in Text Documents. None",
+    "url": "http://hdl.handle.net/10012/3433",
+    "uniq_id": "phd/basesearch/Khoury07"
+  },
+  {
+    "year": 2007,
+    "citation": "Khoury R., Karray F., Sun Y. et al. (2007). Semantic Understanding of General Linguistic Items by Means of Fuzzy Set Theory. IEEE Trans. Fuzzy Syst., 15, 757-771",
+    "url": "https://doi.org/10.1109/TFUZZ.2006.889817",
+    "uniq_id": "journals/tfs/KhouryKSKB07"
+  },
+  {
+    "year": 2006,
+    "citation": "Khoury R. (2006). An Enhanced Positioning Algorithm for a Self-Referencing Hand-Held 3D Sensor. CRV, 44",
+    "url": "https://doi.org/10.1109/CRV.2006.10",
+    "uniq_id": "conf/crv/Khoury06"
+  },
+  {
+    "year": 2006,
+    "citation": "Khoury R., Karray F., Kamel M. (2006). A Methodology for Extracting and Representing Actions in Texts. FUZZ-IEEE, 574-581",
+    "url": "https://doi.org/10.1109/FUZZY.2006.1681769",
+    "uniq_id": "conf/fuzzIEEE/KhouryKK06"
+  },
+  {
+    "year": 2020,
+    "citation": "Das P. S., Gagnon-Turcotte G., Ouazaa K. et al. (2020). The EcoChip 2: An Autonomous Sensor Platform for Multimodal Bio-environmental Monitoring of the Northern Habitat. EMBC, 4101-4104",
+    "url": "https://doi.org/10.1109/EMBC44109.2020.9176335",
+    "uniq_id": "conf/embc/DasGOBHBTMMCG20"
+  },
+  {
+    "year": 2018,
+    "citation": "Sylvain M., Lehoux F., Morency S. et al. (2018). The EcoChip: A Wireless Multi-Sensor Platform for Comprehensive Environmental Monitoring. IEEE Trans. Biomed. Circuits Syst., 12, 1289-1300",
+    "url": "https://doi.org/10.1109/TBCAS.2018.2878404",
+    "uniq_id": "journals/tbcas/SylvainLMFBTRSM18"
+  },
+  {
+    "year": 2018,
+    "citation": "Sylvain M., Lehoux F., Morency S. et al. (2018). The EcoChip: A Wireless Multi-Sensor Platform for Comprehensive Environmental Monitoring. ISCAS, 1-5",
+    "url": "https://doi.org/10.1109/ISCAS.2018.8351654",
+    "uniq_id": "conf/iscas/SylvainLMFBTRMA18"
+  },
+  {
+    "year": 2016,
+    "citation": "D\u00e9raspe M., Karra K., Binkley G. et al. (2016). Semantic Research Platform for Model Organisms. BMDID@ISWC",
+    "url": "http://ceur-ws.org/Vol-1709/BMDID_2016_paper_1.pdf",
+    "uniq_id": "conf/semweb/DeraspeKBSMCCD16"
+  },
+  {
+    "year": 2016,
+    "citation": "D\u00e9raspe M., Binkley G., Butano D. et al. (2016). Making Linked Data SPARQL with the InterMine Biological Data Warehouse. SWAT4LS",
+    "url": "http://ceur-ws.org/Vol-1795/paper8.pdf",
+    "uniq_id": "conf/swat4ls/DeraspeBBCCCCCH16"
+  },
+  {
+    "year": 2012,
+    "citation": "Nolin M., Dumontier M., Belleau F. et al. (2012). Building an HIV data mashup using Bio2RDF. Briefings Bioinform., 13, 98-106",
+    "url": "https://doi.org/10.1093/bib/bbr003",
+    "uniq_id": "journals/bib/NolinDBC12"
+  },
+  {
+    "year": 2011,
+    "citation": "Shah M., Corbeil J. (2011). A General Framework for Analyzing Data from Two Short Time-Series Microarray Experiments. IEEE ACM Trans. Comput. Biol. Bioinform., 8, 14-26",
+    "url": "https://doi.org/10.1109/TCBB.2009.51",
+    "uniq_id": "journals/tcbb/ShahC11"
+  },
+  {
+    "year": 2003,
+    "citation": "Fink J. L., Drewes S., Patel H. et al. (2003). 2HAPI: A Microarray Data Analysis System. Bioinform., 19, 1443-1445",
+    "url": "https://doi.org/10.1093/bioinformatics/btg169",
+    "uniq_id": "journals/bioinformatics/FinkDPWMCG03"
+  },
+  {
+    "year": 2002,
+    "citation": "S\u00e1sik R., Calvo E., Corbeil J. (2002). Statistical analysis of high-density oligonucleotide arrays: a multiplicative noise model. Bioinform., 18, 1633-1640",
+    "url": "https://doi.org/10.1093/bioinformatics/18.12.1633",
+    "uniq_id": "journals/bioinformatics/SasikCC02"
+  },
+  {
+    "year": 2001,
+    "citation": "Masys D. R., Welsh J. B., Fink J. L. et al. (2001). Use of keyword hierarchies to interpret gene expression patterns. Bioinform., 17, 319-326",
+    "url": "https://doi.org/10.1093/bioinformatics/17.4.319",
+    "uniq_id": "journals/bioinformatics/MasysWFGKC01"
+  },
+  {
+    "year": 2020,
+    "citation": "0002 Q. Z., Durand A., Pineau J. (2020). Literature Mining for Incorporating Inductive Bias in Biomedical Prediction Tasks (Student Abstract). AAAI, 13983-13984",
+    "url": "https://aaai.org/ojs/index.php/AAAI/article/view/7264",
+    "uniq_id": "conf/aaai/ZhangDP20"
+  },
+  {
+    "year": 2020,
+    "citation": "Vaswani S., Mehrabian A., Durand A. et al. (2020). Old Dog Learns New Tricks: Randomized UCB for Bandit Problems. AISTATS, 1988-1998",
+    "url": "http://proceedings.mlr.press/v108/vaswani20a.html",
+    "uniq_id": "conf/aistats/VaswaniMDK20"
+  },
+  {
+    "year": 2020,
+    "citation": "Wabartha M., Durand A., Fran\u00e7ois-Lavet V. et al. (2020). Handling Black Swan Events in Deep Learning with Diversely Extrapolated Neural Networks. IJCAI, 2140-2147",
+    "url": "https://doi.org/10.24963/ijcai.2020/296",
+    "uniq_id": "conf/ijcai/WabarthaDFP20"
+  },
+  {
+    "year": 2020,
+    "citation": "Sharma D., Durand A., Legault M. et al. (2020). Deep interpretability for GWAS. CoRR, abs/2007.01516",
+    "url": "https://arxiv.org/abs/2007.01516",
+    "uniq_id": "journals/corr/abs-2007-01516"
+  },
+  {
+    "year": 2019,
+    "citation": "Doan T., Monteiro J., Albuquerque I. et al. (2019). On-Line Adaptative Curriculum Learning for GANs. AAAI, 3470-3477",
+    "url": "https://doi.org/10.1609/aaai.v33i01.33013470",
+    "uniq_id": "conf/aaai/DoanMAMDPH19"
+  },
+  {
+    "year": 2019,
+    "citation": "Lupu A., Durand A., Precup D. (2019). Leveraging Observations in Bandits: Between Risks and Benefits. AAAI, 6112-6119",
+    "url": "https://doi.org/10.1609/aaai.v33i01.33016112",
+    "uniq_id": "conf/aaai/LupuDP19"
+  },
+  {
+    "year": 2019,
+    "citation": "Mazoure B., Doan T., Durand A. et al. (2019). Leveraging exploration in off-policy algorithms via normalizing flows. CoRL, 430-444",
+    "url": "http://proceedings.mlr.press/v100/mazoure20a.html",
+    "uniq_id": "conf/corl/MazoureDDPH19"
+  },
+  {
+    "year": 2019,
+    "citation": "Mazoure B., Doan T., Durand A. et al. (2019). Leveraging exploration in off-policy algorithms via normalizing flows. CoRR, abs/1905.06893",
+    "url": "http://arxiv.org/abs/1905.06893",
+    "uniq_id": "journals/corr/abs-1905-06893"
+  },
+  {
+    "year": 2019,
+    "citation": "Doan T., Mazoure B., Durand A. et al. (2019). Attraction-Repulsion Actor-Critic for Continuous Control Reinforcement Learning. CoRR, abs/1909.07543",
+    "url": "http://arxiv.org/abs/1909.07543",
+    "uniq_id": "journals/corr/abs-1909-07543"
+  },
+  {
+    "year": 2019,
+    "citation": "Vaswani S., Mehrabian A., Durand A. et al. (2019). Old Dog Learns New Tricks: Randomized UCB for Bandit Problems. CoRR, abs/1910.04928",
+    "url": "http://arxiv.org/abs/1910.04928",
+    "uniq_id": "journals/corr/abs-1910-04928"
+  },
+  {
+    "year": 2018,
+    "citation": "Durand A., Maillard O., Pineau J. (2018). Streaming kernel regression with provably adaptive mean, variance, and regularization. J. Mach. Learn. Res., 19, 17:1-17:34",
+    "url": "http://jmlr.org/papers/v19/17-404.html",
+    "uniq_id": "journals/jmlr/DurandMP18"
+  },
+  {
+    "year": 2018,
+    "citation": "Robitaille L., Durand A., Gardner M. et al. (2018). Learning to Become an Expert: Deep Networks Applied to Super-Resolution Microscopy. AAAI, 7805-7810",
+    "url": "https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17081",
+    "uniq_id": "conf/aaai/RobitailleDGGKL18"
+  },
+  {
+    "year": 2018,
+    "citation": "Robitaille L., Durand A., Gardner M. et al. (2018). Rating Super-Resolution Microscopy Images With Deep Learning. AAAI, 8141-8142",
+    "url": "https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17091",
+    "uniq_id": "conf/aaai/RobitailleDGGKL18a"
+  },
+  {
+    "year": 2018,
+    "citation": "Lupu A., Durand A., Precup D. (2018). Leveraging Observational Learning for Exploration in Bandits. AAMAS, 2001-2003",
+    "url": "http://dl.acm.org/citation.cfm?id=3238051",
+    "uniq_id": "conf/atal/LupuDP18"
+  },
+  {
+    "year": 2018,
+    "citation": "Durand A., Achilleos C., Iacovides D. et al. (2018). Contextual Bandits for Adapting Treatment in a Mouse Model of de Novo Carcinogenesis. MLHC, 67-82",
+    "url": "http://proceedings.mlr.press/v85/durand18a.html",
+    "uniq_id": "conf/mlhc/DurandAISMP18"
+  },
+  {
+    "year": 2018,
+    "citation": "Thodoroff P., Durand A., Pineau J. et al. (2018). Temporal Regularization for Markov Decision Process. NeurIPS, 1784-1794",
+    "url": "http://papers.nips.cc/paper/7449-temporal-regularization-for-markov-decision-process",
+    "uniq_id": "conf/nips/ThodoroffDPP18"
+  },
+  {
+    "year": 2018,
+    "citation": "Robitaille L., Durand A., Gardner M. et al. (2018). Learning to Become an Expert: Deep Networks Applied To Super-Resolution Microscopy. CoRR, abs/1803.10806",
+    "url": "http://arxiv.org/abs/1803.10806",
+    "uniq_id": "journals/corr/abs-1803-10806"
+  },
+  {
+    "year": 2018,
+    "citation": "Doan T., Monteiro J., Albuquerque I. et al. (2018). Online Adaptative Curriculum Learning for GANs. CoRR, abs/1808.00020",
+    "url": "http://arxiv.org/abs/1808.00020",
+    "uniq_id": "journals/corr/abs-1808-00020"
+  },
+  {
+    "year": 2018,
+    "citation": "Thodoroff P., Durand A., Pineau J. et al. (2018). Temporal Regularization in Markov Decision Process. CoRR, abs/1811.00429",
+    "url": "http://arxiv.org/abs/1811.00429",
+    "uniq_id": "journals/corr/abs-1811-00429"
+  },
+  {
+    "year": 2017,
+    "citation": "Levesque J., Durand A., Gagn\u00e9 C. et al. (2017). Bayesian optimization for conditional hyperparameter spaces. IJCNN, 286-293",
+    "url": "https://doi.org/10.1109/IJCNN.2017.7965867",
+    "uniq_id": "conf/ijcnn/LevesqueDGS17"
+  },
+  {
+    "year": 2017,
+    "citation": "Durand A., Gagn\u00e9 C. (2017). Estimating Quality in User-Guided Multi-Objective Bandits Optimization. CoRR, abs/1701.01095",
+    "url": "http://arxiv.org/abs/1701.01095",
+    "uniq_id": "journals/corr/DurandG17"
+  },
+  {
+    "year": 2017,
+    "citation": "Durand A., Maillard O., Pineau J. (2017). Streaming kernel regression with provably adaptive mean, variance, and regularization. CoRR, abs/1708.00768",
+    "url": "http://arxiv.org/abs/1708.00768",
+    "uniq_id": "journals/corr/abs-1708-00768"
+  },
+  {
+    "year": 2017,
+    "citation": "Durand A., Beaumont J., Gagn\u00e9 C. et al. (2017). Query Completion Using Bandits for Engines Aggregation. CoRR, abs/1709.04095",
+    "url": "http://arxiv.org/abs/1709.04095",
+    "uniq_id": "journals/corr/abs-1709-04095"
+  },
+  {
+    "year": 2015,
+    "citation": "Durand A., Pineau J. (2015). Adaptive Treatment Allocation Using Sub-Sampled Gaussian Processes. AAAI Fall Symposia, 9-11",
+    "url": "http://www.aaai.org/ocs/index.php/FSS/FSS15/paper/view/11671",
+    "uniq_id": "conf/aaaifs/DurandP15"
+  },
+  {
+    "year": 2014,
+    "citation": "Rainville F. D., Durand A., Fortin F. et al. (2014). Bayesian classification and unsupervised learning for isolating weeds in row crops. Pattern Anal. Appl., 17, 401-414",
+    "url": "https://doi.org/10.1007/s10044-012-0307-5",
+    "uniq_id": "journals/paa/RainvilleDFTMPS14"
+  },
+  {
+    "year": 2012,
+    "citation": "Durand A., Gagn\u00e9 C., Nshimyumukiza L. et al. (2012). Population-Based Simulation for Public Health: Generic Software Infrastructure and Its Application to Osteoporosis. IEEE Trans. Syst. Man Cybern. Part A, 42, 1396-1409",
+    "url": "https://doi.org/10.1109/TSMCA.2012.2210210",
+    "uniq_id": "journals/tsmc/DurandGNGRGR12"
+  },
+  {
+    "year": 2012,
+    "citation": "Levesque J., Durand A., Gagn\u00e9 C. et al. (2012). Multi-objective evolutionary optimization for generating ensembles of classifiers in the ROC space. GECCO, 879-886",
+    "url": "https://doi.org/10.1145/2330163.2330285",
+    "uniq_id": "conf/gecco/LevesqueDGS12"
+  },
+  {
+    "year": 2010,
+    "citation": "Durand A., Gagn\u00e9 C., Gardner M. et al. (2010). SCHNAPS: a generic population-based simulator for public health purposes. SummerSim, 182-189",
+    "url": "http://portal.acm.org/citation.cfm?id=1999438&CFID=29315481&CFTOKEN=81718596",
+    "uniq_id": "conf/scsc/DurandGGRGR10"
+  },
+  {
+    "year": 2020,
+    "citation": "Shalaeva V., Esfahani A. F., Germain P. et al. (2020). Improved PAC-Bayesian Bounds for Linear Regression. AAAI, 5660-5667",
+    "url": "https://aaai.org/ojs/index.php/AAAI/article/view/6020",
+    "uniq_id": "conf/aaai/ShalaevaEGP20"
+  },
+  {
+    "year": 2020,
+    "citation": "Nozawa K., Germain P., Guedj B. (2020). PAC-Bayesian Contrastive Unsupervised Representation Learning. UAI, 24",
+    "url": "http://www.auai.org/uai2020/proceedings/24_main_paper.pdf",
+    "uniq_id": "conf/uai/NozawaGG20"
+  },
+  {
+    "year": 2019,
+    "citation": "Goyal A., Morvant E., Germain P. et al. (2019). Multiview Boosting by Controlling the Diversity and the Accuracy of View-specific Voters. Neurocomputing, 358, 81-92",
+    "url": "https://doi.org/10.1016/j.neucom.2019.04.072",
+    "uniq_id": "journals/ijon/GoyalMGA19"
+  },
+  {
+    "year": 2019,
+    "citation": "Letarte G., Morvant E., Germain P. (2019). Pseudo-Bayesian Learning with Kernel Fourier Transform as Prior. AISTATS, 768-776",
+    "url": "http://proceedings.mlr.press/v89/letarte19a.html",
+    "uniq_id": "conf/aistats/LetarteMG19"
+  },
+  {
+    "year": 2019,
+    "citation": "Gautheron L., Germain P., Habrard A. et al. (2019). Learning Landmark-Based Ensembles with Random Fourier Features and Gradient Boosting. CoRR, abs/1906.06203",
+    "url": "http://arxiv.org/abs/1906.06203",
+    "uniq_id": "journals/corr/abs-1906-06203"
+  },
+  {
+    "year": 2019,
+    "citation": "Nozawa K., Germain P., Guedj B. (2019). PAC-Bayesian Contrastive Unsupervised Representation Learning. CoRR, abs/1910.04464",
+    "url": "http://arxiv.org/abs/1910.04464",
+    "uniq_id": "journals/corr/abs-1910-04464"
+  },
+  {
+    "year": 2019,
+    "citation": "Shalaeva V., Esfahani A. F., Germain P. et al. (2019). Improved PAC-Bayesian Bounds for Linear Regression. CoRR, abs/1912.03036",
+    "url": "http://arxiv.org/abs/1912.03036",
+    "uniq_id": "journals/corr/abs-1912-03036"
+  },
+  {
+    "year": 2018,
+    "citation": "Goyal A., Morvant E., Germain P. et al. (2018). Multiview Boosting by Controlling the Diversity and the Accuracy of View-specific Voters. CoRR, abs/1808.05784",
+    "url": "http://arxiv.org/abs/1808.05784",
+    "uniq_id": "journals/corr/abs-1808-05784"
+  },
+  {
+    "year": 2018,
+    "citation": "Letarte G., Morvant E., Germain P. (2018). Pseudo-Bayesian Learning with Kernel Fourier Transform as Prior. CoRR, abs/1810.12683",
+    "url": "http://arxiv.org/abs/1810.12683",
+    "uniq_id": "journals/corr/abs-1810-12683"
+  },
+  {
+    "year": 2017,
+    "citation": "Goyal A., Morvant E., Germain P. et al. (2017). PAC-Bayesian Analysis for a Two-Step Hierarchical Multiview Learning Approach. ECML/PKDD (2), 205-221",
+    "url": "https://doi.org/10.1007/978-3-319-71246-8_13",
+    "uniq_id": "conf/pkdd/GoyalMGA17"
+  },
+  {
+    "year": 2016,
+    "citation": "Germain P., Bach F. R., Lacoste A. et al. (2016). PAC-Bayesian Theory Meets Bayesian Inference. NIPS, 1876-1884",
+    "url": "http://papers.nips.cc/paper/6569-pac-bayesian-theory-meets-bayesian-inference",
+    "uniq_id": "conf/nips/GermainBLL16"
+  },
+  {
+    "year": 2016,
+    "citation": "Germain P., Bach F. R., Lacoste A. et al. (2016). PAC-Bayesian Theory Meets Bayesian Inference. CoRR, abs/1605.08636",
+    "url": "http://arxiv.org/abs/1605.08636",
+    "uniq_id": "journals/corr/GermainBLL16"
+  }
+]
