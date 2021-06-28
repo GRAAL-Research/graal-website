@@ -61,6 +61,9 @@
   other = "En savoir plus"
 [poutyne_desc]
   other = "Un framework à la Keras pour PyTorch qui élimine le code répétitif nécessaire pour entraîner des réseaux de neurones."
+[deepparse_desc]
+  other = "Une bibliothèque pour l'analyse syntaxique d'adresses multinationales à l'aide de l'apprentissage profond."
+
 
 [contact]
   other = "Contact"
