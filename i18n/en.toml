@@ -62,6 +62,8 @@
   other = "More"
 [poutyne_desc]
   other = "A Keras-like framework for PyTorch that handles much of the boilerplating code needed to train neural networks."
+[deepparse_desc]
+  other = "A state-of-the-art library for parsing multinational street addresses using deep learning."
 
 [contact]
   other = "Contact"
