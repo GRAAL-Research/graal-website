@@ -2,9 +2,14 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <a href="{{ if .website }}{{ .website }}{{else if .linkedin }}{{ .linkedin }}{{ else }}javascript:void(0){{ end }}" target="_blank">
+                {{ $src := .website | default .linkedin | default nil }}
+                {{ if $src }}
+                <a href="{{ $src }}" target="_blank">
                     <img src="./{{ .face_picture }}" class="rounded-circle img-fluid" />
                 </a>
+                {{ else }}
+                <img src="./{{ .face_picture }}" class="rounded-circle img-fluid" />
+                {{ end }}
             </div>
         </div>
         <div class="row">
