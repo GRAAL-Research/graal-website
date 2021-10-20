@@ -19,7 +19,6 @@ PROFESSOR_DLPB_IDS = [
 
 
 def loadDBLPXML(dblp_id):
-    tmp_xml_filename = 'dblp.xml'
     url = DBLP_URL + dblp_id
     resp = requests.get(url)
     return ET.fromstring(resp.content)
